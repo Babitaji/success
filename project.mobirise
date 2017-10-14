@@ -1,0 +1,332 @@
+{
+  "settings": {
+    "name": "Success Stories",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "4.2.2",
+    "uniqCompNum": 9,
+    "versionPublish": "4.2.2",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Steve Jobes</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page2.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Bill Gates</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2",
+          "_cid": "qy24jeL7PO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Steve Jobes",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Steve Jobes</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3",
+          "_cid": "qy24WByGFm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-4",
+          "_cid": "qy24XaczX1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>स्टीवन पॉल स्टीव जॉब्स की जीवनी</b><br><div><br></div><div><span style=\"font-size: 1rem;\">24 फरवरी 1955 को केलिफोर्निया में जन्मे स्टीव जॉब्स का जीवन जन्म से हि संघर्ष पूर्ण था, उनकी माँ अविवाहित कॉलेज छात्रा थी। और इसी कारण वे उन्हें रखना नहीं चाहती थी, और स्टीव जॉब्स को किसी अच्छे परिवार में गोद देने का फैसला कर दिया। </span></div><br><div><span style=\"font-size: 1rem;\">लेकिन जो गोद लेने वाले थे उन्होंने ये कहकर मना कर दिया की वे लड़की को गोद लेना चाहते हैं। </span></div><br><div><span style=\"font-size: 1rem;\">फिर स्टीव जॉब्स को केलिफोर्निया में रहने वाले पॉल और कालरा जॉब्स ने गोद ले लिया। पॉल और कालरा दोनों ही ज्यादा पढ़े लिखे नहीं थे और मध्यम वर्ग से ताल्लुक रखते थे। </span></div><br><div><span style=\"font-size: 1rem;\">जब स्टीव जॉब्स 5 साल के हुए, तब उनका परिवार केलिफोर्निया के पास हि स्थित माउंटेन व्यू चला गया। पॉल मैकेनिक थे, और स्टीव को इलेक्ट्रॉनिक की चीजो के बारे में और कालरा एकाउंटेंट थी इसलिए वे स्टीव की पढाई में मदद किया करती थी। स्टीव ने मोंटा लोमा स्कूल में दाखिला लिया और वही पर अपनी प्राथमिक शिक्षा पूरी की।</span></div><div><span style=\"font-size: 1rem;\"><br></span><br></div><div>\n</div><div>इसके बाद वे उच्च शिक्षा कूपटिर्नो जूनियर हाई स्कूल से पूरी की। और सन 1972 में अपनी कॉलेज की पढाई के लिए ओरेगन के रीड कॉल में दाखिला लिया जो की वहां की सबसे महंगी कॉलेज थी। </div><br><div>स्टीव पढने में बहुत ही ज्यादा अच्छे थे लेकिन, उनके माता-पिता पूरी फीस नहीं भर पाते थे, इसलिए स्टीव ने फीस भरने के लिए बोतल के कोक को बेचकर पैसे जुटाते, और पैसे की कमी के कारण मंदिरों में जाकर वहा मिलने वाले मुफ्त खाना खाया करते थे। और अपने होस्टल का किराया बचाने के लिए अपने दोस्तों के कमरों में जमीन पर हि सो जाया करते थे।</div><br><div>\n</div><div>इतनी बचत के बावजूद फीस के पैसे पुरे नहीं जुटा पाते और अपने माता-पिता को कढ़ी मेहनत करता देख उन्होंने कॉलेज छोड़कर उनकी मदद करने की सोची। </div><br><div>लेकिन उनके माता-पिता उनसे सहमत नहीं थे। इसलिए अपने माता-पिता के कहने पर कॉलेज में नहीं जाने के स्थान पर क्रेटीव क्लासेज (creative classes) जाना स्वीकार किया। जल्दी ही उसमे स्टीव को रूचि बढ़ने लगी। क्लासेस जाने के साथ-साथ वे अटारी नाम की कंपनी में technician का काम करने लगे।</div><br><div> स्टीव आध्यात्मिक जीवन में बहुत विश्वास करते थे, इसलिए स्टीव अपने धर्म गुरु से मिलने भारत आए। और काफी समय भारत में गुजारा। भारत में रहने के दौरान उन्होंने पूरी तरह बौद्ध धर्म को अपना लिया और बौद्ध भिक्षु के जैसे कपडे पहनना शुरू किया। और पूरी तरह आध्यातिमिक हो गये। और भारत से वापिस कैलिफ़ोर्निया चले गए।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी की शुरुआत </b>-</div><br><div>\n</div><div>सन 1976 में मात्र 20 वर्ष की उम्र में उन्होंने एप्पल Apple कंपनी की शुरुआत कि। </div><br><div>स्टीव ने अपने स्कूल के सहपाठी मित्र वोजनियाक के साथ मिल कर अपने पिता के गैरेज में ऑपरेटिंग सिस्टम मेकिनटोश तैयार किया। और इसे बेचने के लिए एप्पल कंप्यूटर का निर्माण करना चाहते थे। </div><br><div>लेकिन पैसो की कमी के कारण समस्या आ रही थी। लेकिन उनकी ये समस्या उनके एक मित्र माइक मर्कुल्ला ने दूर कर दि साथ ही वे कंपनी में साझेदार भी बन गये। और स्टीव ने एप्पल कंप्यूटर बनाने की शुरुआत की। साथ हि उन्होंने अपने साथ काम करने के लिए Pepsi, Coca Cola कंपनी के मुख्य अधिकारी जॉन स्कली को भी शामिल कर लिया। </div><br><div>स्टीव और उनके मित्रो की कढ़ी मेहनत के कारण कुछ ही सालो में एप्पल कंपनी गैराज से बढ़कर 2 अरब डॉलर और 4000 कर्मचारियो वाली कंपनी बन चुकी थी।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी से इस्तीफा</b> -</div><br><div>\n</div><div>लेकिन उनकी ये उपलब्धि ज्यादा देर तक नहीं रही, उनके साझेदारो द्वारा उनको ना पसंद किये जाने और आपस में कहासुनी के कारण एप्पल कंपनी की लोकप्रियता कम होने लगी। </div><br><div>धीरे-धीरे कंपनी पूरी तरह कर्ज में डूब गयी। और बोर्ड ऑफ़ डायरेक्टर की मीटिंग में सारे दोष स्टीव का ठहराकर सन 1985 में उन्हें एप्पल कंपनी से बाहर कर दिया।</div><br><div> ये उनके जीवन का सबसे दुखद पल था। क्योकि जिस कंपनी को उन्होंने कढ़ी मेहनत और लग्न से बनाया था उसी से उन्हें निकाल दिया गया था। </div><br><div>स्टीव के जाते ही कंपनी पूरी तरह कर्ज में डूब गयी। एप्पल से इस्तीफा देने के 5 साल बाद उन्होंने Next-ink नाम की और Pixer नाम की दो कंपनियों की शुरुआत की।</div><br><div>\n</div><div>\n</div><div>Next-ink में उपयोग की जाने वाली तकनीक उत्तम थी। और उनका उदेश्य बेहतरीन सॉफ्टवेर बनाना था। और Pixer कंपनी में animation का काम होता था। </div><br><div>एक साल तक काम करने के बाद पैसो की समस्या आने लगी और Rosh perot के साथ साझेदारी कर ली। और पेरोट ने अपने पैसो का निवेश किया। </div><br><div>सन 1990 में Next-ink ने पहला कंप्यूटर बाज़ार में उतारा लेकिन बहुत ही ज्यादा महंगा होने के कारण बाजार में नहीं चल सका। फिर Next-ink ने Inter personal computer बनाया जो बहुत ही ज्यादा लोक प्रिय हुआ। और Pixer ने एनिमेटेड फिल्म Toy story बनायीं जो अब तक की सबसे बेहतरीन फिल्म हैं।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी में वापसी</b> -</div><br><div>\n</div><div>सन 1996 में एप्पल ने स्टीव की Pixer को ख़रीदा इस तरह उनके एप्पल में वापसी हुई। साथ ही वे एप्पल के chief executive officer बन गये। </div><br><div>सन 1997 में उनकी मेहनत के कारण कंपनी का मुनाफा बढ़ गया और वे एप्पल के सी.इ.ओ. बन गये। </div><br><div>सन 1998 में उन्होंने आईमैक I-mac को बाज़ार में लॉन्च किया, जो काफी लोकप्रिय हुआ। और एप्पल ने बहुत ही बड़ी सफलता हासिल कर ली। उसके बाद I-pad, I-phone, I-tune भी लॉन्च किये। सन 2011 में सी.इ.ओ. पद से इस्तीफा दे दिया और बोर्ड के अध्यक्ष बन गये। </div><br><div>उस वक्त उनकी प्रॉपर्टी $7.0 बिलियन हो गयी थी। और apple दुनिया की दूसरी सबसे बड़ी कंपनी बन गयी थी।</div><br><div>\n</div><div>\n</div><div><b>निधन -</b></div><br><div>\n</div><div>स्टीव को सन 2003 से pain creative नाम की कैंसर की बिमारी हो गयी थी। लेकिन फिर भी वे रोज कंपनी में जाते ताकि लोगो को बेहतरीन से बेहतरीन टेक्नोलॉजी प्रदान कर सके और कैंसर की बिमारी के चलते 5 Oct. 2011 को Paalo Aalto केलिफोर्निया में उनका निधन हो गया।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-5",
+          "_cid": "qy24Xrl2a2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Web Page Maker Description",
+        "title": "Bill Gates",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Bill Gates</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-6",
+          "_cid": "qy28nd3njW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-7",
+          "_cid": "qy28noZHVe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>बिल गेट्स की कहानी\n -</b><br><br><div>बिल गेट्स को किसी परिचय कि आवश्यकता नहीं है, वह पूरी दुनिया में अपने कार्यों से जाने जाते हैं। हम सभी यह भली भांति जानते हैं कि दुनिया की सर्वश्रेष्ठ Software Company “Microsoft” की नींव भी बिल गेट्स के द्वारा ही रखी गयी है।\n</div><div>\n</div><div><b>बिल गेट्स का परिवार -\n</b></div><div><br></div><div>बिल गेट्स का वास्तविक तथा पूर्ण नाम विलियम हेनरी गेट्स है। </div><br><div>इनका जन्म 28 अक्टूबर, 1955 को वाशिंगटन के सिएटल में हुआ। इनके परिवार में इनके अतिरिक्त चार और सदस्य थे – इनके पिता विलियम एच गेट्स जो कि एक मशहूर वकील थे, इनकी माता मैरी मैक्‍सवेल गेट्स जो प्रथम इंटरस्टेट बैंक सिस्टम और यूनाइटेड वे के निदेशक मंडल कि सदस्य थी तथा इनकी दो बहनें जिनका नाम क्रिस्टी और लिब्बी हैं।</div><br><div> बिल गेट्स ने अपने बचपन का भी भरपूर आनंद लिया तथा पढ़ाई के साथ वह खेल कूद में भी सक्रिय रूप से भाग लेते रहे।\n</div><div>\n</div><div><b>बिल गेट्स का बचपन -\n</b></div><div><br></div><div>उनके माता – पिता उनके लिए क़ानून में करियर बनाने का स्वप्न लेकर बैठे थे परन्तु उन्हें बचपन से ही कंप्यूटर विज्ञान तथा उसकी प्रोग्रामिंग भाषाओं में रूचि थी। </div><br><div>उनकी प्रारंभिक शिक्षा लेकसाइड स्कूल में हुई। जब वह आठवीं कक्षा के छात्र थे तब उनके विद्यालय ने ऐएसआर – 33 दूरटंकण टर्मिनल तथा जनरल इलेक्ट्रिक (जी।ई।) कंप्यूटर पर एक कंप्यूटर प्रोग्राम खरीदा जिसमें गेट्स ने रूचि दिखाई। </div><br><div>तत्पश्चात मात्र तेरह वर्ष की आयु में उन्होंने अपना पहला कंप्यूटर प्रोग्राम लिखा जिसका नाम “टिक-टैक-टो” (tic-tac-toe) तथा इसका प्रयोग कंप्यूटर से खेल खेलने हेतु किया जाता था। </div><br><div>बिल गेट्स इस मशीन से बहुत अधिक प्रभावित थे तथा जानने को उत्सुक थे कि यह सॉफ्टवेयर कोड्स किस प्रकार कार्य करते हैं।\n</div><div>\n</div><div><b>कंप्यूटर प्रोग्रामिंग के प्रति बिल गेट्स की लगन &nbsp;</b></div><div>इसके पश्चात गेट्स डीईसी (DEC), पीडीपी (PDP), मिनी कंप्यूटर नामक सिस्टमों में दिलचस्पी दिखाते रहे, परन्तु उन्हें कंप्यूटर सेंटर कॉरपोरेशन द्वारा ऑपरेटिंग सिस्टम में हो रही खामियों के लिए 1 महीने तक प्रतिबंधित कर दिया गया। </div><br><div>इसी समय के दौरान उन्होंने अपने मित्रों के साथ मिलकर सीसीसी के सॉफ्टवेयर में हो रही कमियों को दूर कर लोगों को प्रभावित किया तथा उसके पश्चात वह सीसीसी के कार्यालय में निरंतर जाकर विभिन्न प्रोग्रामों के लिए सोर्स कोड का अध्ययन करते रहे और यह सिलसिला 1970 तक चलता रहा। </div><br><div>इसके पश्चात इन्फोर्मेशन साइंसेस आइएनसी। लेकसाइड के चार छात्रों को जिनमें बिल गेट्स भी शामिल थे, कंप्यूटर समय एवं रॉयल्टी उपलब्ध कराकर कोबोल (COBOL), पर एक पेरोल प्रोग्राम लिखने के लिए किराए पर रख लिया।\n</div><div>\n</div><div>इसके पश्चात उन्हें रोकना नामुमकिन था। मात्र 17 वर्ष कि उम्र में उन्होंने अपने मित्र एलन के साथ मिलकर ट्राफ़- ओ- डाटा नामक एक उपक्रम बनाया जो इंटेल 8008 प्रोसेसर (Intel 8008 Processor) पर आधारित यातायात काउनटर (Traffic Counter) बनाने के लिए प्रयोग में लाया गया। </div><br><div>1973 में वह लेकसाइड स्कूल से पास हुए तथा उसके पश्चात बहु- प्रचलित हारवर्ड कॉलेज में उनका दाखिला हुआ। </div><br><div>परन्तु उन्होंने 1975 में ही बिना स्नातक किए वहाँ से विदा ले ली जिसका कारण था उस समय उनके जीवन में दिशा का अभाव। उसके पश्चात उन्होंने Intel 8080 चिप बनाया तथा यह उस समय का व्यक्तिगत कंप्यूटर के अन्दर चलने वाला सबसे वहनयोग्य चिप था, जिसके पश्चात बिल गेट्स को यह एहसास हुआ कि समय द्वारा दिया गया यह सबसे उत्तम अवसर है जब उन्हें अपनी स्वयं कि कंपनी का आरम्भ करना चाहिए।\n</div><div>\n</div><div><b>माइक्रोसॉफ्ट कंपनी का उत्थान -\n</b></div><div><br></div><div>MITS (Micro Instrumentation and Telemetry Systems) जिन्होंने एक माइक्रो कंप्यूटर का निर्माण किया था, उन्होंने गेट्स को एक प्रदर्शनी में उपस्थित होने कि सहमती दी तथा गेट्स ने उनके लिए अलटेयर एमुलेटर (Emulator) निर्मित किया जो Mini Computer और बाद में इंटरप्रेटर में सक्रिय रूप से कार्य करने लगा। </div><br><div>इसके बाद बिल गेट्स व् उनके साथी को MITS के अल्बुकर्क स्थित कार्यालय में काम करने कि अनुमति दी गयी।</div><br><div> उन्होंने अपनी जोड़ी का नाम Micro-Soft रखा तथा अपने पहले कार्यालय कि स्थापना अल्बुकर्क में ही की। </div><br><div>26 नवम्बर, 1976 को उन्होंने Microsoft का नाम एक व्यापारिक कंपनी के तौर पर पंजीकृत किया। </div><br><div>Microsoft Basic कंप्यूटर के चाहने वालों में सबसे अधिक लोकप्रिय हो गया था। 1976 में ही Microsoft MITS से पूर्णत: स्वतंत्र हो गया तथा Gates और Allen ने मिलकर कंप्यूटर में प्रोग्रामिंग भाषा Software का कार्य जारी रखा। </div><br><div>इनसे बाद Microsoft ने अल्बुकर्क में अपना कार्यालय बंद कर बेलेवुए, वाशिंगटन में अपना नया कार्यालय खोला। </div><br><div>Microsoft ने उन्नति की ओर बढ़ते हुए प्रारंभिक वर्षों में बहुत मेहनत व् लगन से कार्य किया। गेट्स भी व्यावसायिक विवरण पर भी ध्यान देते थे, कोड लिखने का कार्य भी करते थे तथा अन्य कर्मचारियों द्वारा लिखे गए व् जारी किये गए कोड कि प्रत्येक पंक्ति कि समीक्षा भी वह स्वयं ही करते थे। </div><br><div>इसके बाद जानी मानी कंपनी IBM ने Microsoft के साथ काम करने में रूचि दिखाई, उन्होंने Microsoft से अपने पर्सनल कंप्यूटर के लिए बेसिक इंटरप्रेटर बनाने का अनुरोध किया।</div><br><div> कई कठिनाइयों से निकलने के बाद गेट्स ने Seattle कंप्यूटर प्रोडक्ट्स के साथ एक समझौता किया जिसके बाद एकीकृत लाइसेंसिंग एजेंट और बाद में 86-DOS के वह पूर्ण आधिकारिक बन गए और बाद में उन्होंने इसे आईबीएम को $80,000 के शुल्क पर PC-DOS के नाम से उपलब्ध कराया। </div><br><div>इसके पश्चात Microsoft का उद्योग जगत में बहुत नाम हुआ। 1981 में Microsoft को पुनर्गठित कर बिल गेट्स को इसका चेयरमैन व् निदेशक मंडल का अध्यक्ष बनाया गया। जिसके बाद Microsoft ने अपना Microsoft Windows का पहला संस्करण पेश किया। </div><br><div>1975 से लेकर 2006 तक उन्होंने Microsoft के पद पर बहुत ही अदभुत कार्य किया, उन्होंने इस दौरान Microsoft कंपनी के हित में कई महत्वपूर्ण निर्णय लिए।\n</div><div>\n</div><div><b>बिल गेट्स का विवाह व् आगे का जीवन -\n</b></div><div><br></div><div>1994 में बिल गेट्स का विवाह फ्रांस में रहने वाली Melinda से हुआ तथा 1996 में इन्होंने जेनिफर कैथेराइन गेट्स को जन्म दिया। इसके बाद मेलिंडा तथा बिल गेट्स के दो और बच्चे हुए जिनके नाम रोरी जॉन गेट्स तथा फोएबे अदेले गेट्स हैं। वर्तमान में बिल गेट्स अपने परिवार के साथ वाशिंगटन स्थित मेडिना में उपस्थित अपने सुन्दर घर में रहते हैं, जिसकी कीमत 1250 लाख डॉलर है।\n</div><div>\n</div><div>बिल एंड मेलिंडा गेट्स फाउंडेशन का उदय -\n</div><div>वर्ष 2000 में उन्होंने अपनी पत्नी के साथ मिलकर बिल एंड मेलिंडा गेट्स फाउंडेशनकी नींव रखी जो कि पारदर्शिता से संचालित होने वाला विश्व का सबसे बड़ा Charitable फाउंडेशन था। </div><br><div>उनका यह फाउंडेशन ऐसी समस्याओं के लिए कोष दान में देता था जो सरकार द्वारा नज़रअंदाज़ कर दी जाती थीं जैसे कि कृषि, कम प्रतिनिधित्व वाले अल्पसंख्यक समुदायों के लिये कॉलेज छात्रवृत्तियां, एड्स जैसी बीमारियों के निवारण हेतु, इत्यादि।\n</div><div>\n</div><div><b>परोपकारी कार्य </b>-\n</div><div><br></div><div>सन 2000 में इस फाउंडेशन ने Cambridge University को 210 मिलियन डॉलर गेट्स कैम्ब्रिज छात्रवृत्तियों हेतु दान किये। </div><br><div>वर्ष 2000 तक बिल गेट्स ने 29 बिलियन डॉलर केवल परोपकारी कार्यों हेतु दान में दे दिए। लोगों की उनसे बढती हुई उम्मीदों को देखते हुए वर्ष 2006 में उन्होंने यह घोषणा की कि वह अब Microsoft में अंशकालिक रूप से कार्य करेंगे और बिल एंड मेलिंडा गेट्स फाउंडेशन में पूर्णकालिक रूप से कार्य करेंगे। </div><br><div>वर्ष 2008 में गेट्स ने Microsoft के दैनिक परिचालन प्रबंधन कार्य से पूर्णतया विदा ले ली परन्तु अध्यक्ष और सलाहकार के रूप में वह Microsoft में विद्यमान रहे।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-8",
+          "_cid": "qy28nHPwF5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
