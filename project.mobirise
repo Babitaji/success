@@ -29,10 +29,12 @@
       }
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 81,
+    "uniqCompNum": 90,
     "versionPublish": "4.2.2",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -50,21 +52,33 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
             },
-            ".mbr-text": {
-              "color": "#232323",
-              "text-align": "center"
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
             },
-            ".mbr-text P": {
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
               "text-align": "left"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><a href=\"page3.html\" class=\"text-black\">technology</a></p><p><a href=\"page4.html\" class=\"text-black\">Bussiness</a></p><p><a href=\"page5.html\" class=\"text-black\">Science</a></p><p><a href=\"page6.html\" class=\"text-black\">Sports</a></p><p><a href=\"page7.html\" class=\"text-black\">Greate Indian ( Swami Vivekananda )</a></p><p><a href=\"page8.html\" class=\"text-black\">Actors</a></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-a",
-          "_cid": "qy2bPo8Kck",
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>टेक्नोलॉजी क्षेत्र की सफलता स्टोरी<br><br>बिज़नेस क्षेत्र की सफलता स्टोरी<br><br>खिलाडी क्षेत्र की सफलता स्टोरी<br><br>वैज्ञानिक क्षेत्र की सफलता स्टोरी<br><br>अभिनेता क्षेत्र की सफलता स्टोरी<br><br>सबसे ज्यादा बार पढ़ी हुई स्टोरी&nbsp;<br><br><br></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2e",
+          "_cid": "qy83clW7t8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2432,8 +2446,8 @@
     "page23.html": {
       "settings": {
         "meta_descr": "Web Page Creator Description",
-        "title": "श्रीनिवास रामानुजन",
-        "order": 4
+        "title": "How To Success",
+        "order": 1
       },
       "components": [
         {
@@ -2453,9 +2467,9 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>श्रीनिवास रामानुजन</div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-1m",
-          "_cid": "qy5H2Ik95b",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>सफल होने  के लिए नियम&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-2g",
+          "_cid": "qydX1FrPbC",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2495,9 +2509,9 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
-          "_anchor": "image2-1n",
-          "_cid": "qy5H2VmaAX",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-1011x551.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-2f",
+          "_cid": "qydX0WhU3F",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2532,9 +2546,9 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>श्रीनिवास रामानुजन की जीवनी</b><br><br>\n<div>श्रीनिवास रामानुजन् इयंगर एक महान भारतीय गणितज्ञ थे। उन्हें आधुनिक काल के महानतम गणित विचारकों में गिना जाता है। </div><br><div>उन्हें गणित में कोई विशेष प्रशिक्षण नहीं मिला, फिर भी उन्होंने विश्लेषण एवं संख्या सिद्धांत के क्षेत्रों में महत्वपूर्ण योगदान दिये। उन्होंने गणित के क्षेत्र में कई महत्वपूर्ण प्रयोग किये थे जो आज भी उपयोग किये जाते है। </div><br><div>उनके प्रयोगों को उस समय जल्द ही भारतीय गणितज्ञो ने मान्यता दे दी थी। जब उनका हुनर ज्यादातर गणितज्ञो के समुदाय को दिखाई देने लगा, तब उन्होंने इंग्लिश गणितज्ञ जी.एच्. हार्डी से भागीदारी कर ली। उन्होंने पुराने प्रचलित थ्योरम की पुनः खोज की ताकि उसमे कुछ बदलाव करके नया थ्योरम बना सके। </div><br><div>श्रीनिवास रामानुजन ज्यादा उम्र तक तो जी नही पाये लेकिन अपने छोटे जीवन में ही उन्होंने लगभग 3900 के आस-पास प्रमेयों का संकलन किया।</div><br><div>\n</div><div>\n</div><div>इनमें से अधिकांश प्रमेय सही सिद्ध किये जा चुके है। और उनके अधिकांश प्रमेय लोग जानते है। उनके बहुत से परीणाम जैसे की रामानुजन प्राइम और रामानुजन थीटा बहुत प्रसिद्ध है। ये उनके महत्वपूर्ण प्रमेयों में से एक है। </div><br><div>उनके काम को उन्होंने उनके अंतर्राष्ट्रीय प्रकाशन रामानुजन जर्नल में भी प्रकाशित किया है, ताकि उनके गणित प्रयोगों को सारी दुनिया जान सके और पूरी दुनिया में उनका उपयोग हो सके। उनका यह अंतर्राष्ट्रीय प्रकाशन पुरे विश्व में प्रसिद्ध हो गया था, और काफी लोग गणित के क्षेत्र में उनके अतुल्य योगदान से प्रभावित भी हुए थे।</div><br><div>\n</div><div>\n</div><div><b>श्रीनिवास रामानुजन का प्रारंभिक जीवन -</b></div><br><div>\n</div><div>श्रीनिवास रामानुजन का जन्म 22 दिसम्बर 1887 को भारत के दक्षिणी भूभाग में स्थित कोयंबटूर के ईरोड, मद्रास (अभी का तमिलनाडु) नाम के गांव में हुआ था। वह पारंपरिक ब्राह्मण परिवार में जन्मे थे। उनके पिता श्रीनिवास अय्यंगर जिले की ही एक साडी की दुकान में क्लर्क थे। </div><br><div>उनकी माता, कोमल तम्मल एक गृहिणी थी और साथ ही स्थानिक मंदिर की गायिका थी। वे अपने परीवार के साथ कुम्भकोणम गाव में सारंगपाणी स्ट्रीट के पास अपने पुराने घर में रहते थे। उनका परीवारीक घर आज एक म्यूजियम है। </div><br><div>जब रामानुजन देड (1/5) साल के थे, तभी उनकी माता ने एक और बेटे सदगोपन को जन्म दिया, जिसका बाद में तीन महीनो के भीतर ही देहांत हो गया। दिसंबर 1889 में, रामानुजन को चेचक की बीमारी हो गयी, इस बीमारी से पिछले एक साल में उनके जिले के हजारो लोग मारे गए थे, लेकिन रामानुजन जल्द ही इस बीमारी से ठीक हो गये थे।</div><br><div>\n</div><div>\n</div><div>इसके बाद वे अपने माता के साथ मद्रास (चेन्नई) के पास के गाव कांचीपुरम में माता-पिता के घर में रहने चले गए। </div><br><div>नवंबर 1891 और फीर 1894 में, उनकी माता ने दो और बच्चों को जन्म दिया, लेकिन फिर से उनके दोनों बच्चो की बचपन में ही मृत्यु हो गयी। 1 अक्टूबर 1892 को श्रीनिवास रामानुजन को स्थानिक स्कूल में डाला गया। </div><br><div>मार्च 1894 में, उन्हें तामील मीडियम स्कूल में डाला गया। उनके नाना के कांचीपुरम के कोर्ट में कर रहे जॉब को खो देने के बाद, रामानुजन और उनकी माता कुम्भकोणम गाव वापिस आ गयी और उन्होंने रामानुजन को कंगयां प्राइमरी स्कूल में डाला। जब उनके दादा का देहांत हुआ, तो रामानुजन को उनके नाना के पास भेज दिया गया, जो बाद में मद्रास में रहने लगे थे। </div><br><div>रामानुजन को मद्रास में स्कूल जाना पसन्द नही था, इसीलिए वे ज्यादातर स्कूल नही जाते थे। उनके परिवार ने रामानुजन के लिये एक चौकीदार भी रखा था ताकि रामानुजन रोज स्कूल जा सके। और इस तरह 6 महीने के भीतर ही रामानुजन कुम्भकोणम वापिस आ गये। जब ज्यादातर समय रामानुजन के पिता काम में व्यस्त रहते थे, तब उनकी माँ उनकी बहुत अच्छे से देखभाल करती थी।</div><br><div>\n</div><div>\n</div><div>रामानुजन को अपनी माता से काफी लगाव था। अपनी माँ से रामानुजन ने प्राचीन परम्पराओ और पुराणों के बारे में सीखा था। </div><br><div>उन्होंने बहुत से धार्मिक भजनों को गाना भी सीख लिया था ताकि वे आसानी से मंदिर में कभी-कभी गा सके। ब्राह्मण होने की वजह से ये सब उनके परीवार का ही एक भाग था। कंगयां प्राइमरी स्कूल में, रामानुजन एक होनहार छात्र थे। </div><br><div>बस 10 साल की आयु से पहले, नवंबर 1897 में, उन्होंने इंग्लिश, तमिल, भूगोल और गणित की प्राइमरी परीक्षा उत्तीर्ण की और पुरे जिले में उनका पहला स्थान आया। उसी साल, रामानुजन शहर की उच्च माध्यमिक स्कूल में गये जहा पहली बार उन्होंने गणित का अभ्यास किया।</div><br><div>\n</div><div><b>श्रीनिवास रामानुजन बचपन -</b></div><br><div>\n</div><div>11 वर्ष की आयु से ही श्रीनिवास रामानुजन अपने ही घर पर किराये से रह रहे दो विद्यार्थियो से गणित का अभ्यास करना शुरू किया था। बाद में उन्होंने एस.एल. लोनी द्वारा लिखित एडवांस ट्रिग्नोमेट्री का अभ्यास किया। </div><br><div>13 साल की अल्पायु में ही वे उस किताब के मास्टर बन चुके थे और उन्होंने खुद कई सारे थ्योरम की खोज की। </div><br><div>14 वर्ष की आयु में उन्हें अपने योगदान के लिये मेरिट सर्टिफिकेट भी दिया गया और साथ ही अपनी स्कूल शिक्षा पुरी करने के लिए कई सारे अकादमिक पुरस्कार भी दिए गए और सांभर तंत्र की स्कूल में उन्हें 1200 विद्यार्थी और 35 शिक्षको के साथ प्रवेश दिया गया। गणित की परीक्षा उन्होंने दिए गए समय से आधे समय में ही पूरी कर ली थी। और उनके उत्तरो से ऐसा लग रहा था जैसे ज्योमेट्री और अनंत सीरीज से उनका घरेलु सम्बन्ध हो। </div><br><div>रामानुजन ने 1902 में घनाकार समीकरणों को आसानी से हल करने के उपाय भी बताये और बाद में क्वार्टीक (Quartic) को हल करने की अपनी विधि बनाने में लग गए।</div><br><div>\n</div><div>\n</div><div>उसी साल उन्होंने जाना की क्विन्टिक (Quintic) को रेडिकल्स (Radicals) की सहायता से हल नही किया जा सकता। </div><br><div>सन् 1905 में श्रीनिवास रामानुजन मद्रास विश्वविद्यालय की प्रवेश परीक्षा में सम्मिलित हुए परंतु गणित को छोड़कर शेष सभी विषयों में वे अनुत्तीर्ण हो गए। कुछ समय बाद 1906 एवं 1907 में रामानुजन ने फिर से बारहवीं कक्षा की प्राइवेट परीक्षा दी और अनुत्तीर्ण हो गए। रामानुजन 12वीं में दो बार फेल हुए थे और इससे पहले उन्होंने मैट्रिक की परीक्षा पहले दरजे से पास की थी।</div><br><div>\n</div><div>\n</div><div>जिस गवर्नमेंट कॉलेज में पढ़ते हुए वे दो बार फेल हुए, बाद में उस कॉलेज का नाम बदल कर उनके नाम पर ही रखा गया। </div><br><div>श्रीनिवास रामानुजन जब मैट्रिक कक्षा में पढ़ रहे थे उसी समय उन्हें स्थानीय कॉलेज की लाइब्रेरी से गणित का एक ग्रन्थ मिला, ‘ए सिनोप्सिस आफ एलीमेंट्री रिजल्ट्स इन प्योर एंड एप्लाइड मैथमेटिक्स (Synopsis of Elementary Results in Pure and Applied Mathematics)’ लेखक थे ‘जार्ज एस. कार्र (George Shoobridge Carr)’ रामानुजन ने जार्ज एस. कार्र की गणित के परिणामों पर लिखी किताब पढ़ी और इस पुस्तक से प्रभावित होकर स्वयं ही गणित पर कार्य करना प्रारंभ कर दिया। इस पुस्तक में उच्च गणित के कुल 5000 फार्मूले दिये गये थे। </div><br><div>जिन्हें रामानुजन ने केवल 16 साल की आयु में पूरी तरह आत्मसात कर लिया था। 1904 में हायर सेकेंडरी स्कूल से जब रामानुजन ग्रेजुएट हुए तो गणित में उनके अतुल्य योगदान के लिये उन्हें स्कूल के हेडमास्टर कृष्णास्वामी अय्यर द्वारा उन्हें के.रंगनाथ राव पुरस्कार दिया गया। </div><br><div>जिसमे रामानुजन को एक होनहार और बुद्धिमान विद्यार्थी बताया गया था। उन्होंने उस समय परीक्षा में सर्वाधिक गुण प्राप्त किये थे। इसे देखते हुए गवर्नमेंट आर्ट कॉलेज, कुम्बकोणं में पढ़ने के लिये उन्हें शिष्यवृत्ति दी गयी।</div><br><div>\n</div><div>\n</div><div>लेकीन गणित में ज्यादा रूचि होने की वजह से रामानुजम दुसरे विषयो पर ध्यान नही दे पाते थे। 1905 में वे घर से भाग गए थे, और विशाखापत्तनम में 1 महीने तक राजमुंदरी के घर रहने लगे। और बाद में मद्रास के महाविद्यालय में पढ़ने लगे। लेकिन बाद में बीच में ही उन्होंने वह कॉलेज छोड़ दिया। </div><br><div>विद्यालय छोड़ने के बाद का पांच वर्षों का समय इनके लिए बहुत हताशा भरा था। भारत इस समय परतंत्रता की बेड़ियों में जकड़ा था। चारों तरफ भयंकर ग़रीबी थी। </div><br><div>ऐसे समय में रामानुजन के पास न कोई नौकरी थी और न ही किसी संस्थान अथवा प्रोफ़ेसर के साथ काम करने का मौका। बस उनका ईश्वर पर अटूट विश्वास और गणित के प्रति अगाध श्रद्धा ने उन्हें कर्तव्य मार्ग पर चलने के लिए सदैव प्रेरित किया।</div><br><div>\n</div><div>\n</div><div><b>श्रीनिवास रामानुजन के प्रमुख कार्य -</b></div><br><div>\n</div><div>रामानुजन और इनके द्वारा किए गए अधिकांश कार्य अभी भी वैज्ञानिकों के लिए अबूझ पहेली बने हुए हैं। एक बहुत ही सामान्य परिवार में जन्म ले कर पूरे विश्व को आश्चर्यचकित करने की अपनी इस यात्रा में इन्होने भारत को अपूर्व गौरव प्रदान किया। श्रीनिवास रामानुजन अधिकतर गणित के महाज्ञानी भी कहलाते है। </div><br><div>उस समय के महान व्यक्ति लोन्हार्ड यूलर और कार्ल जैकोबी भी उन्हें खासा पसंद करते थे। जिनमे हार्डी के साथ रामानुजन ने विभाजन फंक्शन P(n) का अभ्यास किया था। </div><br><div>इन्होने शून्य और अनन्त को हमेशा ध्यान में रखा और इसके अंतर्सम्बन्धों को समझाने के लिए गणित के सूत्रों का सहारा लिया। वे अपनी विख्यात खोज गोलिय विधि (Circle Method) के लिए भी जाने जाते है।</div><br><div>\n</div><div>\n</div><div><b>श्रीनिवास रामानुजन की 7 हकीकत -</b></div><br><div>\n</div><div>1) श्रीनिवास रामानुजन स्कूल में हमेशा ही अकेले रहते थे, उनके सहयोगी उन्हें कभी समझ नही पाये थे। रामानुजन गरीब परीवार से सम्बन्ध रखते थे और अपने गणितो का परीणाम देखने के लिए वे पेपर की जगह कलमपट्टी का उपयोग करते थे। शुद्ध गणित में उन्हें कीसी प्रकार का प्रशिक्षण नही दिया गया था।</div><br><div>\n</div><div>2) गवर्नमेंट आर्ट कॉलेज में पढ़ने के लिये उन्हें अपनी शिष्यवृत्ति खोनी पड़ी थी और गणित में अपने लगाव से बाकी दुसरे विषयो में वे फेल हुए थे।</div><br><div>\n</div><div>3) रामानुजन ने कभी कोई कॉलेज डिग्री प्राप्त नही की। फिर भी उन्होंने गणित के काफी प्रचलित प्रमेयों को लिखा। लेकिन उनमे से कुछ को वे सिद्ध नही कर पाये।</div><br><div>\n</div><div>4) इंग्लैंड में हुए जातिवाद के वे गवाह बने थे।</div><br><div>\n</div><div>5) उनकी उपलब्धियों को देखते हुए 1729 नंबर हार्डी-रामानुजन नंबर के नाम से जाना जाता है।</div><br><div>\n</div><div>6) 2014 में उनके जीवन पर आधारीत तमिल फ़िल्म ‘रामानुजन का जीवन’ बनाई गयी थी।</div><br><div>\n</div><div>7) उनकी 125 वी एनिवर्सरी पर गूगल ने अपने लोगो को इनके नाम पर करते हुए उन्हें सम्मान अर्जित किया था।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-1o",
-          "_cid": "qy5H3i7fmF",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>आप ये रोज़ पढ़िए तो आपको कुछ तो महसूस होगा एक दिन&nbsp;<br><br>1) <b>जो करोंगे वो अच्छे से करो</b>: <br><br>आपको जो भी काम दिया जाता है उसे Best करने की कोशिश करो। आपका हर काम आप को represent करता है। इसीलिए हर काम में पूरी जान लगा कर अपना १००% परफॉर्म करो। आपका मुकाबला किसी और के साथ नहीं है। आपने last time जितना किया था उससे बेहतर output मिले इसपर आपका focus होना चाहिए।<br><br>2) <b>शिकायत मत करो: </b><br><br>अगर हम सवाल सुलझाने को तैयार नहीं होंते तो हम भी उस सवाल का हिस्सा बन जाते है। खुद ही Problem हो जाते है। इसीलिए complaint करना छोड़ के सामने जो situation है उसे accept करके अपना ध्यान काम पर केंद्रित करना चाहिए।<br><br>\n<div>\n</div><div>3) <b>थोडासा ज्यादा:</b> </div><br><div>लोगो की अपेक्षा से ज्यादा कुछ करने की, ज्यादा कोशिश करके थोडा ज्यादा काम करने की तैयारी रखो। जो लोग out of the box सोचते है और लोगो के लिए खुद से कुछ extra efforts लेते है वही लोग आगे जाके सक्सेसफुल बनते है।</div><br><div>\n</div><div>\n</div><div>4) <b>भूमिका लो:</b> </div><br><div>किसी भी situation में परिस्थिति के साथ बहते जाना आप के reputation और progress के लिए अच्छा नहीं है। हर एक चीज़ में सोच समझ के decision लीजिये और debate की situation में एक बाजू लेके अपनी भूमिका clear कीजिये। उस भूमिका पर आगे आने वाले समय में दटके रहना भी बहुत जरुरी है। यह सफलता का सूत्र है जो आप को successful बनाएगा।</div><br><div>\n</div><div>\n</div><div>5) <b>फोकस:</b> </div><br><div>Success steps में अपना goal या लक्ष्य clear रखना सबसे ज्यादा important है यह बताया गया हैं। आपका लक्ष्य क्या है? आपको Exactly क्या चाहिये? यह मत भूलो। कुछ भी हो जाये आपका ध्यान हटना नहीं चाहिए।</div><br><div>\n</div><div>\n</div><div>6) <b>दोस्त सोच के चुनो:</b> </div><br><div>नेता अच्छा होता है पर उसका सल्लागार बुरा होते है। यह Sentence हम हमेशा सुनते है। हम ऐसी situation में न फसे इसलिये दोस्त अच्छे और सोच के चुनों। सफल व्यक्ति पर उसके दोस्तों का बहुत ज्यादा प्रभाव होता है। जाहिर है सफल व्यक्ति के दोस्त भी काबिल और सफल होते है।</div><br><div>\n</div><div>\n</div><div>7) <b>खुद पर भरोसा रखो</b>: </div><br><div>बहुत बार लोग talent और मेहनत करने के बाद भी सफल नहीं हो पाते। इसका मुख्य कारन है की वह खुद पे बिलकुल भरोसा नहीं करते। खुद पर विश्वास होना सबसे बड़ी बात है। अगर खुद पर विश्वास हो तो बड़ी से बड़ी मुश्किल आसानी से पार की जा सकती है।</div><br><div>\n</div><div>\n</div><div>8) <b>कॅरेक्टर संभालो:</b> </div><br><div>आपका हर एक काम आपकी reputation बना या बिघाड सकता है। इसीलिए आपको आपके हर एक action पर पूरी नज़र रखनी होगी। गलती से भी आप कुछ ऐसा न करे जिससे आपके character पे दाग लग जाये। इंसान का character उसकी सबसे बड़ी संपत्ति है, इसीलिए हर एक काम में अपने reputation और character को ध्यान में रखके करना चाहिए।</div><br><div>\n</div><div>\n</div><div>9) <b>जीने मकसद: </b></div><div><b><br></b>खुद को पुछो हम किस लिये जी रहे है। अपना लक्ष्य क्या है? जीना बहोत सुंदर है। ऐसा कहते है की, कुछ करके असफलता मिलना ये कुछ नहीं करने से कभी भी अच्छा है। इसलिये हमारे जीने की मकसद ढूंडो।</div><br><div>\n</div><div>\n</div><div>10) <b>दिन की Happy शुरवात:</b> </div><br><div>दिन की Happy शुरवात कैसी होंगी इस की कोशिश करो। बहोत बार छोटी बातो से मुड खराब हो जाता है और हम कुछ नहीं करते। सिर्फ चिडचिड होती है। इसलिये सुबह उठने के बाद Positive energy के साथ शुरवात करो।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2h",
+          "_cid": "qydXzmymxQ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2546,7 +2560,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "अब्राहम लिंकन",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2659,7 +2673,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "MS Dhoni ",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -2809,7 +2823,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "अक्षय कुमार",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
