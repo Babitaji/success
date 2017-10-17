@@ -26,10 +26,11 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 90,
+    "uniqCompNum": 112,
     "versionPublish": "4.2.2",
     "favicon": "",
     "noImageResize": "",
@@ -51,34 +52,327 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            },
-            ".section-text": {
-              "padding": "2rem 0",
-              "text-align": "left"
-            },
-            ".inner-container": {
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
               }
             },
-            ".section-text DIV": {
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
               "text-align": "left"
             }
           },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>टेक्नोलॉजी क्षेत्र की सफलता स्टोरी<br><br>बिज़नेस क्षेत्र की सफलता स्टोरी<br><br>खिलाडी क्षेत्र की सफलता स्टोरी<br><br>वैज्ञानिक क्षेत्र की सफलता स्टोरी<br><br>अभिनेता क्षेत्र की सफलता स्टोरी<br><br>सबसे ज्यादा बार पढ़ी हुई स्टोरी&nbsp;<br><br><br></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-2e",
-          "_cid": "qy83clW7t8",
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page7.html\"><img src=\"@PROJECT_PATH@/assets/images/img-1011x551.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Live -&nbsp;हर रोज एक नई सफलता की स्टोरी </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page23.html\"><img src=\"@PROJECT_PATH@/assets/images/img-20171006-1012x538.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">सफल होने के लिए आपको ये बाते हमेशा याद रखनी हे&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2u",
+          "_cid": "qyi9owwHpd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page1.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">स्टीव जॉब्स</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page2.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">बिल गेट्स</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2q",
+          "_cid": "qyi6OrxDWZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page20.html\"><img src=\"@PROJECT_PATH@/assets/images/tata-1366x683.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">रतन नवल टाटा</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page16.html\"><img src=\"@PROJECT_PATH@/assets/images/thomas-alva-edison1-500x277.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">थॉमस आ. एडिसन&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2r",
+          "_cid": "qyi7lzJGex",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page18.html\"><img src=\"@PROJECT_PATH@/assets/images/medium-poster2092-swami-vivekanand-on-good-quality-hd-quality-original-imaet2mujdufh5mz-704x383.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">स्वामी विवेकानंद&nbsp;</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page9.html\"><img src=\"@PROJECT_PATH@/assets/images/vhvosss-1920x1200.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">वाल्ट डिज्नी</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2s",
+          "_cid": "qyi7PwoYj0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page12.html\"><img src=\"@PROJECT_PATH@/assets/images/englishkidzone-alexander-graham-bell-low1-728x450.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">एलेग्जेंडर ग्रैहम बेल</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page13.html\"><img src=\"@PROJECT_PATH@/assets/images/sachintendulkarsecondtestnewzealandvcyekvyieygzl-594x399.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">सचिन  तेंदुलकर&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2t",
+          "_cid": "qyi8KTIHQb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page26.html\"><img src=\"@PROJECT_PATH@/assets/images/440821-akshay-kumar-640x360.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">अक्षय  कुमार&nbsp;</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"https://babitaji.github.io/success.github.io/page14.html\"><img src=\"@PROJECT_PATH@/assets/images/extremely-popular-during-the-1960-rome-olympics-500x308.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">मिल्खा सिंह</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2v",
+          "_cid": "qyigLMnSPj",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -90,7 +384,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Steve Jobes",
-        "order": 26
+        "order": 31
       },
       "components": [
         {
@@ -203,7 +497,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Bill Gates",
-        "order": 25
+        "order": 30
       },
       "components": [
         {
@@ -316,7 +610,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Technoogy",
-        "order": 24
+        "order": 29
       },
       "components": [
         {
@@ -366,9 +660,64 @@
             }
           },
           "_name": "content13",
-          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked=\"\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x3660.jpg\" alt=\"\" title=\"\"></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Steve Jobes (&nbsp;स्टीव जॉब्स )</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page2.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x6741.jpg\" alt=\"\" title=\"\"></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Bill Gates (&nbsp;बिल गेट्स )</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Steve Jobes (&nbsp;स्टीव जॉब्स )</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page2.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Bill Gates (&nbsp;बिल गेट्स )</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
           "_anchor": "content13-9",
           "_cid": "qy2bIKJzq7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page27.html\"><img src=\"@PROJECT_PATH@/assets/images/236-2450x1455.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Mark Zukerburg ( मार्क जुकरबर्ग&nbsp;)</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page28.html\"><img src=\"@PROJECT_PATH@/assets/images/sundar-pichai-google-ceo-1000x667.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Sundar Pichai (&nbsp;सुंदर पिचाई )</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2i",
+          "_cid": "qyhhBJv0XS",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -380,7 +729,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Business",
-        "order": 23
+        "order": 28
       },
       "components": [
         {
@@ -499,7 +848,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Scientest",
-        "order": 22
+        "order": 27
       },
       "components": [
         {
@@ -618,7 +967,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "sports",
-        "order": 21
+        "order": 26
       },
       "components": [
         {
@@ -736,8 +1085,8 @@
     "page7.html": {
       "settings": {
         "meta_descr": "Site Generator Description",
-        "title": "Great Indian&nbsp;",
-        "order": 20
+        "title": "Live",
+        "order": 2
       },
       "components": [
         {
@@ -787,9 +1136,9 @@
             }
           },
           "_name": "content13",
-          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page18.html\"><img src=\"@PROJECT_PATH@/assets/images/d243a03853a44721585190b2ab8f3a2a-728x355.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Swami Vivekananda (&nbsp;स्वामी विवेकानंद )</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page22.html\"><img src=\"@PROJECT_PATH@/assets/images/3fd2249c-726e-11e6-af03-e675d0741f8a-1280x720-980x551.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Mother Teresa (&nbsp;मदर टेरेसा )</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
-          "_anchor": "content13-21",
-          "_cid": "qy5TqJDgau",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"112\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page31.html\"><img src=\"@PROJECT_PATH@/assets/images/sandeep-maheshwari-seminars-e1436094811200-999x563.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">संदीप माहेश्वरी<br>Oct 17, 2017</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page17.html\"><img src=\"@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">डॉ ए. पी. जे. अब्दुल कलाम<br>Oct 16, 2017</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-2x",
+          "_cid": "qyiQXoTo64",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -801,7 +1150,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Actors",
-        "order": 19
+        "order": 25
       },
       "components": [
         {
@@ -865,7 +1214,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Valt&nbsp;",
-        "order": 18
+        "order": 24
       },
       "components": [
         {
@@ -978,7 +1327,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Henri Ford",
-        "order": 17
+        "order": 23
       },
       "components": [
         {
@@ -1091,7 +1440,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Einstine",
-        "order": 16
+        "order": 22
       },
       "components": [
         {
@@ -1204,7 +1553,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Greham Bell",
-        "order": 15
+        "order": 21
       },
       "components": [
         {
@@ -1317,7 +1666,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "sachin tendulakar",
-        "order": 14
+        "order": 20
       },
       "components": [
         {
@@ -1430,7 +1779,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Milkha singh",
-        "order": 13
+        "order": 19
       },
       "components": [
         {
@@ -1543,7 +1892,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Dhyan Chandra",
-        "order": 12
+        "order": 18
       },
       "components": [
         {
@@ -1656,7 +2005,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "थॉमस एल्वा एडिसन",
-        "order": 11
+        "order": 17
       },
       "components": [
         {
@@ -1769,7 +2118,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "अब्दुल कलाम की जीवनी",
-        "order": 10
+        "order": 16
       },
       "components": [
         {
@@ -1882,7 +2231,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "स्वामी विवेकानंद ",
-        "order": 9
+        "order": 15
       },
       "components": [
         {
@@ -1995,7 +2344,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "अंबानी ",
-        "order": 8
+        "order": 14
       },
       "components": [
         {
@@ -2108,7 +2457,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "रतन टाटा",
-        "order": 7
+        "order": 13
       },
       "components": [
         {
@@ -2221,7 +2570,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "अमिताभ बच्चन",
-        "order": 6
+        "order": 12
       },
       "components": [
         {
@@ -2334,7 +2683,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "मदर टेरेसा ",
-        "order": 5
+        "order": 11
       },
       "components": [
         {
@@ -2447,7 +2796,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "How To Success",
-        "order": 1
+        "order": 5
       },
       "components": [
         {
@@ -2509,7 +2858,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-1011x551.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/bg-view-1920x1080.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_anchor": "image2-2f",
           "_cid": "qydX0WhU3F",
           "_protectedParams": [],
@@ -2560,7 +2909,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "अब्राहम लिंकन",
-        "order": 4
+        "order": 10
       },
       "components": [
         {
@@ -2673,7 +3022,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "MS Dhoni ",
-        "order": 3
+        "order": 9
       },
       "components": [
         {
@@ -2823,7 +3172,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "अक्षय कुमार",
-        "order": 2
+        "order": 8
       },
       "components": [
         {
@@ -2925,6 +3274,400 @@
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>पिछले 25 सालों से अक्षय सिल्वर स्क्रीन पर छाए हुए हैं। हर साल करीब 3 से 4 फिल्में आती हैं। <br><br>कॉमेडी हो या देशभक्ति अक्षय हर फिल्म में अपनी छाप छोड़ते हैं। जहां एक ओर ‘बेबी’ और ‘हॉलीडे’ जैसी देशभक्ति वाली फिल्म में दिखते हैं तो वहीं ‘सिंह इज ब्लिंग’ और ‘ब्रदर्स’ जैसी मसाला फिल्म में भी नजर आते हैं। <br><br>अक्षय आज जिस मुकाम पर हैं वहां तक पहुंचने में उनकी सालों की लगन और मेहनत हैं। चांदनी चौक की गलियों से बॉलीवुड की चमकती हुई दुनिया में अक्षय कैसे पहुंचने इसकी कहानी भी काफी दिलचस्प है।<br><br><b>अमृतसर में पैदा हुए अक्षय</b><br><br>\n<div>\n</div><div>एक सर्वे की माने तो मुंबई में हर रोज करीब 20 हजार लोग आते हैं, जिसमें ज्यादातर लोग फिल्मी दुनिया में अपनी किस्मत आजमाने आते हैं। </div><br><div>मतलब एक साल में लाखों लोग इस हीरो बनने का सपना लेकर आते हैं, लेकिन उनमें से कुछ एक ही शख्स ही खिलाड़ी निकलता है। </div><br><div>अक्षय बॉलीवुड के वही खिलाड़ी निकले। अक्षय का असली नाम राजीव भाटिया है। उनका जन्म पंजाब के अमृतसर में हुआ था, उनके पिता सरकारी नौकरी में थे। अक्षय का बचपन दिल्ली के चांदनी चौक गलियों में बीता। </div><br><div>अक्षय को बचपन से ही स्पोटर्स का काफी शौक था, मार्शल आर्ट की ट्रेनिंग के लिए अक्षय बैंकॉक गए और वहां उन्हें शेफ की नौकरी मिल गई। हालांकि उनका सपना था आर्मी में या नेवी में जाने का। एक्टिंग के बारे में तो अक्षय ने कभी सोचा भी नहीं था।</div><br><div><b>बैंकॉक में किया वेटर का काम</b></div><br><div>\n</div><div>\n</div><div>अक्षय ने खाना बनाने से लेकर कार्ड बेचने तक का काम किया। अपनी जरूरत पूरी करने के लिए उन्होंने कई छोटे काम भी किए बैंकॉक से काम की तलाश में अक्षय को बांग्लादेश भी जाना पड़ा, वहां से कोलकाता जाकर अक्षय ने एक ट्रेवल एंजेसी में भी काम किया। कोलकाता से अक्षय मुंबई पहुंचे जहां वो कुंदन के गहने बेचने लगे।</div><br><div><b>गोविंदा ने हीरो बनने के लिए किया प्रेरित</b></div><br><div>\n</div><div>\n</div><div>मुंबई में अक्षय मशहूर फोटोग्राफर जयेश के पास गए और उनको अपना असिटेंट बनाने के लिए कहा। अक्षय जयेश की मदद के लिए लाइट उठाने तक का काम करने लगे। </div><br><div>काम के दौरान वो गोविंदा की कुछ फोटोज उन्हें देने गए। उस वक्त गोविंदा अक्षय को देखकर कहा कि तू हीरो क्यों नहीं बनता, ये सुनकर अक्षय के दिल में ये बात घर कर गई कि वो भी हीरो बन सकते हैं। 1990 में उन्होंने एक्टिंग का कोर्स भी किया, </div><br><div>जिसके बाद उन्हें एक फिल्म आज का ऑफर मिला, जब फिल्म रिलीज हुई तो पता चला कि उनका रोल सिर्फ 7 सेकेंड का था। इस फिल्म के हीरो का नाम था अक्षय। उसी वक्त राजीव भाटिया यानी अक्षय ने अपना बदलकर उस फिल्म के हीरो के नाम पर अक्षय रख लिया, तो इस तरह राजीव भाटिया अक्षय कुमार बन गए।</div><br><div><b>एक मेकअप की मदद से हीरो बने अक्षय</b></div><br><div>\n</div><div>\n</div><div>अक्षय अपना पोर्टफोलियो लेकर हर स्टूडियो के चक्कर लगा रहे थे, लेकिन कोई मायूसी की हाथ लग रही थी, उन्हीं दिनों अक्षय की मुलाकात मेकअप नरेंद्र से हुई। </div><br><div>नरेंद्र ने जब अक्षय को देखा तो उनका पोर्टफोलियो लेकर एक निर्देशक के पास गए और उसी दिन अक्षय की किस्मत बदल गई। उन्हें एक दिन 3 फिल्मों का ऑफर मिला और साथ में 5100 रुपए का साइनिंग अमाउंट भी। </div><br><div>हीरो के तौर पर अक्षय को पहली फिल्म मिली सौगंध। उसके एक साल बाद अक्षय की फिल्म खिलाड़ी रिलीज हुई, जिस फिल्म ने सच में अक्षय को बॉलीवुड का खिलाड़ी बना दिया।</div><br><div>\n</div><div>\n</div><div>अब्बास-मस्तान की फिल्म खिलाड़ी अक्षय की पहली सुपरहिट फिल्म थी। इस फिल्म के बाद अक्षय के करियर की गाड़ी चल पड़ी। उसके बाद मैं खिलाड़ी तू अनाड़ी, मोहरा, सबसे बड़ा खिलाड़ी, मिस्टर एंड मिसेज खिलाड़ी, खिलाड़ियों का खिलाड़ी, ‘दिल तो पागल है’ जैसी कई हिट फिल्में आईं।</div><br><div>2000 में अक्षय ने ‘हेरा फेरी’ में एक्टिंग की। इस फिल्म से अक्षय की इमेज एक्शन और रोमाटिंक हीरो से अलग एक कॉमेडियन की भी बन गई। हेरा फेरी की सफलता के बाद उन्होंने कई कॉमेडी फिल्में आवारा पागल दीवाना, मुझसे शादी करोगी, गरम मसाला की। </div><br><div>गरम मसाला के लिए उन्हें सर्वश्रेष्ठ हास्य अभिनेता का अवॉर्ड फिल्मफेयर की तरफ से मिला। 2001 में अक्षय ने फिल्म अजनबी में निगेटिव किरदार निभाया, इस फिल्म के लिए उन्हें फिल्मफेयर का बेस्ट विलेन का अवॉर्ड भी मिला।\n</div><br><div><b>कई हिरोइनों के साथ जुड़ा नाम</b></div><br><div>\n</div><div>\n</div><div>अक्षय कुमार का नाम कई हिरोइनों के साथ भी जुड़ा। रवीना टंडन और शिल्पा शेट्ठी के साथ रिश्तों को लेकर कई खबरें उस दौर के अखबारों और फिल्मी पत्रिकाओं की सुर्खियां बनीं। 2001 में अक्षय ने अभिनेत्री ट्विंकल खन्ना से शादी कर ली।</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_anchor": "content9-28",
           "_cid": "qy5XSrwVe7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page27.html": {
+      "settings": {
+        "meta_descr": "Web Page Generator Description",
+        "title": "Mark Zukerburg",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Mark Zukerburg</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-2j",
+          "_cid": "qyhiRotn44",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/236-2450x1455.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-2k",
+          "_cid": "qyhiRBcA08",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>मार्क जुकरबर्ग का पारिवारिक परिचय</b><br><br><b>\n</b><div>\n</div><div>Mark Zuckerberg मार्क जुकेरबर्ग का जन्म 14 मई 1984 को अमरीका के न्यूयार्क शहर में डाब्स फेरी नामक स्थान पर हुआ था | मार्क जुकेरबर्ग का पूरा नाम मार्क इलिएट जुकेरबर्ग है लेकिन लोग प्यार से उन्हें मार्क कहकर पुकारते है.</div><br><div>मार्क के पिता का नाम एडवर्ड जुकेरबर्ग और माता का नाम करेन केंपर है | मार्क के पिता एडवर्ड जुकेरबर्ग एक Dentist और माता करेन एक Psychiatrist है | मार्क अपने माता-पिता का इकलौता पुत्र था बाकि तीन बहने रेंडी , डोना और अरील्ले है | मार्क के बचपन के बारे में बताने से पहले हम आपको उनके परिवार के बारे में विस्तार से बताना चाहेंगे.</div><br><div>\n</div><div>\n</div><div>Mark Zuckerberg मार्क के दादाजी जैक जुकेरबर्ग एक डाकिया थे जिनका जीवन काफी संघर्ष में बिता था.</div><br><div>मार्क की दादी मरियम ने मार्क के पिता को बड़ी मुश्किलों के दौर में पाला था | जैक हमेशा अपने परिवार को खुश रखने के लिए कुछ न कुछ करते रहते थे | उस समय उनकी आमदनी काफी कम थी भी उनको इलेक्ट्रॉनिक उपकरणों का शौक था.</div><br><div>एक दिन वो अपने घर में कलर टीवी लेकर आ गये जो उस समय के लिए बहुत बड़ी बात हुआ करती थी |मार्क के पिता एडवर्ड उस समय खुशी से झूम उठे थे और कई घंटो तक टीवी देखा करते थे.</div><br><div>\n</div><div>\n</div><div>अब एडवर्ड थोड़े बड़े हुए जो पढ़ाई के साथ साथ अन्य गतिविधियों में भी निपुण थे | एडवर्ड गणित और विज्ञान में बचपन से बहुत होशियार थे और हाई स्कूल के बाद कम्प्यूटर विज्ञान पढना चाहते थे लेकिन उस समय IT का इतना प्रचलन नही था.</div><br><div>इस कारण उनके पिता जैक को Dentist बनाना चाहते थे | अपने पुत्र को Dentist बनाने के लिए उन्होंने एडवर्ड को 1975 में न्यूयार्क के बुकलिन कॉलेज में दाखिला दिलाया जहा से एडवर्ड ने जीवन विज्ञान में स्नातक की उपाधि प्राप्त की.</div><br><div>इसके बाद उच्च शिक्षा के लिए उन्होंने NewYork University of Dentistry में प्रवेश लिया जहा उन्हें Dentist की पढाई की.</div><br><div>\n</div><div>\n</div><div>उसी कॉलेज में एडवर्ड की मुलाक़ात करेन कम्पर स हुयी और कुछ मुलाकातों के बाद ही दोनों ने विवाह कर लिया.</div><br><div>एडवर्ड ने 1978 में Dentist के पढाई पुरी कर ब्रूकलीन में क्लिनिक खोल दिया | अब 1982 में उनके पहली सन्तान रैंडी जकरबर्ग का जन्म हुआ जिससे उनके घर में खुशिया छा गयी.</div><br><div>उसके दो वर्ष बाद ही 1984 में मार्क जकरबर्ग का जन्म हुआ और उसके तीन वर्ष बाद डोना का जन्म हुआ | इस तरह उनका भरा पूरा परिवार हो गया.</div><br><div>एडवर्ड को अपना घर छोटा लगने लगा तो उन्होंने डोब्स फेरी में नये घर का निर्माण करवा दिया | बाद में वही पर उन्होंने अपना क्लिनिक भी लगा लिया.</div><br><br><div><b>मार्क का प्रारभिक जीवन&nbsp;</b></div><div><b><br></b></div><div>\n</div><div>Mark Zuckerberg मार्क बचपन से ही बहुत प्रतिभाशाली थे | वो बचपन से ही अपने पिता के क्लिनिक में उनकी मदद करते थे जिससे उनकी मरीजो के साथ दोस्ती हो गयी थी.</div><br><div>पिता एडवर्ड भी उनको नई तकनीके सिखाया करते थे ताकि वो टेक्नोलॉजी से जुड़े रहे| 1981 में एडवर्ड ने अपना पहला कंप्यूटर खरीदा था जिसके मॉडल का नाम Atari-800 था जिस समय तक मार्क का जन्म भी नही हुआ था.</div><br><div>उस समय में कंप्यूटर होना एक अजूबे की बात हुआ करती थी और एडवर्ड के कम्प्यूटर भी लोग बड़े आश्चर्य से देखा करते .</div><br><div>उसमे उन्होंने इन्टरनेट की भी सुविधा भी करवाई थी जिसकी स्पीड उस समय बहुत कम हुआ करती थी .</div><br><div>1995 में Ardsley Middle School में मार्क का दाखिला कराया गया जो डोब्स बेरे से पांच किमी की दूरी पर था | </div><br><div>उस समय मार्क पांचवी कक्षा में थे जिनको पढाई के साथ साथ कंप्यूटर का ज्ञान भी हो गया था | तीन वर्षो तक उस स्कूल में पढने के बाद 1999 में आठवी कक्षा उत्तीर्ण करने के बाद हाई स्कूल में दाखिला लिया.</div><br><div>उसके बाद स्नातक की परीक्षा Phillip Axeter Academy से ली जहा पर उनका कंप्यूटर का ज्ञान काफी बढ़ गया था | ये एक निजी विश्वविद्यालय था जहा पर मार्क ने बहुत बढ़िया प्रदर्शन किया और मार्क के अध्यापक भी उनकी प्रशंशा किया करते थे.</div><br><div><b>मार्क का कंप्यूटर के प्रति लगाव&nbsp;</b></div><br><div><b><br></b></div><div>\n</div><div>प्राथमिक शिक्षा के साथ साथ मार्क ने कंप्यूटर की शिक्षा भी अपने पिता से ली थी जो उन्हें Basic Program पढ़ाते थे जिसके कारण मार्क ने स्कूल के दिनों से ही programming करना शुरू कर दिया था | </div><br><div>मार्क के पिता को अब लग गया था कि जो वो खुद नही कर पाए वो उनका पुत्र कर पायेगा | जब मार्क 10 साल का था तब मार्क ने पिता ने उसके लिए PC लेकर आये थे और उन्हें Basic प्रोग्राम Atari सिखाया था | </div><br><div>अब उनके पिता ने मार्क की बढ़ती रूचि देखकर उनको C++ की किताब दिलवाई जिससे उन्होंने खुद कंप्यूटर के कई प्रोग्राम बनाये | अब पिता ने मार्क की प्रतिभा को ओर निखारने के लिए डेविड न्यूमैन नामक एक Private tutor रखा जो एक Software Developer था |</div><br><div>\n</div><div>\n</div><div>डेविड खुद भी मार्क की प्रतिभा को देखकर अचम्भित रह गये थे कि इतनी कम उम्र में सीखने की ललक बहुत ज्यादा थी | </div><br><div>1996 में मात्र 12 वर्ष की उम्र में मार्क ने अपने पिता के Hospital के लिए Inter Communication Program नामक सॉफ्टवेर बनाया जिसका नाम जुकनेट रखा था | इसी तकनीक के आधार पर AOL नामक messenger का निर्माण हुआ था | </div><br><div>हाई स्कूल में मार्क ने Synapse Media Player बनाया जो गानों को स्टोर करता था | 12 वी कक्षा में मार्क ने अपने मित्र अन्जेलो के साथ मिलकर Online Mp3 software बनाया जिसके लिए माइक्रोसॉफ्ट ने 9.5 लाख डॉलर की पेशकश की और नौकरी देने की बात की लेकिन पढाई के कारण उन्होंने प्रस्ताव ठुकरा दिया.</div><br><div>\n</div><div>\n</div><div><b>thefacebook.com का निर्माण</b></div><br><div><b>\n</b></div><div>\n</div><div>Phillips Exeter Academy से 12 वी पास कर 2002 में मार्क ने Harward University में प्रवेश ले लिया |</div><br><div> प्रथम वर्ष में उनका कॉलेज में नाम हो गया था और मार्क को Computer Program Developer कहकर पुकारने लगे | </div><br><div>मार्क यहा पर Hostel में अपने साथी kris hujes के साथ रहते थे | यही पर रहते हुए मार्क को सोशल नेटवर्किंग साईट के बारे में पता चला और उनके दिमाग में कुछ नया करने की इच्छा थी | </div><br><div>मार्क ने Facemash और Coursemash जैसी सोशल वेबसाइट से प्रेरणा लेकर thefacebook.com का निर्माण किया जिसको 4 फरवरी 2004 को उन्होंने Live किया | </div><br><div>अब मार्क ने अपने साथियों को इससे जुड़ने को कहा जिससे मात्र 20 दिनों में  thefacebook.com से 6000 Users जुड़ गये.</div><div><br></div><div>\n</div><div><b>thefacebook.com पर विवाद</b></div><br><div><b>\n</b></div><div>\n</div><div>अब मार्क की thefacebook.com पर इस बात का मुकदमा लग गया कि ऊन्होने अपने मित्रो से इस आईडिया को चुराया है.</div><br><div> भारत के दिव्य नरेंद और विन्क्लोव्स ब्रदर्स का ये कहना था कि ये आईडिया उनका था | दिव्य नरेंद का कहना था कि मार्क ने उनके प्रोजेक्ट को चालाकी से हाईजैक कर लिया और TheFacebook.com नाम से रजिस्टर करा लिया.</div><br><div>दिव्य नरेंद ने अदालत में फैसला जीत लिया और मार्क ने हर्जाने के तौर पर 650 लाख डॉलर उनको दिए | फिर भी दिव्य बाजार की कीमत पर हर्जाना मांग रहे थे और दुबारा मुकदमा किया लेकिन इस बार दिव्य हार गये | इस विवाद में चार वर्ष का समय लगा लेकिन बाद में सुलझ ही गया&nbsp;</div><br><div><b>TheFacebook.com से Facebook</b></div><br><div>Mark Zuckerberg मार्क के सहयोगी सीन पार्कर ने TheFacebook.com को Facebook में बदलने का सुझाव दिया और 2005 में इस महत्वपूर्ण बदलाव को अंजाम दिया गया ताकि लोगो को छोटा नाम आसानी से याद रह सके.</div><br><div>2 लाख अमेरिकी डॉलर में मार्क ने ये डोमेन खरीदा.</div><br><div>इ<span style=\"font-size: 1rem;\">सके बाद फेसबुक में धीरे धीर कई बदलाव होते गये और फेसबुक के वर्तमान स्वरुप का निर्माण हुआ.</span></div><br><div>Mark Zuckerberg के जीवन पर The Social Network नामक फिल्म भी बनी है.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2l",
+          "_cid": "qyhiSj1GuP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page28.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "Sundar Pichai",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>सुंदर पिचाई</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-2m",
+          "_cid": "qyhm88x07y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/sundar-pichai-google-ceo-1000x667.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-2n",
+          "_cid": "qyhm8G9zLt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>फर्श पर सोकर पहुंचे अर्श तक</b><br><br>यह कहानी है फर्श पर सोने वाले युवा सुंदर की जो आज गूगल का सीईओ बनकर अर्श पर हैं। सुंदर की कामयाबी की कहानी किसी परिकथा से कम नहीं।\n<br><br><div>वर्ष 1972 में चेन्नई (तब के मद्रास) में जन्मे सुंदर के पिता ब्रिटिश कंपनी जीईसी में इंजीनियर थे। उनका परिवार दो कमरों के एक मकान में रहता था।</div><br><div> \n</div><div>\n</div><div>उसमें सुंदर की पढ़ाई के लिए कोई अलग कमरा नहीं था। इसलिए वे ड्राइंग रूम के फर्श पर अपने छोटे भाई के साथ सोते थे। घर में न तो टेलीविजन था और न ही कार।</div><br><div> \n</div><div>\n</div><div>इससे उनके परिवार की आर्थिक हैसियत का अनुमान लगाया जा सकता है लेकिन इंजीनियर पिता ने बचपन में अपने बेटे के मन में तकनीक के बीज बो दिए।</div><br><div> \n</div><div>\n</div><div>इसलिए तमाम अभाव भी सुंदर के आगे बढ़ने की राह में बाधा नहीं बन सके और महज 17 साल की उम्र में उन्होंने आईआईटी की प्रवेश परीक्षा पास कर खड़गपुर में दाखिला लिया।\n</div><br><div>आईआईटी, खड़गपुर से अपनी इंजीनियरिंग की पढ़ाई (1989-93) के दौरान सुंदर हमेशा अपने बैच के टॉपर रहे।</div><br><div> \n</div><div>\n</div><div>आईआईटी में सुंदर को पढ़ा चुके प्रोफेसर सनत कुमार राय बताते हैं, ‘मेटलर्जिकल एंड मैटेरियल साइंस की पढ़ाई के दौरान भी सुंदर इलेक्ट्रानिक्स के क्षेत्र में विभिन्न विषयों पर काम कर रहे थे।</div><br><div> वह भी उस दौर में जब आईआईटी के पाठ्यक्रम में इलेक्ट्रानिक्स था ही नहीं।‘ तब भी सुंदर का पहला प्यार तो इलेक्ट्रानिक्स ही था।</div><br><div> \n</div><div>\n</div><div>आईआईटी के नेहरू हाल छात्रावास में रहने वाले सुंदर को याद करते हुए प्रोफेसर राय कहते हैं कि सुंदर बेहद सभ्य, विनम्र और मृदुभाषी हैं।</div><br><div> \n</div><div>\n</div><div>वर्ष 1993 में फाइनल परीक्षा में भी अपने बैच में टॉप करने के साथ उन्होंने रजत पदक हासिल किया था। उसके बाद छात्रवृत्ति पाकर आगे की पढ़ाई के लिए वे स्टैनफोर्ड विश्वविद्यालय चले गए।</div><br><div> \n</div><div>\n</div><div>आईआईटी से निकलने के बाद उन्होंने कभी पीछे मुड़ कर नहीं देखा। विभिन्न कंपनियों में काम करते हुए उन्होंने कोई 11 साल पहले गूगल में नौकरी शुरू की थी।</div><br><div> \n</div><div>\n</div><div>पिचाई के सहपाठी और बाद में उनके साथ गूगल में आठ साल तक काम करने वाले सेजार सेनगुप्ता कहते हैं, ‘गूगल में ऐसा एक भी व्यक्ति मिलना मुश्किल है जो सुंदर को पसंद नहीं करता हो या उनसे प्रभावित नहीं हो।</div><br><div> \n</div><div>\n</div><div>उनके एक अन्य सहपाठी पी. सुब्रमण्यम बताते हैं, ‘सुंदर के चेहरे पर हमेशा मुस्कान रहती और हमलोग मजाक में उसे किताबी कीड़ा कहते थे।‘</div><br><div><b>माता-पिता को दिया ये तोहफा</b></div><br><div>गूगल का सीईओ चुने जाने के बाद अब सुंदर पिचाई का नाम भले लोगों की जुबान पर है लेकिन यह बहुत कम लोगों को पता है कि आईआईटी में पढ़ाई के दौरान सभी उनको पी. सुंदरराजन के नाम से जानते थे।</div><br><div> \n</div><div>\n</div><div>दो कमरों के मकान से निकल कर दुनिया की सबसे प्रमुख तकनीकी कंपनी के सीईओ तक का सुंदर का सफर किसी परीकथा से कम आकर्षक नहीं। अब हाल में उन्होंने चेन्नई में अपने माता-पिता के लिए करोड़ों की लागत वाला एक मकान खरीदा है।\n</div><div><br></div><div><b>आईआईटी खड़गपुर की हस्तियां\n</b></div><div><br></div><div>आईआईटी खड़गपुर के मेटलर्जी विभाग से सुंदर की सफलता से पहले लंबे समय तक आईबीएम की रिसर्च डिवीजन के प्रमुख रहे प्रवीण चौधरी और वोडाफोन के सीआईओ रहे अरुण सरीन भी शामिल हैं।</div><br><div> \n</div><div>\n</div><div>गूगल का सीईओ बनने से पहले माइक्रोसाफ्ट के सीआईओ बनने की रेस में भी पिचाई का नाम शामिल था लेकिन बाद में उनकी जगह सत्य नडेला को चुना गया।</div><br><div> \n</div><div>\n</div><div>बीच में ट्विटर ने भी उनको अपने पाले में करने का प्रयास किया था लेकिन जानकारों के मुताबिक, गूगल ने 10 से 50 लाख मिलियन डालर का बोनस देकर उनको कंपनी में बने रहने पर सहमत कर लिया।&nbsp;</div><br><div><b>पिचाई के बारे में ये खास बातें</b></div><br><div><b>जाने जाते हैं</b></div><br><div><b>\n</b></div><div>अच्छे क्रिकेटर : हाई स्कूल क्रिकेट टीम में कप्तानी करते हुए तमिलनाडु राज्य का क्षेत्रीय टूर्नामेंट जीता</div><br><div>\n</div><div>सम्मान मिले : पिचाई को साइबल स्कॉलर और पामर स्कॉलर उपाधियों से सम्मानित किया जा चुका है</div><br><div>\n</div><div>मजबूत पेशेवर : कंसल्टेंट कंपनी मैकिन्जी में कई साल काम किया, 2004 में गूगल सर्च ज्वाइन की</div><br><div>\n</div><div>\n</div><div><b>माने जाते हैं</b></div><br><div><b>\n</b></div><div>तेज याददाश्त : करीबी लोग 1984 के भूले हुए टेलीफोन नंबर पूछते हैं तो सुंदर आज भी बता देते हैं</div><br><div>\n</div><div>मृदुभाषी : अमेरिकी मीडिया में उन्हें मृदुभाषी, कम मशहूर और लैरी पेज के दाएं हाथ के रूप में बताया</div><br><div>\n</div><div>टीम समर्पण : मरिसा मेयर के साथ काम करते वक्त टीम के प्रति समर्पण दिखाया और खुद को साबित किया</div><br><div>\n</div><div>जबरदस्त प्रतिभा : प्रसिद्ध अमेरिकी कंपनी रबा इंक ने उन्हें सलाहकार बोर्ड में बतौर सदस्य मनोनीत किया</div><br><div>\n</div><div>\n</div><div><b>पहचाने जाते हैं</b></div><br><div><b>\n</b></div><div>क्रोम लांच किया : क्रोम वेब ब्राउजर लांच किया और साल भर में वेब बेस्ड क्रोम ओएस भी नेटबुक्स के लिए लांच किया</div><br><div>\n</div><div>गूगल एप्स व एंड्रायड संभाला : 2012 में गूगल एप्स को संभाला और साल भर में एंड्रायड का पदभार भी संभाल लिया</div><br><div>\n</div><div>स्मरणीय कार्य : जीमेल, गूगल मैप एप्स बनाए, गूगल के सभी उत्पादों के लिए एंड्रायड एप भी तैयार किए \n</div><div><br></div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2o",
+          "_cid": "qyhm90go0K",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page29.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Quotes",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>अगर आपको ये quotes किसी को भेजना हे तो उसके ऊपर long press करिये&nbsp;<br><br><br>1. \"वो क्या सोचेगा…ये मत सोचो…वो भी यही सोच रहा है. एक समय लोग मुझसे कहते थे …ये ले दस रुपये और मेरी photo खींच दे …अगर मैं यही सोचता कि लोग क्या कहेंगे तो मैं आज यहाँ नहीं होता.. दुनिया का सबसे बड़ा रोग क्या कहेंगे लोग! \" - Sandeep Maheshwari<br><br>2. \" जो मन करे करो खुल के करो क्योंकि ये दिन दुबारा नही आने वाला।<br><br>3. \" इससे फर्क नहीं पड़ता कि आप क्या सोचते हैं, आप क्या बोलते हैं, आप क्या सुनते हैं, फर्क इससे पड़ता है कि आप क्या मानते हैं… क्योंकि जो आप मानते हैं आज नहीं तो कल आप वो बन जाते हैं.<br><br>4. \" बुरा मत देखो बुरा मत बोलो बुरा मत सुनो… ये नहीं बोलना है इसकी जगह बोलो… अच्छा देखो, अच्छा बोलो अच्छा सुनो.<br><br>5. \" आप इसे पसंद करें या नहीं, आप इसे स्‍वीकार करें या नहीं, आप इसमें विश्‍वास करें या नहीं…लेकिन आपकी जिन्‍दगी वैसी ही है जैसी कि आपने अपने लिए चुनी है।<br><br>6. \"बिना सोचे काम करना और बिना कुछ काम किये सोचते रहना…100% असफलता देता है।<br><br>7 . \" जो कुछ भी करो एक जूनुन के साथ करो वरना मत करो।<br><br>8. \" अरे जो सोये हुए हो…. डरे हुए हो…. बैठे हुए हो….. उठो खड़े हो, आगे बढ़ो जो करना है करो…. कोई काम छोटा या बड़ा नहीं होता…. ओटो चलाना पड़े चलाओ… टैक्सी चलानी पड़े चलाओ ना…. क्या बुराई है खाली क्यों बैठना है।<br><br>9. \" जब desire को choose करना ही है… तो बड़े से बड़ा choose करो ना….. बड़े से बड़ा…… दुनिया का सबसे बड़ा।<br><br>10. \" &nbsp;सीखते रहना है जो सीख रहा है वो जिंदा है जिसने सीखना बंद कर दिया… वो जिंदा लाश है।<br><br>11. \" जब भी कोई व्यक्ति आपको यह कहे कि, “आप यह नहीं कर सकते”, तो वो बस इतना ही कहना चाहता है कि – “मैं यह नहीं कर सकता।”<br><br>12. \"लोग कहते हैं इस बिजनेस में क्या पड़ा है….इस नौकरी में क्या पड़ा है…..तो मैं बता दूँ कि किसी भी बिजेनस में…किसी भी करियर में कुछ पड़ा नहीं होता है….आपको कोई सोने की खान मिलने वाली नहीं है कहीं से भी…खोदनी पड़ती है!<br><br>13 &nbsp;.\"Mediocrity बड़ी खतरनाक जगह है हम यहीं पर अटके रह जाते हैं…हम ऊपर वालों को देखकर जलते रहते हैं और नीचे वालों को देखकर खुश होते रहते हैं!<br><br>14. \"हर करीयर में ऊपर कहाँ तक जाया जा सकता है इसकी कोई लिमिट नहीं है…<br><br>15. \"जहाँ पर आपकी थिंकिंग जाती है जहाँ पर आपकी नज़र जाती है वैसे ही आप बनने लग जाते हो…<br><br>16. &nbsp;\"पहली बार अगर आपने लाइफ में कोई भी गलती की है तो वो गलती नहीं है…लेकिन अगर उसी को आप बार-बार कर रहे हो तो ये गलती है।<br><br>17. &nbsp;\"गलतियाँ करो but learn from it….सही काम करो पर उसमे चिपके मत रहो…कुछ अच्छा करके अपनी ईगो को मत बढाओ…grow out of it ….क्या फरक पड़ता है…<br><br>18. \"जब हम किसी और को सलाह दे रहे होते हैं तो बड़ी अच्छी सलाह देते हैं लकिन जब हम खुद ही उस सिचुएशन में होते हैं तो बेवकूफों की तरह एक्ट करते हैं!\"<div>\n</div><div><br><br>19. \"जैसे आज से दस साल पहेल ज़िन्दगी जी रहे थे वैसे ही जी रहे हैं….eat sleep repeat…eat sleep reapeat…. क्या मजा है! Next level पे जाओ।<br><br>20 \" आप चाहो भी तो भी ज़िन्दगी के खले में आउट नहीं हो सकते ….तब तक जब तक कि आप खुद मैदान को छोड़ कर भाग नहीं जाते! दुनिया की कोई ताकत आपको हरा नहीं सकती अगर आप पिच पर डंटे रहो…\n \"</div><div>सं<br><br>21. “कर्म क्या है कि मन में जो गलत चीजे आ रही है वह पर जा करके अपने आप को रोकना यह सही कर्म है, और अगर मन में कुछ सही आ रहा है उस पर टिके रहना, हर हालत में टिके रहना यह कर्म है.”<br><br>\n<div>\n</div><div>22. “एक तरह है जो आप करना चाहते हो, जो आप बनना चाहते हो, जो आप पाना चाहते हो और दूसरी तरह है जो ये दुनिया आपसे करवाना चाहती है.”</div><br><div>\n</div><div>\n</div><div>23. “फ़ैल होने के बाद भी मेरे अन्दर यह हिम्मत है कि मैं आगे बढ़ता रहूगा, मैं हार नहीं मान रहा. तो अगर इतनी बुरी स्थिति से जब में ऊपर उठुगा, तो मैं क्या उठुगा.”</div><br><div>\n</div><div>\n</div><div>24. ज़िन्दगी में कभी भी कुछ करना है तो सच बोल दो, घुमा-फिरा के बात मत करो।</div><div><br></div><div>\n</div><div>\n</div><div>25. “जब को भी व्यक्ति आपको यह कहे कि आप यह नहीं कर सकते, तो वो बस इतना सा कहना चाहता है कि क्योंकि मैं यह नहीं कर सकता.”</div><br><div>\n</div><div>\n</div><div>26. “यह जिंदगी एक के बाद एक बॉल के रूप में अवसर देती है, अगर अवसर छुट जाये यानी बॉल छुट जाये तो हमारा ध्यान दूसरी बॉल पर होना चाहिए.”</div><br><div>\n</div><div>\n</div><div>27. “मैं सब सेमिनार फ्री में करता हूँ, बस जिस दिन आप जिंदगी में आगे बढ़ जाओ तो भूके का पेट भर देता मेरे पैसे मुझे मिल जाएगे.”</div><br><div>\n</div><div>\n</div><div>28. “हर एक के अन्दर कोई न कोई शक्ति है, जो इस पूरी दुनिया में किसी में नहीं है, बस तुम्हे उस शक्ति को जानना है.”</div><br><div>\n</div><div>\n</div><div>29. “आपकी will power के आगे दुनिया की कोई भी ताकत टिक नहीं सकती.”</div><br><div>\n</div><div>\n</div><div>30. “जब आपके अन्दर आ जाये की मुझे यह करना है, कितनी भी मुश्किले आने दो मुझे करना है तब पता होगा की अगर मैं यह कर सकता हु, तो मैं यह भी कर सकता, मैं यह भी कर सकता वो भी कर सकता हूँ मैं सब कर सकता हूँ.”</div><br><div>\n</div><div>\n</div><div>31. “कभी भी खाली मत बैठो, उस वक्त में वो भी सिख लो जिससे आपके करियर का सम्बन्ध नहीं है तब भी वो टाइम पास करने के लाख गुना बहतर होगा”</div><br><div>\n</div><div>\n</div><div>32. “हर रोज अपने आप से यह सवाल करो की अभी मैं क्या सिख रहा हु, और इस तरह से हर वक्त सिखने की अपनी आदत बना लो”</div><br><div>\n</div><div>\n</div><div>33. “ज्ञान को बढ़ा कर कभी भी अपना अहंकार नहीं बढ़ाये, यदि ऐसा करते हो तो तुम्हारी सिखने की उम्र ख़तम हो जाएगी”</div><br><div>\n</div><div>\n</div><div>34.</div><br><div> \n</div><div>\n</div><div>35. “अपने आप अपने फील्ड में सबसे महान समझे, दुसरे क्या सोचते है वो कोई matter नहीं करता”</div><div><br></div><div>\n</div><div>\n</div><div>36. “यह महत्व नहीं रखता है की आप बहार से लोगो को क्या बोल रहे हो, महत्व रखता है कि आप अपने आप को अन्दर ही अन्दर क्या समझते हो”</div><br><div>\n</div><div>\n</div><div>37. “खाली कभी मत बैठो हर वक्त कुछ न कुछ सीखते रहो, और 24 घंटे सीखते रहो इस तरह से चलने से चलने से आप आने वाले टाइम में लोग आपको कहेगे कि आप बहुत बदल गया तब आप सक्सेसफुल बन जाओगे”</div><br><div>\n</div><div>\n</div><div>38. “सीसे में आप अपने आप को देख रहे हो और अपने आप को जो समझ रहे हो वैसा ही आप बन रहे है क्योंकि जैसा आप सोचते हो वैसे ही आप एक्शन लेते हो और वैसे ही आप बन जाते हो, उसी लेवल का कॉन्फिडेंस आपकी आखो में नज़र आएगा.”</div><br><div>\n</div><div>\n</div><div>39. “एक है आपको एनर्जी लगानी पढ़ रही है और एक है आपके अन्दर से एनर्जी निकल कर के बाहर आ रही है, दोनों में जमीन आसमान का फर्क है”</div><br><div>\n</div><div>\n</div><div>40. “इस दुनिया में ग्रेटेस्ट व्यक्ति वो है जो अपने काम में पूरा 100% लगा देता है.”</div><br><div>\n</div><div>\n</div><div>41. “कोशिश करो की अपने काम को इतनी हद आगे तक लेकर के जाओ की उस हद तक आज तक किसी ने न लाया और आगे भी किसी को लाने में बहुत जोर लगाना पड़े”</div><br><div>\n</div><div>\n</div><div>42. “आप खुद को अपनी नज़र से नहीं देख रहे, दुनिया की नज़र से देख रहे, वो जो बोल रहे है वो आप मान रहे हो, एक बार आप अपने आप को खुदकी नज़र से देखो तभी आप जान पाओगे की आप एक्चुअल में क्या हो”</div><br><div>\n</div><div>\n</div><div>43. “दुनिया आपको चढाएगी और कभी गिराएगी, दुनिया का काम ही यही है, बस आपको इन सब बातो का कोई भी फर्क नहीं होना चाहिए”</div><br><div>\n</div><div>\n</div><div>44. “अगर खुद आप अपनी नज़र में ग्रेटेस्ट बन गए, तो आपके जो एक्शन होगे आप जिस तरह से बोल रहे होगे, आपके साथ में जो लोग होगे उनको कुछ अलग ही नज़र आएगा, वो आपके साथ में मैगनेट की तरह चिपक जायेगे.”</div><br><div>\n</div><div>\n</div><div>45. “आप बिज़नस कर रहे हो, आप खुद ही Excited नहीं हो अन्दर से, तो दुसरे जो आपके साथ में जुड़े है आपके टीम मेम्बर कैसे Excited हो सकते है”</div><br><div>\n</div><div>\n</div><div>46. “या तो किसी बड़े छाते के निचे खड़े हो जाओ और खुद ही वो छाता बन जाओ यानी खुद पावरफुल बन जाओ”</div><br><div>\n</div><div>\n</div><div>47. “कोई भी किसी से कम नहीं है, जैसा वो सोच रहा होता है वैसा ही वो बन रहा होता है.”</div><br><div>\n</div><div>\n</div><div>48. “आप कोई पैसा manufacturing करने वाली मशीन नहीं हो जो पुरे दिन 6-7 घंटे काम करके महीने के कुछ अमाउंट में पैसे बनाते हो, आप एक इन्सान और इन्सान सोच कर कुछ नया करने की काबिलियत रखता है”\n</div><div>\n</div><div>49. “सच कहू तो मुझे कभी भी डर नहीं लगता क्योंकि मैं यह मानता हूँ की I am the great”\n</div><div>\n</div><div>50. “जब आप किसी इन्सान के साथ में कोई भी कोर्स शुरू करते है, और कुछ सालो बाद आपका दोस्त कहा का कहा पहुच गया आप वही के वही रह गए, तो ऐसी स्थिति में बजाये जलने के उस दोस्त के जानने की कोशिश करे की ऐसा क्या वो जनता है जो आप सिखने से रह गए ”</div><br><div>\n</div><div>\n</div><div>51. “यह बात अच्छी तरह से समझ लो कि आपका किसी भी इन्सान के अन्दर जिस भी आदत पर ध्यान जाता है आप वैसे ही बनते जाते हो.”</div><br><div>\n</div><div>\n</div><div>52. “जब भी आप किसी और की बुराई देखते हो तो आप खुद बुरे बन रहे हो, हम वही देखते है जो हम है, अन्दर से किसी अन्दर बहुत सारी कमिया होगी तो उसे दुसरे में सिर्फ कमिय ही नज़र आएगी, अन्दर से कोई बहुत खुश होगा तो उसे दुसरो के अन्दर की ख़ुशी नज़र आएगी, हर इन्सान में अच्छाई भी है और बुराई भी, चॉइस हमारे हाथ में है की हम क्या देखते है.”</div><br><div>\n</div><div>\n</div><div>53. “आपको हमेशा खुश रहना है, अब सवाल यह उठता है कि खुश कैसे रहे, जब भी आप लाइफ को पॉजिटिव साइड से देखते हो आप खुश होते हो और जब भी आप लाइफ को नेगेटिव साइड से देखत हो आप दुखी होते हो.”</div><br><div>\n</div><div>\n</div><div>54. “सही ट्रैक क्या है? हर सिचुएशन की पॉजिटिव साइड  को देखना ही सही ट्रैक है.”</div><br><div>\n</div><div>\n</div><div>55. “इस दुनिया में असफल इन्सान से भी सीखे और सफल इन्सान से भी, असफल व्यक्ति से उसके असफल होने का और सफल व्यक्ति से उसके सफल होने का कारण.”</div><br><div>\n</div><div>\n</div><div>56. “अपनी सोच का जो सेण्टर पॉइंट है वो यह रखो कि क्या कुछ ऐसा हो सकता है कि मेरी लाइफ में चाहे कुछ भी हो जाये लेकिन दुःख न हो सिर्फ खुशिया हो, मैं कहता हूँ हां ऐसा हो सकता है, उसके लिए आपको हाइपर एक्टिव बनना होगा यानी हर वक्त प्रेजेंट मोमेंट में जी कर कुछ न कुछ सीखना होगा बजाये हर वक्त दिमाग में कुछ न कुछ सोचने के”</div><br><div>\n</div><div>\n</div><div>57. “अपने अन्दर यूनिकनेस को डेवेलोप करो इससे क्या होगा कि धीरे-धीरे आपकी यह आदत बन जाएगी, जो फॉलो करने की आदत है वो बदल कर बन जाएगी अपने अन्दर की आवाज को सुन कर के कुछ नया करने की”</div><br><div>\n</div><div>\n</div><div>58. “जब लोग आपको कहे की आप यह नहीं कर सकते तो ना हमें चुप रहना है ना हमें लड़ना है, बस सवाल करना है कि मैं यह क्यों नहीं कर सकता? फिर देखो उसके कैसे पत्ते खुलते है.”</div><br><div>\n</div><div>\n</div><div>59. “हिस्ट्री को उठा कर के देख लो आप पाओगे की जितने भी कामयाब लोग हुए है उनके पास में दुसरो से ज्यादा जवाब नहीं बल्कि दुसरो से ज्यादा अच्छे सवाल हुए है.”</div><br><div>\n</div><div>\n</div><div>60. “अपने आप से मुकाबला करते जाओ, वहा कोई भी रिस्क नहीं है, हारे तब भी आपकी जीत है और जीते तब भी.”</div><br><div>\n</div><div>\n</div><div>61. “जिसको सवाल करने की आदत है वो चाहे किसी भी फ़ील्ड में जाएगा वो कामयाब हो जाएगा.”</div><br><div>\n</div><div>\n</div><div>62. “2 इंजिनियर है, एक है जो सिर्फ रट्टा मार रहा है, एक है जो इस फंडे को समझ रहा है, जिसको फंडा समझ आ गया वो किसी भी प्रॉब्लम को ठीक कर सकता है लेकिन जिसने रट्टा मारा वो केवल एक ही प्रॉब्लम को ठीक कर सकता है.”</div><br><div>\n</div><div>\n</div><div>63. “2 तरह की चॉइस है आपके पास में,  कि मुझे जिंदगी को काटना है या मुझे जिंदगी को जीना है.”</div><br><div>\n</div><div>\n</div><div>64. “मेरी inspiration क्या है, वही जो मेरे 12 स्टैण्डर्ड में आई थी कि मुझे कुछ करना है आज उस दिन को कई साल हो गए लेकिन ये अब तक गई नहीं”</div><br><div>\n</div><div>\n</div><div>65. “टैलेंट की अपनी एक लिमिट है, goal setting की अपनी एक लिमिट है, मोटिवेशन जो की बाहर से अन्दर की तरफ आ आता है उसकी एक लिमिट है लेकिन inspiration जो अन्दर से बाहर की तरफ जा रहा है न उसकी कोई लिमिट नहीं है.”</div><br><div>\n</div><div>\n</div><div>66. “बाकि सब मर जाता है लेकिन वो inspiration नहीं मरती, वो अन्दर ही अन्दर जलती रहती है.”</div><br><div>\n</div><div>\n</div><div>67. “खाना जब तक आप पेट की भूख को मिटाने के लिए खा रहे हो तब तक वो अमृत है, और अगर खाना आप मन की भूख को मिटाने के लिए खा रहे हो तो वो जहर है.”</div><br><div>\n</div><div>\n</div><div>68. “एक तरफ है मज़ा, और एक तरफ है दर्द, इन दोनों के बिच में बैलेंस बनाना है.”</div><br><div>\n</div><div>\n</div><div>69. “इस दुनिया में डिजायर से बड़ी निर्माणकारी पॉवर और कोई नहीं है.”</div><br><div>\n</div><div>\n</div><div>70.”सब कुछ बदला जा सकता है, अपनी जिंदगी में भी और पूरी दुनिया में भी, इस पूरी की पूरी दुनिया को नई डायरेक्शन दी जा सकती है उस डिजायर की वजह से अगर यह डिजायर सही डायरेक्शन में है तो, यही डिजायर अगर गलत डायरेक्शन में चली जाये तो इससे बड़ी विनाशकारी पॉवर भी इस पूरा दुनिया में कही नहीं”</div><br><div>\n</div><div>\n</div><div>71. “कर्म है बहना, ज्ञान है यह जनना कि चाहे लेहर है या नहीं है मैं लेहर नहीं हूँ, बुलबला है या नहीं है मैं बुलबुला नहीं हूँ, मैं पानी हूँ”</div><br><div>\n</div><div>\n</div><div>72.  “आप चाहे जॉब करो, चाहे बिज़नस करो, एक स्किल ऐसी है जो आपके अन्दर होनी ही चाहिए, उसके बिना आप लाइफ में आगे नहीं बढ़ सकते, वो है कम्युनिकेशन स्किल”</div><br><div>\n</div><div>\n</div><div>73. “जितना आप बुराई को देखोगे उतना दुखी होगे, और जितना आप दुखी होगे उतने ही दुसरो को दुखी करोगे.”</div><br><div> \n</div><div>\n</div><div>74. “जितना आप प्रकति से जुड़ते जाओगे, उतना अच्छा एहसास करोगे.”</div><br><div> \n</div><div>\n</div><div>75. “आप किसी भी लूज़र के पास चले जाओ उसके पास लिस्ट होगी बहनों की, कि मैं इस वजह से फ़ैल हुआ अपनी लाइफ में, इस वजह से में कुछ नहीं कर पाया, बहुत लम्बी लिस्ट है, और दूसरी तरफ विनर के पास चले जाओ उसके पास में हजार वजह होगी ना करने की जो वो करना चाहता है सिर्फ एक वजह होगी वो करने की जो वो करना चाहता है और वो कर जाएगा.”</div><br><div> \n</div><div>\n</div><div>76. “इस दुनिया में सबसे बड़ी पॉवर डिजायर है क्योंकि यह डिजायर ही है जो हमारे मन को इधर उधर भटका रहा है.”</div><br><div> \n</div><div>\n</div><div>77. “अगर इस दुनिया से आप डिजायर निकल दो लोगो के दिलो में से, क्या होगा? सब कुछ रुक जाएगा एक दिन के अन्दर-अन्दर.”</div><br><div> \n</div><div>\n</div><div>78. “जिस भी तरह के डिजायर आपके अन्दर दबे हुए है, उसी तरह की सोच है.”</div><br><div> \n</div><div>\n</div><div>79. “एक इन्सान है जिसका डिजायर ही इतना सा है कि किसी भी तरह से 10 हजार रूपए की नौकरी मिल जाये बस, किस तरह के विचार होगे उसके, किस लेवल का एक्शन होगा उसका, क्या वो बहुत लेवल पर एक्ट करेगा? उसकी सोच उस 10 हजार रूपए से आगे बढ़ ही नहीं सकती, और 10 हजार का अगर 11 हजार रूपए मिल गए तो बल्ले-बल्ले करेगा वो बैठ कर के. ”</div><br><div> \n</div><div>\n</div><div>80. “आपके जीने की वजह बहुत बड़ी होनी चाहिए, अगर वो बड़ी है तो वो अपने आप ही आपसे बड़े-बड़े काम करवाते चली जाएगी.”</div><br><div> \n</div><div>\n</div><div>81. “जैसे-जैसे आपके अन्दर यह डिजायर पनपेगा कि कुछ अच्छा करना है इस दुनिया के लिए, तो वो कब कर पिओगे? जब आप अन्दर से स्ट्रोंग हो, वो सिर्फ तब कर सकते हो जब पूरी तरह से यह डिजायर आपके ऊपर हावी हो जाये कि मर जाउगा, कट जाऊँगा, इस दुनिया के अन्दर अँधेरा है न, खुद को जला दूंगा तपा दूंगा लेकिन रौशनी कर जाऊँगा.”</div><br><div> \n</div><div>\n</div><div>82. “तप क्या है? तप वो है कि ऐसा काम करना जो इस समय इस दुनिया में मानवता के लिए, इस पूरी दुनिया के लिए करना जरुरी है, उसमे आपको चाहे कितना भी दर्द हो रहा है, अगर आप वो कर रहे हो तो तप है नहीं तो अगर आप अपने सेल्फिश इंटरेस्ट के लिए कर रहे हो तो वो तप नहीं ढोंग है.”</div><br><div> \n</div><div>\n</div><div>83. “आप चाहे डॉक्टर, बनने वाले हो, इंजिनियर बनने वाले हो, उस हद तक अपने काम में एफर्ट दाल दो जितना आज तक पूरी दुनिया में किसी ने नहीं लगाया हो.”</div><br><div>\n</div><div>\n</div><div>84. “मैं आप सब लोगो को strongly recommend करता हूँ, इतना strongly recommend मैंने आज तक कभी नहीं किया कि डॉ. एपीजे अब्दुल कलाम स्टूडेंट के लिए उनसे बड़ी Inspiration इस पूरी दुनिया में कोई नहीं है”</div><br><div> \n</div><div>\n</div><div>85. “दुनिया को आप तब तक नहीं बदल सकते जब तक आप खुद को नहीं बदलोंगे”</div><br><div> \n</div><div>\n</div><div>86. “एक बार अन्दर यह पनप गया न कि मुझे भी कुछ ऐसा करना है यार, कुछ तो करना है, हौसला बनना है दुनिया के लिए चाहे कुछ लोग ही मेरे को देख कर के inspire हो, कुछ तो करना है, ऐसे ही थोड़ी आया और चला गया क्या है?, कुछ करना है.”</div><br><div> \n</div><div>\n</div><div>87. “अरे जो सोये हुए हो, डरे हुए हो, बैठे हुए हो उठो, खड़े हो आगे बढ़ो.”</div><br><div> \n</div><div>\n</div><div>88. “अगर आपको यह क्लियर हो गया कि मुझे इस प्रॉब्लम का सलूशन निकलना है तो सलूशन खुद चल कर के आपके पास आता है, प्रॉब्लम में ही सलूशन होता है”</div><br><div> \n</div><div>\n</div><div>89. “प्रॉब्लम में ही सलूशन छुपा होता है, हर बीमारी का इलाज कही बाहर नहीं होता है, उसी बीमारी में होता है, जैसे ही उस बीमारी का कारण समझ आता है, वही पर उसका इलाज छुपा होता है.”</div><br><div> \n</div><div>\n</div><div>90. “सक्सेस मिलता है फेलियर मिलता है, क्या फर्क पड़ता है, पैसा आता है जाता है क्या फर्क पड़ता है, पिछले हजारो लाखो करोड़ो सालो में देखलो मेरे को एक भी ऐसा इन्सान दिखा दो जिसने कुछ पैसा कमाया हो या कोई चीज बनाई हो और अभी भी वो जिन्दा हो, चाहे वो चीज या इन्सान हो, न चीज रहती है न इन्सान रहता है, न यह बॉडी रहती है.”</div><br><div>\n</div><div>\n</div><div>91. “जिंदगी में कभी कुछ करना है तो सच बोल दो.”</div><br><div> \n</div><div>\n</div><div>92. “ये दुनिया बदलेगी, क्योंकि यह भी होना आसान है.”</div><br><div> \n</div><div>\n</div><div>93. “मेरे सारे सेशन का सार बहार की दुनिया से नहीं, अन्दर की दुनिया से कैसे लड़ना है.”</div><br><div> \n</div><div>\n</div><div>94. “अगर आपके अन्दर धेर्य है तो अपनी जिंदगी का हर फ़ेसला सही तरीके से ले सकते हो.”</div><br><div> \n</div><div>\n</div><div>95. “विडियो गेम खेलते है हम, उसमे क्या पहले ही दिन में जब आप खेल रहे होते हो आप एक्सपर्ट हो जाते हो, पहले ही लेवल से 10वे लेवल पर पहुच जाते हो, नहीं पहुचते आप गेम में बार-बार गिरते हो, फिर पहले लेवल से शुरू करते है ऐसे करके बेटर करते जाते हो, और आखिर में 10वे लेवल पर पहुच जाते हो, उसी तरह गेम और जिंदगी में केवल एक ही फर्क है कि गेम में एक एंड आ जाता है लेकिन जिंदगी मे कोई एंड नहीं है आगे बढ़ते रहो.”</div><br><div> \n</div><div>\n</div><div>96. “मैं यह नहीं कहता कि एजुकेशन इम्पोर्टेन्ट नहीं है, एजुकेशन बहुत इम्पोर्टेन्ट है, उसके बिना आप servive भी नहीं कर सकते दुनिया के अन्दर, मतलब कि जिंदगी को काटने के लिए एजुकेशन इम्पोर्टेन्ट है लेकिन जिंदगी जीने से इसका दूर-दूर तक कोई कनेक्शन नहीं है.”</div><br><div>\n</div><div>\n</div><div>97. “बिज़नस में और चेस में ज्यादा फर्क नहीं है.”</div><br><div> \n</div><div>\n</div><div>98. “एक बार आपका learning attitude बन गया, फिर पैसा तो क्या है कितना भी कमा लो, अपक कोई नहीं रोक सकता.”</div><br><div>\n</div><div>\n</div><div>99. “हमेशा कुछ न कुछ सिखने के रास्ते पर अगर आप चलोगे, तो चलते-चलते आपको पता भी नहीं लगेगा, और सच बता रहा हु पता भी नहीं लगेगा कि कब आप लोग नार्मल इन्सान से सुपर इन्सान बन जाओगे.”</div><br><div>\n</div><div>\n</div><div>100. “इस दुनिया में मैजिक नाम की कोई चीज नहीं है, सिर्फ खेल है”</div><br><div>\n</div><div>\n</div><div>101. “अगर में आपका सर किसी पानी से भरे ड्रम में मुह पकड कर उसके अन्दर कर दू, तो आप अपने आप को बचाने के लिए पूरी एनर्जी लगा डोंगे क्योंकि प्रॉब्लम बड़ी है, तो जितनी बड़ी प्रॉब्लम उतनी बड़ी एनर्जी”</div><br><div>\n</div><div>\n</div><div>102. “आपकी जिंदगी के बारे में सबसे अच्छा आपके पेरेंट्स के अलवा कोई नहीं सोच सकता.”</div><br><div>\n</div><div>\n</div><div>103. “हमें यह सोच बदलनी होगी कि अगर यह मेरा जो बच्चा है, उसका इन टॉप कॉलेज में एडमिशन हुआ तो इसका मतलब अच्छा है, उसकी लाइफ बन गई और अगर नहीं होता तो उसकी लाइफ बिगड़ गई.”</div><br><div> \n</div><div>\n</div><div>104. “स्टूडेंट के सुसाइड का कारण है की उन्हें यह समझा दिया गया है कि अगर टॉप कॉलेज नहीं मिली तो इसके अलावा सक्सेस होने का और कोई रास्ता है ही नहीं.”</div><br><div> \n</div><div>\n</div><div>105. “कई लोग यह सोच कर के सुसाइड कर लेते है कि इस दुनिया में अच्छी कॉलेज में एडमिशन वाला स्टूडेंट ही सक्सेस हो सकता है, यह बकवास सोच है क्योंकि में आपको ऐसे उदहारण इंडिया में दिखा सकता हु जो बड़ी कॉलेज से नहीं पढ़े और आज बहुत सक्सेसफुल है, यहाँ तक कि इन बड़ी कॉलेज से जो निकले है वो इनके लिए काम करते है.”</div><br><div>\n</div><div>\n</div><div>106. “अगर आपको लगता है कि आपका दिमाग पढाई में सही से नहीं कर सकता, आपकी रूचि नहीं है, आपकी रूचि बिज़नस में है तो बिज़नस ही करे और अगर आपको लगता है कि पढने में आपको मज़ा आता है केवल दिखने के लिए नहीं बल्कि आपकी रूचि है तो आपके लिए पढाई करने के अलवा और कोई बेटर आप्शन हो ही नहीं सकता”</div><br><div>\n</div><div>\n</div><div>107. “जिसमे रूचि है वो करो, जब आपको पता है कि इस रेस में आप जरुर हारेंगे तो उस रेस में भाग ही क्यों ले.”</div><br><div>\n</div><div>\n</div><div>108. “आज की date में इंडिया में इतनी opportunities है जिसकी कोई हद नहीं, बस यह सोच चाहिए कि जहा सारे लोग का ध्यान है वहा आपका नहीं होना चाहिए”</div><br><div>\n</div><div>\n</div><div>109. “आप वो कम कर रहे हो जिसमे आपकी weakness है और आपके competitors की strength है, तो आप हारेंगे ही हारेंगे, तो अच्छा होगा अपने strength के according ही काम करो”</div><br><div>\n</div><div>\n</div><div>110. “जरा इन्टरनेट पर लोगो के बारे में पढो, ऐसे-ऐसे लोग मिल जायेंगे जिनको स्कूल में घुसने तक का माना कर दिया था पर आज वही लोग हिस्ट्री बदल गये, और आप ऐसे स्टूडेंट हो कि केवल अच्छी कॉलेज न मिलने से दुखी हो रहे हो.”</div><br><div>\n</div><div>\n</div><div>111. “पूरी दुनिया को लग रहा था आप हार मान जाओगे, पूरी दुनिया को लग रहा था आप फ़ैल हो जाओगे, पूरी दुनिया को लग रहा था आप किसी काम के नहीं हो और फिर भी आप कुछ ऐसा कर जाओ कि पूरी की पूरी दुनिया के लिए, सिर्फ अपनी फॅमिली के लिए नहीं, अपने फ्रेंड्स के लिए नहीं, इस पूरी दुनिया के लिए एक inspiration बन जाओ, उसको सक्सेस बोलते है.”&nbsp;</div></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2w",
+          "_cid": "qyiNFdCJJG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page30.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Videos",
+        "order": 3
+      },
+      "components": []
+    },
+    "page31.html": {
+      "settings": {
+        "meta_descr": "Website Generator Description",
+        "title": "Sandeep Maheshwari",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>संदीप महेश्वरी</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-30",
+          "_cid": "qyiWo1Nqsq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/sandeep-maheshwari-seminars-e1436094811200-999x563.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-2z",
+          "_cid": "qyiWkW7zWf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left",
+              "color": "#232323"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><div><span style=\"font-size: 1rem;\"><b>संदीप माहेश्वरी का परिचय -</b></span></div><br><div><span style=\"font-size: 1rem;\">संदीप माहेश्वरी आज भारत के सर्वोत्तम व्यवसायी (Entrepreneur) में से एक हैं । वे Images Bazaar वेबसाइट के सी.ई.ओ. (C.E.O.) और संस्थापक हैं, जिसमें 10 लाख से भी ज्यादा भारतीय चित्र (Indian Picture) है । </span></div><br><div><span style=\"font-size: 1rem;\">इस कंपनी के 45 देशों में 7000 से ज्यादा ख़रीदार है । संदीप जी की कंपनी सालाना करोड़ों की कमाई करती है । लेकिन संदीप अपनी इस Images Bazaar कंपनी की वजह से इतने मशहूर नहीं है, बल्कि वे तो अपने प्रेरणादायक सेमिनारों (Inspirational Seminar) और भाषणों (Motivational Speech) से पूरे विश्व में सबके चहेते है ।&nbsp;</span></div><div><br></div><div>\n</div><div>ख़ास बात तो ये है की वे ये सभी सेमिनार मुफ्त में करते है और उनका एकमात्र मकसद लोगों के जीवन में बदलाव लाना है । </div><br><div>संदीप ने बहुत ही साधारण शुरुआत की और अनेक मुश्किलों का सामना किया, मगर उन्होंने हार नहीं मानी और आगे बढ़ते गए, आखिर में सफलता प्राप्त की । </div><br><div>वे अपनी असफलताओं से मिले अनुभव से आज हज़ारों लोगों को सफलता हासिल करने में एक मार्गदर्शक की भूमिका निभाते है । </div><br><div>आज इस Article में हम आपको संदीप माहेश्वरी के अद्भुत जीवन (Sandeep Maheshwari Biography in Hindi)  के बारे में बताएँगे और उम्मीद करते है की आप सभी को संदीप जी से प्रेरणा मिलेगी ।</div><br><div>\n</div><div>\n</div><div>जिस नज़र से आप इस दुनिया को देखेंगे, ये दुनिया आपको वैसी ही दिखेगी  – Sandeep Maheshwari&nbsp;</div><br><div><br></div><div><b>संदीप माहेश्वरी की जीवनी -</b></div><br><div><span style=\"font-size: 1rem;\">संदीप का परिवार अल्युमिनियम का बिज़नेस (Aluminum Business) करता था जो की अचानक ठप हो गया और परिवार की सारी आर्थिक जिम्मेदारियाँ संदीप पर आ गई जो की बस 19 वर्ष के थे तब ।</span></div><br><div>उस समय संदीप दिल्ली विश्वविद्यालय के किरोड़ीमल कॉलेज (Kirorimal College) में B.Com कर रहे थे । संदीप ने एक आदर्श भारतीय पुत्र की तरह अपने परिवार को आर्थिक संकटों से निकालने की पूरी कोशिश की । </div><br><div>उन्होंने एक मल्टी लेवल मार्केटिंग कंपनी (Multi-level Marketing Company) में काम किया और घरेलू चीज़ों की उत्पादन (Manufacturing) में भी हाथ आज़माया और किसी तरह अपने परिवार को संभालने की कोशिश की । </div><br><div>इन्ही दिनों में संदीप को समझ आया की पढ़ाई लिखाई से भी ज्यादा ज़रुरी जीवन के असली महत्व को जानना है । उन्होंने तुरंत कॉलेज से ड्रॉप आउट (Dropout) किया और अपनी असली रूचि और जोश को हासिल करने में जुट गए ।</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>अपने मनपसंद काम को करो और सफलता तुम्हारे पीछे आएगी  – Terri Guillemets</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>संदीप की रूचि मॉडलिंग (Modeling) और फ़ोटोग्राफ़ी (Photography) में थी ।&nbsp;<span style=\"font-size: 1rem;\">19 साल की उम्र में उन्होंने अपने मॉडलिंग करियर की शुरुआत की । मॉडलिंग की दुनिया में मॉडल्स का शोषण देखकर उनपर काफी गहरा प्रभाव हुआ और उन्होंने जूझ रहे मॉडल्स की मदद करने की ठान ली ।</span></div><br><div>इसलिये उन्होंने मैश ऑडियो विजुअल्स (Mash Audio Visuals) नाम की कंपनी खोली जो मॉडल्स के पोर्टफोलियो बनाती थी । इस कंपनी से उन्हें नाकामी ही मिली । </div><br><div>लेकिन संदीप ने हार नहीं मानी और 2002 में अपने तीन दोस्तों के साथ मिलकर एक और कंपनी शुरू की मगर वो भी नाकाम रही और मात्र 6 महीनों में बंद हो गई । </div><br><div>अपनी नाकामियों के अनुभव (Failure Experience) से संदीप ने समाज की मदद के लिये एक किताब लिखी मगर वो भी सफल नहीं हो पाई ।</div><br><br><div>\n</div><div>\n</div><div>\n</div><div>न मैदान छोडो,  न इंतज़ार करो… बस चलते रहो  – Sandeep Maheshwari\n</div><div><br></div><div><br></div><div>इतनी नाकामियों (Failure) के बाद तो कोई भी घुटने टेक दे मगर संदीप का हौसला बुलंद रहा । उन्होंने हार नहीं मानी और लगन से मेहनत करते गए । </div><br><div>2003 में उन्होंने मात्र 10 घंटे और 45 मिनट में 122 मॉडल्स के 10 हज़ार शॉट्स (Picture Click) लिये और एक विश्व रिकॉर्ड (World Record) बना डाला । </div><br><div>इससे उन्हें काफी लोकप्रियता मिली मगर उनका ध्यान नहीं भटका और वे आगे बढ़ते गए । इन्ही दिनों उन्हें अपनी वेबसाइट बनाने का विचार आया जिसपर Indian Models और Photographers के चित्र हों । वर्ष 2006 में उन्होंने अपनी वेबसाइट ImagesBazaar Launch की ।</div><br><div> शुरुआत में बस कुछ ही चित्र थे और थोड़े ही फोटोग्राफर थे, मगर आज इस वेबसाइट पर विश्व के सबसे ज्यादा भारतीय चित्र हैं और हर साल ये कंपनी करोड़ों कमाती है । </div><br><div>संदीप को पैसों का मोह नहीं है, उनका कहना है – “पैसे की इम्पोर्टेंस (Importance) उतनी है, जितनी एक गाड़ी में पेट्रोल की होती है, न उससे ज्यादा, न उससे कम ।”</div><br><div>\n</div><div>\n</div><div>\n</div><div>अगर आपके पास ज़रुरत से ज्यादा है तो उसे उनसे शेयर करिये जिन्हे इसकी सबसे ज्यादा ज़रुरत है  – Sandeep Maheshwari</div><br><div>\n</div><div>\n</div><div>\n</div><div>अपार सफलता पाने के बाद भी संदीप रुके नहीं और उन्होंने अपने जीवन के अनुभव से युवाओं को प्रोत्साहित करने का मिशन शुरू किया । </div><br><div>आज वे जगह जगह मोटिवेशनल सेमिनार (Motivational Seminar) और भाषण (Inspirational speech) देते है और लाखों लोगों को अपने सपने साकार करने की प्रेरणा (Inspiration) देते है । </div><br><div>संदीप अपने यूट्यूब चैनल (YouTube) के जरिये अपने सेमिनारों की वीडियो(Video’s) इंटरनेट पर सभी से शेयर करते हैं । </div><br><div>हैरानी की बात तो ये है की वे सभी सेमिनार मुफ्त में करते है और एक पैसा भी नहीं लेते किसी से । उनका एकमात्र मकसद लोगों की भलाई करना है.</div><div><br></div><div>\n</div><div>संदीप अक्सर कहते हैं “Aasaan Hai” और लोगों का मनोबल बढ़ाते है । संदीप को उनके सफल बिज़नेस और प्रेरणादायक सेमिनारों (Inspirational Seminar) के लिये अनेक पुरस्कार मिले हैं और पूरे विश्व में उन्हें काफी लोकप्रियता और सम्मान मिला है ।</div><br><div>\n</div><div>\n</div><div>उम्मीद है की आपको Sandeep Maheshwari के जीवन से प्रेरणा (Inspiration) मिलेगी और आप भी अपने सपनों को साकार करेंगे  (Your Dreams Will Come True)। </div><br><div>उनका जीवन हमें यह सीख देता है की भले ही कितनी भी मुश्किलें क्यों न आएं, हमें हार नहीं माननी चाहिए (Never Give Up) और अपने सपनों को साकार करने में लगन से जुटे रहना चाहिए । </div><br><div>धन्यवाद ।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-2y",
+          "_cid": "qyiVFhjph0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
