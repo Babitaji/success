@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 112,
+    "uniqCompNum": 115,
     "versionPublish": "4.2.2",
     "favicon": "",
     "noImageResize": "",
@@ -109,6 +109,74 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Sandeep Maheshwari",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-30",
+          "_cid": "qyiWo1Nqsq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "Quotes",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-35",
+          "_cid": "qynexWtKZ1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "Videos",
         "order": 1
       },
       "components": [
@@ -129,47 +197,9 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>संदीप महेश्वरी</div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-30",
-          "_cid": "qyiWo1Nqsq",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            },
-            ".section-text": {
-              "padding": "2rem 0",
-              "text-align": "left"
-            },
-            ".inner-container": {
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
-              }
-            },
-            ".section-text DIV": {
-              "text-align": "left",
-              "color": "#232323"
-            }
-          },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><div><span style=\"font-size: 1rem;\"><b>संदीप माहेश्वरी का परिचय -</b></span></div><br><div><span style=\"font-size: 1rem;\">संदीप माहेश्वरी आज भारत के सर्वोत्तम व्यवसायी (Entrepreneur) में से एक हैं । वे Images Bazaar वेबसाइट के सी.ई.ओ. (C.E.O.) और संस्थापक हैं, जिसमें 10 लाख से भी ज्यादा भारतीय चित्र (Indian Picture) है । </span></div><br><div><span style=\"font-size: 1rem;\">इस कंपनी के 45 देशों में 7000 से ज्यादा ख़रीदार है । संदीप जी की कंपनी सालाना करोड़ों की कमाई करती है । लेकिन संदीप अपनी इस Images Bazaar कंपनी की वजह से इतने मशहूर नहीं है, बल्कि वे तो अपने प्रेरणादायक सेमिनारों (Inspirational Seminar) और भाषणों (Motivational Speech) से पूरे विश्व में सबके चहेते है ।&nbsp;</span></div><div><br></div><div>\n</div><div>ख़ास बात तो ये है की वे ये सभी सेमिनार मुफ्त में करते है और उनका एकमात्र मकसद लोगों के जीवन में बदलाव लाना है । </div><br><div>संदीप ने बहुत ही साधारण शुरुआत की और अनेक मुश्किलों का सामना किया, मगर उन्होंने हार नहीं मानी और आगे बढ़ते गए, आखिर में सफलता प्राप्त की । </div><br><div>वे अपनी असफलताओं से मिले अनुभव से आज हज़ारों लोगों को सफलता हासिल करने में एक मार्गदर्शक की भूमिका निभाते है । </div><br><div>आज इस Article में हम आपको संदीप माहेश्वरी के अद्भुत जीवन (Sandeep Maheshwari Biography in Hindi)  के बारे में बताएँगे और उम्मीद करते है की आप सभी को संदीप जी से प्रेरणा मिलेगी ।</div><br><div>\n</div><div>\n</div><div>जिस नज़र से आप इस दुनिया को देखेंगे, ये दुनिया आपको वैसी ही दिखेगी  – Sandeep Maheshwari&nbsp;</div><br><div><br></div><div><b>संदीप माहेश्वरी की जीवनी -</b></div><br><div><span style=\"font-size: 1rem;\">संदीप का परिवार अल्युमिनियम का बिज़नेस (Aluminum Business) करता था जो की अचानक ठप हो गया और परिवार की सारी आर्थिक जिम्मेदारियाँ संदीप पर आ गई जो की बस 19 वर्ष के थे तब ।</span></div><br><div>उस समय संदीप दिल्ली विश्वविद्यालय के किरोड़ीमल कॉलेज (Kirorimal College) में B.Com कर रहे थे । संदीप ने एक आदर्श भारतीय पुत्र की तरह अपने परिवार को आर्थिक संकटों से निकालने की पूरी कोशिश की । </div><br><div>उन्होंने एक मल्टी लेवल मार्केटिंग कंपनी (Multi-level Marketing Company) में काम किया और घरेलू चीज़ों की उत्पादन (Manufacturing) में भी हाथ आज़माया और किसी तरह अपने परिवार को संभालने की कोशिश की । </div><br><div>इन्ही दिनों में संदीप को समझ आया की पढ़ाई लिखाई से भी ज्यादा ज़रुरी जीवन के असली महत्व को जानना है । उन्होंने तुरंत कॉलेज से ड्रॉप आउट (Dropout) किया और अपनी असली रूचि और जोश को हासिल करने में जुट गए ।</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>अपने मनपसंद काम को करो और सफलता तुम्हारे पीछे आएगी  – Terri Guillemets</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>संदीप की रूचि मॉडलिंग (Modeling) और फ़ोटोग्राफ़ी (Photography) में थी ।&nbsp;<span style=\"font-size: 1rem;\">19 साल की उम्र में उन्होंने अपने मॉडलिंग करियर की शुरुआत की । मॉडलिंग की दुनिया में मॉडल्स का शोषण देखकर उनपर काफी गहरा प्रभाव हुआ और उन्होंने जूझ रहे मॉडल्स की मदद करने की ठान ली ।</span></div><br><div>इसलिये उन्होंने मैश ऑडियो विजुअल्स (Mash Audio Visuals) नाम की कंपनी खोली जो मॉडल्स के पोर्टफोलियो बनाती थी । इस कंपनी से उन्हें नाकामी ही मिली । </div><br><div>लेकिन संदीप ने हार नहीं मानी और 2002 में अपने तीन दोस्तों के साथ मिलकर एक और कंपनी शुरू की मगर वो भी नाकाम रही और मात्र 6 महीनों में बंद हो गई । </div><br><div>अपनी नाकामियों के अनुभव (Failure Experience) से संदीप ने समाज की मदद के लिये एक किताब लिखी मगर वो भी सफल नहीं हो पाई ।</div><br><br><div>\n</div><div>\n</div><div>\n</div><div>न मैदान छोडो,  न इंतज़ार करो… बस चलते रहो  – Sandeep Maheshwari\n</div><div><br></div><div><br></div><div>इतनी नाकामियों (Failure) के बाद तो कोई भी घुटने टेक दे मगर संदीप का हौसला बुलंद रहा । उन्होंने हार नहीं मानी और लगन से मेहनत करते गए । </div><br><div>2003 में उन्होंने मात्र 10 घंटे और 45 मिनट में 122 मॉडल्स के 10 हज़ार शॉट्स (Picture Click) लिये और एक विश्व रिकॉर्ड (World Record) बना डाला । </div><br><div>इससे उन्हें काफी लोकप्रियता मिली मगर उनका ध्यान नहीं भटका और वे आगे बढ़ते गए । इन्ही दिनों उन्हें अपनी वेबसाइट बनाने का विचार आया जिसपर Indian Models और Photographers के चित्र हों । वर्ष 2006 में उन्होंने अपनी वेबसाइट ImagesBazaar Launch की ।</div><br><div> शुरुआत में बस कुछ ही चित्र थे और थोड़े ही फोटोग्राफर थे, मगर आज इस वेबसाइट पर विश्व के सबसे ज्यादा भारतीय चित्र हैं और हर साल ये कंपनी करोड़ों कमाती है । </div><br><div>संदीप को पैसों का मोह नहीं है, उनका कहना है – “पैसे की इम्पोर्टेंस (Importance) उतनी है, जितनी एक गाड़ी में पेट्रोल की होती है, न उससे ज्यादा, न उससे कम ।”</div><br><div>\n</div><div>\n</div><div>\n</div><div>अगर आपके पास ज़रुरत से ज्यादा है तो उसे उनसे शेयर करिये जिन्हे इसकी सबसे ज्यादा ज़रुरत है  – Sandeep Maheshwari</div><br><div>\n</div><div>\n</div><div>\n</div><div>अपार सफलता पाने के बाद भी संदीप रुके नहीं और उन्होंने अपने जीवन के अनुभव से युवाओं को प्रोत्साहित करने का मिशन शुरू किया । </div><br><div>आज वे जगह जगह मोटिवेशनल सेमिनार (Motivational Seminar) और भाषण (Inspirational speech) देते है और लाखों लोगों को अपने सपने साकार करने की प्रेरणा (Inspiration) देते है । </div><br><div>संदीप अपने यूट्यूब चैनल (YouTube) के जरिये अपने सेमिनारों की वीडियो(Video’s) इंटरनेट पर सभी से शेयर करते हैं । </div><br><div>हैरानी की बात तो ये है की वे सभी सेमिनार मुफ्त में करते है और एक पैसा भी नहीं लेते किसी से । उनका एकमात्र मकसद लोगों की भलाई करना है.</div><div><br></div><div>\n</div><div>संदीप अक्सर कहते हैं “Aasaan Hai” और लोगों का मनोबल बढ़ाते है । संदीप को उनके सफल बिज़नेस और प्रेरणादायक सेमिनारों (Inspirational Seminar) के लिये अनेक पुरस्कार मिले हैं और पूरे विश्व में उन्हें काफी लोकप्रियता और सम्मान मिला है ।</div><br><div>\n</div><div>\n</div><div>उम्मीद है की आपको Sandeep Maheshwari के जीवन से प्रेरणा (Inspiration) मिलेगी और आप भी अपने सपनों को साकार करेंगे  (Your Dreams Will Come True)। </div><br><div>उनका जीवन हमें यह सीख देता है की भले ही कितनी भी मुश्किलें क्यों न आएं, हमें हार नहीं माननी चाहिए (Never Give Up) और अपने सपनों को साकार करने में लगन से जुटे रहना चाहिए । </div><br><div>धन्यवाद ।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-2y",
-          "_cid": "qyiVFhjph0",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><br></p><p><br></p><p><br></p><p>This App Under Maintenance</p><p><br></p><p>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-34",
+          "_cid": "qyndZCZl4R",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
