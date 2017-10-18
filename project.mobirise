@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Success Stories",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 115,
+    "uniqCompNum": 166,
     "versionPublish": "4.2.2",
     "favicon": "",
     "noImageResize": "",
@@ -95,7 +95,7 @@
             }
           },
           "_name": "content13",
-          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page31.html\"><img src=\"@PROJECT_PATH@/assets/images/img-1011x551.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Live -&nbsp;हर रोज एक नई सफलता की स्टोरी </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page31.html\"><img src=\"@PROJECT_PATH@/assets/images/img-20171006-1012x538.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">सफल होने के लिए आपको ये बाते हमेशा याद रखनी हे&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page5.html\"><img src=\"@PROJECT_PATH@/assets/images/img-1011x551.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Live -&nbsp;हर रोज एक नई सफलता की स्टोरी </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page3.html\"><img src=\"@PROJECT_PATH@/assets/images/img-20171006-1012x538.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Live - सफलता की स्टोरी वीडियो के द्वारा</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
           "_anchor": "content13-2u",
           "_cid": "qyi9owwHpd",
           "_protectedParams": [],
@@ -109,6 +109,1415 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Sandeep Maheshwari",
+        "order": 15
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>संदीप माहेश्वरी</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3r",
+          "_cid": "qynmFJWzvi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/sandeep-maheshwari-seminars-e1436094811200-999x563.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-3s",
+          "_cid": "qynmKdY73N",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left",
+              "color": "#232323"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><div><span style=\"font-size: 1rem;\"><b>संदीप माहेश्वरी का परिचय -</b></span></div><br><div><span style=\"font-size: 1rem;\">संदीप माहेश्वरी आज भारत के सर्वोत्तम व्यवसायी (Entrepreneur) में से एक हैं । वे Images Bazaar वेबसाइट के सी.ई.ओ. (C.E.O.) और संस्थापक हैं, जिसमें 10 लाख से भी ज्यादा भारतीय चित्र (Indian Picture) है । </span></div><br><div><span style=\"font-size: 1rem;\">इस कंपनी के 45 देशों में 7000 से ज्यादा ख़रीदार है । संदीप जी की कंपनी सालाना करोड़ों की कमाई करती है । लेकिन संदीप अपनी इस Images Bazaar कंपनी की वजह से इतने मशहूर नहीं है, बल्कि वे तो अपने प्रेरणादायक सेमिनारों (Inspirational Seminar) और भाषणों (Motivational Speech) से पूरे विश्व में सबके चहेते है ।&nbsp;</span></div><div><br></div><div>\n</div><div>ख़ास बात तो ये है की वे ये सभी सेमिनार मुफ्त में करते है और उनका एकमात्र मकसद लोगों के जीवन में बदलाव लाना है । </div><br><div>संदीप ने बहुत ही साधारण शुरुआत की और अनेक मुश्किलों का सामना किया, मगर उन्होंने हार नहीं मानी और आगे बढ़ते गए, आखिर में सफलता प्राप्त की । </div><br><div>वे अपनी असफलताओं से मिले अनुभव से आज हज़ारों लोगों को सफलता हासिल करने में एक मार्गदर्शक की भूमिका निभाते है । </div><br><div>आज इस Article में हम आपको संदीप माहेश्वरी के अद्भुत जीवन (Sandeep Maheshwari Biography in Hindi)  के बारे में बताएँगे और उम्मीद करते है की आप सभी को संदीप जी से प्रेरणा मिलेगी ।</div><br><div>\n</div><div>\n</div><div>जिस नज़र से आप इस दुनिया को देखेंगे, ये दुनिया आपको वैसी ही दिखेगी  – Sandeep Maheshwari&nbsp;</div><br><div><br></div><div><b>संदीप माहेश्वरी की जीवनी -</b></div><br><div><span style=\"font-size: 1rem;\">संदीप का परिवार अल्युमिनियम का बिज़नेस (Aluminum Business) करता था जो की अचानक ठप हो गया और परिवार की सारी आर्थिक जिम्मेदारियाँ संदीप पर आ गई जो की बस 19 वर्ष के थे तब ।</span></div><br><div>उस समय संदीप दिल्ली विश्वविद्यालय के किरोड़ीमल कॉलेज (Kirorimal College) में B.Com कर रहे थे । संदीप ने एक आदर्श भारतीय पुत्र की तरह अपने परिवार को आर्थिक संकटों से निकालने की पूरी कोशिश की । </div><br><div>उन्होंने एक मल्टी लेवल मार्केटिंग कंपनी (Multi-level Marketing Company) में काम किया और घरेलू चीज़ों की उत्पादन (Manufacturing) में भी हाथ आज़माया और किसी तरह अपने परिवार को संभालने की कोशिश की । </div><br><div>इन्ही दिनों में संदीप को समझ आया की पढ़ाई लिखाई से भी ज्यादा ज़रुरी जीवन के असली महत्व को जानना है । उन्होंने तुरंत कॉलेज से ड्रॉप आउट (Dropout) किया और अपनी असली रूचि और जोश को हासिल करने में जुट गए ।</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>अपने मनपसंद काम को करो और सफलता तुम्हारे पीछे आएगी  – Terri Guillemets</div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>संदीप की रूचि मॉडलिंग (Modeling) और फ़ोटोग्राफ़ी (Photography) में थी ।&nbsp;<span style=\"font-size: 1rem;\">19 साल की उम्र में उन्होंने अपने मॉडलिंग करियर की शुरुआत की । मॉडलिंग की दुनिया में मॉडल्स का शोषण देखकर उनपर काफी गहरा प्रभाव हुआ और उन्होंने जूझ रहे मॉडल्स की मदद करने की ठान ली ।</span></div><br><div>इसलिये उन्होंने मैश ऑडियो विजुअल्स (Mash Audio Visuals) नाम की कंपनी खोली जो मॉडल्स के पोर्टफोलियो बनाती थी । इस कंपनी से उन्हें नाकामी ही मिली । </div><br><div>लेकिन संदीप ने हार नहीं मानी और 2002 में अपने तीन दोस्तों के साथ मिलकर एक और कंपनी शुरू की मगर वो भी नाकाम रही और मात्र 6 महीनों में बंद हो गई । </div><br><div>अपनी नाकामियों के अनुभव (Failure Experience) से संदीप ने समाज की मदद के लिये एक किताब लिखी मगर वो भी सफल नहीं हो पाई ।</div><br><br><div>\n</div><div>\n</div><div>\n</div><div>न मैदान छोडो,  न इंतज़ार करो… बस चलते रहो  – Sandeep Maheshwari\n</div><div><br></div><div><br></div><div>इतनी नाकामियों (Failure) के बाद तो कोई भी घुटने टेक दे मगर संदीप का हौसला बुलंद रहा । उन्होंने हार नहीं मानी और लगन से मेहनत करते गए । </div><br><div>2003 में उन्होंने मात्र 10 घंटे और 45 मिनट में 122 मॉडल्स के 10 हज़ार शॉट्स (Picture Click) लिये और एक विश्व रिकॉर्ड (World Record) बना डाला । </div><br><div>इससे उन्हें काफी लोकप्रियता मिली मगर उनका ध्यान नहीं भटका और वे आगे बढ़ते गए । इन्ही दिनों उन्हें अपनी वेबसाइट बनाने का विचार आया जिसपर Indian Models और Photographers के चित्र हों । वर्ष 2006 में उन्होंने अपनी वेबसाइट ImagesBazaar Launch की ।</div><br><div> शुरुआत में बस कुछ ही चित्र थे और थोड़े ही फोटोग्राफर थे, मगर आज इस वेबसाइट पर विश्व के सबसे ज्यादा भारतीय चित्र हैं और हर साल ये कंपनी करोड़ों कमाती है । </div><br><div>संदीप को पैसों का मोह नहीं है, उनका कहना है – “पैसे की इम्पोर्टेंस (Importance) उतनी है, जितनी एक गाड़ी में पेट्रोल की होती है, न उससे ज्यादा, न उससे कम ।”</div><br><div>\n</div><div>\n</div><div>\n</div><div>अगर आपके पास ज़रुरत से ज्यादा है तो उसे उनसे शेयर करिये जिन्हे इसकी सबसे ज्यादा ज़रुरत है  – Sandeep Maheshwari</div><br><div>\n</div><div>\n</div><div>\n</div><div>अपार सफलता पाने के बाद भी संदीप रुके नहीं और उन्होंने अपने जीवन के अनुभव से युवाओं को प्रोत्साहित करने का मिशन शुरू किया । </div><br><div>आज वे जगह जगह मोटिवेशनल सेमिनार (Motivational Seminar) और भाषण (Inspirational speech) देते है और लाखों लोगों को अपने सपने साकार करने की प्रेरणा (Inspiration) देते है । </div><br><div>संदीप अपने यूट्यूब चैनल (YouTube) के जरिये अपने सेमिनारों की वीडियो(Video’s) इंटरनेट पर सभी से शेयर करते हैं । </div><br><div>हैरानी की बात तो ये है की वे सभी सेमिनार मुफ्त में करते है और एक पैसा भी नहीं लेते किसी से । उनका एकमात्र मकसद लोगों की भलाई करना है.</div><div><br></div><div>\n</div><div>संदीप अक्सर कहते हैं “Aasaan Hai” और लोगों का मनोबल बढ़ाते है । संदीप को उनके सफल बिज़नेस और प्रेरणादायक सेमिनारों (Inspirational Seminar) के लिये अनेक पुरस्कार मिले हैं और पूरे विश्व में उन्हें काफी लोकप्रियता और सम्मान मिला है ।</div><br><div>\n</div><div>\n</div><div>उम्मीद है की आपको Sandeep Maheshwari के जीवन से प्रेरणा (Inspiration) मिलेगी और आप भी अपने सपनों को साकार करेंगे  (Your Dreams Will Come True)। </div><br><div>उनका जीवन हमें यह सीख देता है की भले ही कितनी भी मुश्किलें क्यों न आएं, हमें हार नहीं माननी चाहिए (Never Give Up) और अपने सपनों को साकार करने में लगन से जुटे रहना चाहिए । </div><br><div>धन्यवाद ।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3p",
+          "_cid": "qynmzLtpWV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "Quotes",
+        "order": 9
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>1. “हमेशा याद रखो, आप अपनी प्रॉब्लम से कई गुना बड़े हो.”\n<div>&nbsp;\n</div><div>2. “आपको खुद की नजर से उठाना है, जो इन्सान खुद की नजर से उठ गया वो दुनिया की नजर से अपने आप उठ जायेगा.”</div><br><div>\n</div><div>\n</div><div>3. “जिस वक्त आप उस चीज की तरफ देखते हो जो आपके पास में नहीं है उस वक्त आपकी किस्मत बुरी होती है और जिस वक्त उस चीज की तरफ देखते हो जो आपके पास में है उस मोमेंट में आपकी किस्मत अच्छी होती है.”</div><br><div>\n</div><div>\n</div><div>4. “पहले आपको खुदके कमिटमेंट पुरे करने है, जब आप अपने खुद के कमिटमेंट पुरे नहीं कर पा रहे हो तो दुसरो को दिए हुए कमिटमेंट क्या पुरे करोगे?”</div><br><div>\n</div><div>\n</div><div>5. “या तो अपने दिमाग को कण्ट्रोल करो, नहीं तो यह तुम्हे कंट्रोल करेगा.”</div><br><div>\n</div><div>\n</div><div>6. “अगर आपने अपनी आदते बदली, तो आपकी जिंदगी भी बदलेगी, नहीं तो आपकी जिंदगी में वही होगा जो हमेशा से होता आया है.”</div><br><div>\n</div><div>\n</div><div>7. “कामयाबी अनुभव से आती है, और अनुभव गलियों से यानी ख़राब अनुभव.”</div><br><div>\n</div><div>\n</div><div>8. “आप को पावरफुल बनना है, इसलिए नहीं कि आप किसी को दबा सको, आपको पावरफुल बनना है इसलिए कि कोई आपको दबाद नहीं सके.”</div><br><div>\n</div><div>\n</div><div>9. “जब आपको ऐसी चीज की खोज करनी है जो आज तक किसी ने नहीं की हो, और यह डिजायर पनप जाये एक बार, तो आपको कुछ करना नहीं पड़ेगा, वो डिजायर आपके जरिये से काम करने लग जाएगा.”</div><br><div>\n</div><div>\n</div><div>10. “डिजायर चुनना है तो बड़े से बड़ा चुनो ना, बड़े से बड़ा..!! इस दुनिया का सबसे बड़ा.”</div><br><div>\n</div><div>\n</div><div>11. “बिज़नस में न दो तरह के लोग होते है, एक होते है जो बाते करते है बड़ी-बड़ी कि जब हजार प्रोडक्ट बिक जाएगी तब ये हो जाएगा वो हो जाएगा लाख रूपए कमाउगा इतने प्रोडक्ट बेच दूंगा वगेरा. मेरे को जब कोई ऐसा मिलता है उसे बोलता हु भाई तेरा पहला प्रोडक्ट कैसे बिकेगा और उसके पास कोई जवाब  नहो होता जबकि जवाब यह होना चाहिए कि एक कैसे बिकेगा, अगर एक बिकेगा तो 100 भी बिकेगा 1000 भी बिकेगा.”</div><br><div>\n</div><div>\n</div><div>12. “जिसको पता है कि जो काम मैं क्या कर हर हूँ वो क्यों कर रहा हूँ, जिसको यह पता है कि क्या कर रहा हूँ, जिसको यह पता है कि कैसे करना तो उसको कोई क्या हिलाएगा.”</div><br><div>\n</div><div>\n</div><div>13. “किसी की निंदा ना करें: अगर आप मदद के लिए हाथ बढ़ा सकते हैं, तो ज़रुर बढाएं. अगर नहीं बढ़ा सकते, तो अपने हाथ जोड़िये, अपने भाइयों को आशीर्वाद दीजिये, और उन्हें उनके मार्ग पे जाने दीजिये.”</div><br><div>\n</div><div>\n</div><div>14 “जब तक आप खुद पे विश्वास नहीं करते तब तक आप भागवान पे विश्वास नहीं कर सकते.”</div><br><div>\n</div><div>\n</div><div>15  “ एक विचार लो. उस विचार को अपना जीवन बना लो – उसके बारे में सोचो उसके सपने देखो, उस विचार को जियो. अपने मस्तिष्क, मांसपेशियों, नसों, शरीर के हर हिस्से को उस विचार में डूब जाने दो, और बाकी सभी विचार को किनारे रख दो. यही सफल होने का तरीका है.”</div><br><div>\n</div><div>\n</div><div>16 “ किसी दिन, जब आपके सामने कोई समस्या ना आये – आप सुनिश्चित हो सकते हैं कि आप गलत मार्ग पर चल रहे हैं.”</div><br><div>\n</div><div>\n</div><div>17 “तुम फ़ुटबाल के जरिये स्वर्ग के ज्यादा निकट होगे बजाये गीता का अध्ययन करने के.”</div><br><div>\n</div><div>\n</div><div>18  “एक समय में एक काम करो, और ऐसा करते समय अपनी पूरी आत्मा उसमे डाल दो और बाकी सब कुछ भूल जाओ.”</div><br><div>\n</div><div>\n</div><div>19  “श्री रामकृष्ण कहा करते थे,” जब तक मैं जीवित हूँ, तब तक मैं सीखता हूँ  - वह व्यक्ति या वह समाज जिसके पास सीखने को कुछ नहीं है वह पहले से ही मौत के जबड़े में है.”</div><br><div>\n</div><div>\n</div><div>20 “यदि स्वयं में विश्वास करना और अधिक विस्तार से पढाया और अभ्यास कराया गया होता, तो मुझे यकीन है कि बुराइयों और दुःख का एक बहुत बड़ा हिस्सा गायब हो गया होता.”</div><br><div>\n</div><div>\n</div><div>21. “कर्म क्या है कि मन में जो गलत चीजे आ रही है वह पर जा करके अपने आप को रोकना यह सही कर्म है, और अगर मन में कुछ सही आ रहा है उस पर टिके रहना, हर हालत में टिके रहना यह कर्म है.”</div><br><div>\n</div><div>\n</div><div>22. “एक तरह है जो आप करना चाहते हो, जो आप बनना चाहते हो, जो आप पाना चाहते हो और दूसरी तरह है जो ये दुनिया आपसे करवाना चाहती है.”</div><br><div>\n</div><div>\n</div><div>23. “फ़ैल होने के बाद भी मेरे अन्दर यह हिम्मत है कि मैं आगे बढ़ता रहूगा, मैं हार नहीं मान रहा. तो अगर इतनी बुरी स्थिति से जब में ऊपर उठुगा, तो मैं क्या उठुगा.”</div><br><div>\n</div><div>\n</div><div>24. “अपने हर सेशन से पहले 15 से 20 मिनट के लिए मैं अपनी आँखे बंद कर लेता हूँ. और जब दिमाग पुरे तरीके से ब्लेंक हो जाता है, दिमाग में कोई विचार नहीं होते. तो अपने आप से एक सवाल करता हूँ: “की अगर यह दिन मेरी जिंदगी का आखिरी दिन हो, और कैसे भी मुझे यह पता लग जाये की कल सुबह मैं नहीं उठाने वाला तो मैं आज क्या करुगा.” तो मैं यह आप्शन चुनता हूँ कि उस आखिरी दिन में कुछ ऐसा कर जाऊ कि यह जानने के बावजूद भी की मैं कल सुबह नहीं उठाते वाला फिर भी आज चेन की नींद सो सकू.”</div><br><div>\n</div><div>\n</div><div>25. “जब को भी व्यक्ति आपको यह कहे कि आप यह नहीं कर सकते, तो वो बस इतना सा कहना चाहता है कि क्योंकि मैं यह नहीं कर सकता.”</div><br><div>\n</div><div>\n</div><div>26. “यह जिंदगी एक के बाद एक बॉल के रूप में अवसर देती है, अगर अवसर छुट जाये यानी बॉल छुट जाये तो हमारा ध्यान दूसरी बॉल पर होना चाहिए.”</div><br><div>\n</div><div>\n</div><div>27. “मैं सब सेमिनार फ्री में करता हूँ, बस जिस दिन आप जिंदगी में आगे बढ़ जाओ तो भूके का पेट भर देता मेरे पैसे मुझे मिल जाएगे.”</div><br><div>\n</div><div>\n</div><div>28. “हर एक के अन्दर कोई न कोई शक्ति है, जो इस पूरी दुनिया में किसी में नहीं है, बस तुम्हे उस शक्ति को जानना है.”</div><br><div>\n</div><div>\n</div><div>29. “आपकी will power के आगे दुनिया की कोई भी ताकत टिक नहीं सकती.”</div><br><div>\n</div><div>\n</div><div>30. “जब आपके अन्दर आ जाये की मुझे यह करना है, कितनी भी मुश्किले आने दो मुझे करना है तब पता होगा की अगर मैं यह कर सकता हु, तो मैं यह भी कर सकता, मैं यह भी कर सकता वो भी कर सकता हूँ मैं सब कर सकता हूँ.”</div><br><div>\n</div><div>\n</div><div>31. “कभी भी खाली मत बैठो, उस वक्त में वो भी सिख लो जिससे आपके करियर का सम्बन्ध नहीं है तब भी वो टाइम पास करने के लाख गुना बहतर होगा”</div><br><div>\n</div><div>\n</div><div>32. “हर रोज अपने आप से यह सवाल करो की अभी मैं क्या सिख रहा हु, और इस तरह से हर वक्त सिखने की अपनी आदत बना लो”</div><br><div>\n</div><div>\n</div><div>33. “ज्ञान को बढ़ा कर कभी भी अपना अहंकार नहीं बढ़ाये, यदि ऐसा करते हो तो तुम्हारी सिखने की उम्र ख़तम हो जाएगी”</div><br><div>\n</div><div>\n</div><div>34. “एक बात हमेशा अपने आप से कहनी है कि I am the greatest person ever born on this palnet”</div><br><div>\n</div><div>\n</div><div>35. “अपने आप अपने फील्ड में सबसे महान समझे, दुसरे क्या सोचते है वो कोई matter नहीं करता”</div><br><div>\n</div><div>\n</div><div>36. “यह महत्व नहीं रखता है की आप बहार से लोगो को क्या बोल रहे हो, महत्व रखता है कि आप अपने आप को अन्दर ही अन्दर क्या समझते हो”</div><br><div>\n</div><div>\n</div><div>37. “खाली कभी मत बैठो हर वक्त कुछ न कुछ सीखते रहो, और 24 घंटे सीखते रहो इस तरह से चलने से चलने से आप आने वाले टाइम में लोग आपको कहेगे कि आप बहुत बदल गया तब आप सक्सेसफुल बन जाओगे”</div><br><div>\n</div><div>\n</div><div>38. “सीसे में आप अपने आप को देख रहे हो और अपने आप को जो समझ रहे हो वैसा ही आप बन रहे है क्योंकि जैसा आप सोचते हो वैसे ही आप एक्शन लेते हो और वैसे ही आप बन जाते हो, उसी लेवल का कॉन्फिडेंस आपकी आखो में नज़र आएगा.”</div><br><div>\n</div><div>\n</div><div>39. “एक है आपको एनर्जी लगानी पढ़ रही है और एक है आपके अन्दर से एनर्जी निकल कर के बाहर आ रही है, दोनों में जमीन आसमान का फर्क है”</div><br><div>\n</div><div>\n</div><div>40. “इस दुनिया में ग्रेटेस्ट व्यक्ति वो है जो अपने काम में पूरा 100% लगा देता है.”</div><br><div>\n</div><div>\n</div><div>41. “कोशिश करो की अपने काम को इतनी हद आगे तक लेकर के जाओ की उस हद तक आज तक किसी ने न लाया और आगे भी किसी को लाने में बहुत जोर लगाना पड़े”</div><br><div>\n</div><div>\n</div><div>42. “आप खुद को अपनी नज़र से नहीं देख रहे, दुनिया की नज़र से देख रहे, वो जो बोल रहे है वो आप मान रहे हो, एक बार आप अपने आप को खुदकी नज़र से देखो तभी आप जान पाओगे की आप एक्चुअल में क्या हो”</div><br><div>\n</div><div>\n</div><div>43. “दुनिया आपको चढाएगी और कभी गिराएगी, दुनिया का काम ही यही है, बस आपको इन सब बातो का कोई भी फर्क नहीं होना चाहिए”</div><br><div>\n</div><div>\n</div><div>44. “अगर खुद आप अपनी नज़र में ग्रेटेस्ट बन गए, तो आपके जो एक्शन होगे आप जिस तरह से बोल रहे होगे, आपके साथ में जो लोग होगे उनको कुछ अलग ही नज़र आएगा, वो आपके साथ में मैगनेट की तरह चिपक जायेगे.”</div><br><div>\n</div><div>\n</div><div>45. “आप बिज़नस कर रहे हो, आप खुद ही Excited नहीं हो अन्दर से, तो दुसरे जो आपके साथ में जुड़े है आपके टीम मेम्बर कैसे Excited हो सकते है”</div><br><div>\n</div><div>\n</div><div>46. “या तो किसी बड़े छाते के निचे खड़े हो जाओ और खुद ही वो छाता बन जाओ यानी खुद पावरफुल बन जाओ”</div><br><div>\n</div><div>\n</div><div>47. “कोई भी किसी से कम नहीं है, जैसा वो सोच रहा होता है वैसा ही वो बन रहा होता है.”</div><br><div>\n</div><div>\n</div><div>48. “आप कोई पैसा manufacturing करने वाली मशीन नहीं हो जो पुरे दिन 6-7 घंटे काम करके महीने के कुछ अमाउंट में पैसे बनाते हो, आप एक इन्सान और इन्सान सोच कर कुछ नया करने की काबिलियत रखता है”</div><br><div>\n</div><div>\n</div><div>49. “सच कहू तो मुझे कभी भी डर नहीं लगता क्योंकि मैं यह मानता हूँ की I am the great”</div><br><div>\n</div><div>\n</div><div>50. “जब आप किसी इन्सान के साथ में कोई भी कोर्स शुरू करते है, और कुछ सालो बाद आपका दोस्त कहा का कहा पहुच गया आप वही के वही रह गए, तो ऐसी स्थिति में बजाये जलने के उस दोस्त के जानने की कोशिश करे की ऐसा क्या वो जनता है जो आप सिखने से रह गए ”</div><br><div>\n</div><div>\n</div><div>51. “यह बात अच्छी तरह से समझ लो कि आपका किसी भी इन्सान के अन्दर जिस भी आदत पर ध्यान जाता है आप वैसे ही बनते जाते हो.”</div><br><div>\n</div><div>\n</div><div>52. “जब भी आप किसी और की बुराई देखते हो तो आप खुद बुरे बन रहे हो, हम वही देखते है जो हम है, अन्दर से किसी अन्दर बहुत सारी कमिया होगी तो उसे दुसरे में सिर्फ कमिय ही नज़र आएगी, अन्दर से कोई बहुत खुश होगा तो उसे दुसरो के अन्दर की ख़ुशी नज़र आएगी, हर इन्सान में अच्छाई भी है और बुराई भी, चॉइस हमारे हाथ में है की हम क्या देखते है.”\n</div><div>\n</div><div>53. “आपको हमेशा खुश रहना है, अब सवाल यह उठता है कि खुश कैसे रहे, जब भी आप लाइफ को पॉजिटिव साइड से देखते हो आप खुश होते हो और जब भी आप लाइफ को नेगेटिव साइड से देखत हो आप दुखी होते हो.”</div><br><div>\n</div><div>\n</div><div>54. “सही ट्रैक क्या है? हर सिचुएशन की पॉजिटिव साइड  को देखना ही सही ट्रैक है.”</div><br><div>\n</div><div>\n</div><div>55. “इस दुनिया में असफल इन्सान से भी सीखे और सफल इन्सान से भी, असफल व्यक्ति से उसके असफल होने का और सफल व्यक्ति से उसके सफल होने का कारण.”</div><br><div>\n</div><div>\n</div><div>56. “अपनी सोच का जो सेण्टर पॉइंट है वो यह रखो कि क्या कुछ ऐसा हो सकता है कि मेरी लाइफ में चाहे कुछ भी हो जाये लेकिन दुःख न हो सिर्फ खुशिया हो, मैं कहता हूँ हां ऐसा हो सकता है, उसके लिए आपको हाइपर एक्टिव बनना होगा यानी हर वक्त प्रेजेंट मोमेंट में जी कर कुछ न कुछ सीखना होगा बजाये हर वक्त दिमाग में कुछ न कुछ सोचने के”</div><br><div>\n</div><div>\n</div><div>57. “अपने अन्दर यूनिकनेस को डेवेलोप करो इससे क्या होगा कि धीरे-धीरे आपकी यह आदत बन जाएगी, जो फॉलो करने की आदत है वो बदल कर बन जाएगी अपने अन्दर की आवाज को सुन कर के कुछ नया करने की”</div><br><div>\n</div><div>\n</div><div>58. “जब लोग आपको कहे की आप यह नहीं कर सकते तो ना हमें चुप रहना है ना हमें लड़ना है, बस सवाल करना है कि मैं यह क्यों नहीं कर सकता? फिर देखो उसके कैसे पत्ते खुलते है.”\n</div><div>\n</div><div>59. “हिस्ट्री को उठा कर के देख लो आप पाओगे की जितने भी कामयाब लोग हुए है उनके पास में दुसरो से ज्यादा जवाब नहीं बल्कि दुसरो से ज्यादा अच्छे सवाल हुए है.”</div><br><div>\n</div><div>\n</div><div>60. “अपने आप से मुकाबला करते जाओ, वहा कोई भी रिस्क नहीं है, हारे तब भी आपकी जीत है और जीते तब भी.”</div><br><div>\n</div><div>\n</div><div>61. “जिसको सवाल करने की आदत है वो चाहे किसी भी फ़ील्ड में जाएगा वो कामयाब हो जाएगा.”</div><br><div>\n</div><div>\n</div><div>62. “2 इंजिनियर है, एक है जो सिर्फ रट्टा मार रहा है, एक है जो इस फंडे को समझ रहा है,<span style=\"font-size: 1rem;\">जिसको फंडा समझ आ गया वो किसी भी प्रॉब्लम को ठीक कर सकता है लेकिन जिसने रट्टा मारा वो केवल एक ही प्रॉब्लम को ठीक कर सकता है.”</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div>\n</div><div>63. “2 तरह की चॉइस है आपके पास में,  कि मुझे जिंदगी को काटना है या मुझे जिंदगी को जीना है.”</div><br><div>\n</div><div>\n</div><div>64. “मेरी inspiration क्या है, वही जो मेरे 12 स्टैण्डर्ड में आई थी कि मुझे कुछ करना है आज उस दिन को कई साल हो गए लेकिन ये अब तक गई नहीं”</div><br><div>\n</div><div>\n</div><div>65. “टैलेंट की अपनी एक लिमिट है, goal setting की अपनी एक लिमिट है, मोटिवेशन जो की बाहर से अन्दर की तरफ आ आता है उसकी एक लिमिट है लेकिन inspiration जो अन्दर से बाहर की तरफ जा रहा है न उसकी कोई लिमिट नहीं है.”</div><br><div>\n</div><div>\n</div><div>66. “बाकि सब मर जाता है लेकिन वो inspiration नहीं मरती, वो अन्दर ही अन्दर जलती रहती है.”</div><br><div>\n</div><div>\n</div><div>67. “खाना जब तक आप पेट की भूख को मिटाने के लिए खा रहे हो तब तक वो अमृत है, और अगर खाना आप मन की भूख को मिटाने के लिए खा रहे हो तो वो जहर है.”</div><br><div>\n</div><div>\n</div><div>68. “एक तरफ है मज़ा, और एक तरफ है दर्द, इन दोनों के बिच में बैलेंस बनाना है.”</div><br><div>\n</div><div>\n</div><div>69. “इस दुनिया में डिजायर से बड़ी निर्माणकारी पॉवर और कोई नहीं है.”</div><br><div>\n</div><div>\n</div><div>70.”सब कुछ बदला जा सकता है, अपनी जिंदगी में भी और पूरी दुनिया में भी, इस पूरी की पूरी दुनिया को नई डायरेक्शन दी जा सकती है उस डिजायर की वजह से अगर यह डिजायर सही डायरेक्शन में है तो, यही डिजायर अगर गलत डायरेक्शन में चली जाये तो इससे बड़ी विनाशकारी पॉवर भी इस पूरा दुनिया में कही नहीं”</div><br><div>\n</div><div>\n</div><div>71. “कर्म है बहना, ज्ञान है यह जनना कि चाहे लेहर है या नहीं है मैं लेहर नहीं हूँ, बुलबला है या नहीं है मैं बुलबुला नहीं हूँ, मैं पानी हूँ”</div><br><div>\n</div><div>\n</div><div>72.  “आप चाहे जॉब करो, चाहे बिज़नस करो, एक स्किल ऐसी है जो आपके अन्दर होनी ही चाहिए, उसके बिना आप लाइफ में आगे नहीं बढ़ सकते, वो है कम्युनिकेशन स्किल”</div><br><div>\n</div><div>\n</div><div>73. “जितना आप बुराई को देखोगे उतना दुखी होगे, और जितना आप दुखी होगे उतने ही दुसरो को दुखी करोगे.”</div><br><div> \n</div><div>\n</div><div>74. “जितना आप प्रकति से जुड़ते जाओगे, उतना अच्छा एहसास करोगे.”</div><br><div> \n</div><div>\n</div><div>75. “आप किसी भी लूज़र के पास चले जाओ उसके पास लिस्ट होगी बहनों की, कि मैं इस वजह से फ़ैल हुआ अपनी लाइफ में, इस वजह से में कुछ नहीं कर पाया, बहुत लम्बी लिस्ट है, और दूसरी तरफ विनर के पास चले जाओ उसके पास में हजार वजह होगी ना करने की जो वो करना चाहता है सिर्फ एक वजह होगी वो करने की जो वो करना चाहता है और वो कर जाएगा.”</div><br><div> \n</div><div>\n</div><div>76. “इस दुनिया में सबसे बड़ी पॉवर डिजायर है क्योंकि यह डिजायर ही है जो हमारे मन को इधर उधर भटका रहा है.”</div><br><div> \n</div><div>\n</div><div>77. “अगर इस दुनिया से आप डिजायर निकल दो लोगो के दिलो में से, क्या होगा? सब कुछ रुक जाएगा एक दिन के अन्दर-अन्दर.”</div><br><div> \n</div><div>\n</div><div>78. “जिस भी तरह के डिजायर आपके अन्दर दबे हुए है, उसी तरह की सोच है.”</div><br><div> \n</div><div>\n</div><div>79. “एक इन्सान है जिसका डिजायर ही इतना सा है कि किसी भी तरह से 10 हजार रूपए की नौकरी मिल जाये बस, किस तरह के विचार होगे उसके, किस लेवल का एक्शन होगा उसका, क्या वो बहुत लेवल पर एक्ट करेगा? उसकी सोच उस 10 हजार रूपए से आगे बढ़ ही नहीं सकती, और 10 हजार का अगर 11 हजार रूपए मिल गए तो बल्ले-बल्ले करेगा वो बैठ कर के. ”</div><br><div> \n</div><div>\n</div><div>80. “आपके जीने की वजह बहुत बड़ी होनी चाहिए, अगर वो बड़ी है तो वो अपने आप ही आपसे बड़े-बड़े काम करवाते चली जाएगी.”</div><br><div> \n</div><div>\n</div><div>81. “जैसे-जैसे आपके अन्दर यह डिजायर पनपेगा कि कुछ अच्छा करना है इस दुनिया के लिए, तो वो कब कर पिओगे? जब आप अन्दर से स्ट्रोंग हो, वो सिर्फ तब कर सकते हो जब पूरी तरह से यह डिजायर आपके ऊपर हावी हो जाये कि मर जाउगा, कट जाऊँगा, इस दुनिया के अन्दर अँधेरा है न, खुद को जला दूंगा तपा दूंगा लेकिन रौशनी कर जाऊँगा.”</div><br><div> \n</div><div>\n</div><div>82. “तप क्या है? तप वो है कि ऐसा काम करना जो इस समय इस दुनिया में मानवता के लिए, इस पूरी दुनिया के लिए करना जरुरी है, उसमे आपको चाहे कितना भी दर्द हो रहा है, अगर आप वो कर रहे हो तो तप है नहीं तो अगर आप अपने सेल्फिश इंटरेस्ट के लिए कर रहे हो तो वो तप नहीं ढोंग है.”</div><br><div> \n</div><div>\n</div><div>83. “आप चाहे डॉक्टर, बनने वाले हो, इंजिनियर बनने वाले हो, उस हद तक अपने काम में एफर्ट दाल दो जितना आज तक पूरी दुनिया में किसी ने नहीं लगाया हो.”</div><br><div>\n</div><div>\n</div><div>84. “मैं आप सब लोगो को strongly recommend करता हूँ, इतना strongly recommend मैंने आज तक कभी नहीं किया कि डॉ. एपीजे अब्दुल कलाम स्टूडेंट के लिए उनसे बड़ी Inspiration इस पूरी दुनिया में कोई नहीं है”</div><br><div> \n</div><div>\n</div><div>85. “दुनिया को आप तब तक नहीं बदल सकते जब तक आप खुद को नहीं बदलोंगे”</div><br><div> \n</div><div>\n</div><div>86. “एक बार अन्दर यह पनप गया न कि मुझे भी कुछ ऐसा करना है यार, कुछ तो करना है, हौसला बनना है दुनिया के लिए चाहे कुछ लोग ही मेरे को देख कर के inspire हो, कुछ तो करना है, ऐसे ही थोड़ी आया और चला गया क्या है?, कुछ करना है.”</div><br><div> \n</div><div>\n</div><div>87. “अरे जो सोये हुए हो, डरे हुए हो, बैठे हुए हो उठो, खड़े हो आगे बढ़ो.”</div><br><div> \n</div><div>\n</div><div>88. “अगर आपको यह क्लियर हो गया कि मुझे इस प्रॉब्लम का सलूशन निकलना है तो सलूशन खुद चल कर के आपके पास आता है, प्रॉब्लम में ही सलूशन होता है”</div><br><div> \n</div><div>\n</div><div>89. “प्रॉब्लम में ही सलूशन छुपा होता है, हर बीमारी का इलाज कही बाहर नहीं होता है, उसी बीमारी में होता है, जैसे ही उस बीमारी का कारण समझ आता है, वही पर उसका इलाज छुपा होता है.”</div><br><div> \n</div><div>\n</div><div>90. “सक्सेस मिलता है फेलियर मिलता है, क्या फर्क पड़ता है, पैसा आता है जाता है क्या फर्क पड़ता है, पिछले हजारो लाखो करोड़ो सालो में देखलो मेरे को एक भी ऐसा इन्सान दिखा दो जिसने कुछ पैसा कमाया हो या कोई चीज बनाई हो और अभी भी वो जिन्दा हो, चाहे वो चीज या इन्सान हो, न चीज रहती है न इन्सान रहता है, न यह बॉडी रहती है.”</div><br><div>\n</div><div>\n</div><div>91. “जिंदगी में कभी कुछ करना है तो सच बोल दो.”</div><br><div> \n</div><div>\n</div><div>92. “ये दुनिया बदलेगी, क्योंकि यह भी होना आसान है.”</div><br><div> \n</div><div>\n</div><div>93. “मेरे सारे सेशन का सार बहार की दुनिया से नहीं, अन्दर की दुनिया से कैसे लड़ना है.”</div><br><div> \n</div><div>\n</div><div>94. “अगर आपके अन्दर धेर्य है तो अपनी जिंदगी का हर फ़ेसला सही तरीके से ले सकते हो.”</div><br><div> \n</div><div>\n</div><div>95. “विडियो गेम खेलते है हम, उसमे क्या पहले ही दिन में जब आप खेल रहे होते हो आप एक्सपर्ट हो जाते हो, पहले ही लेवल से 10वे लेवल पर पहुच जाते हो, नहीं पहुचते आप गेम में बार-बार गिरते हो, फिर पहले लेवल से शुरू करते है ऐसे करके बेटर करते जाते हो, और आखिर में 10वे लेवल पर पहुच जाते हो, उसी तरह गेम और जिंदगी में केवल एक ही फर्क है कि गेम में एक एंड आ जाता है लेकिन जिंदगी मे कोई एंड नहीं है आगे बढ़ते रहो.”</div><br><div> \n</div><div>\n</div><div>96. “मैं यह नहीं कहता कि एजुकेशन इम्पोर्टेन्ट नहीं है, एजुकेशन बहुत इम्पोर्टेन्ट है, उसके बिना आप servive भी नहीं कर सकते दुनिया के अन्दर, मतलब कि जिंदगी को काटने के लिए एजुकेशन इम्पोर्टेन्ट है लेकिन जिंदगी जीने से इसका दूर-दूर तक कोई कनेक्शन नहीं है.”</div><br><div>\n</div><div>\n</div><div>97. “बिज़नस में और चेस में ज्यादा फर्क नहीं है.”</div><br><div> \n</div><div>\n</div><div>98. “एक बार आपका learning attitude बन गया, फिर पैसा तो क्या है कितना भी कमा लो, अपक कोई नहीं रोक सकता.”</div><br><div>\n</div><div>\n</div><div>99. “हमेशा कुछ न कुछ सिखने के रास्ते पर अगर आप चलोगे, तो चलते-चलते आपको पता भी नहीं लगेगा, और सच बता रहा हु पता भी नहीं लगेगा कि कब आप लोग नार्मल इन्सान से सुपर इन्सान बन जाओगे.”</div><br><div>\n</div><div>\n</div><div>100. “इस दुनिया में मैजिक नाम की कोई चीज नहीं है, सिर्फ खेल है”</div><br><div>\n</div><div>\n</div><div>101. “अगर में आपका सर किसी पानी से भरे ड्रम में मुह पकड कर उसके अन्दर कर दू, तो आप अपने आप को बचाने के लिए पूरी एनर्जी लगा डोंगे क्योंकि प्रॉब्लम बड़ी है, तो जितनी बड़ी प्रॉब्लम उतनी बड़ी एनर्जी”</div><br><div>\n</div><div>\n</div><div>102. “आपकी जिंदगी के बारे में सबसे अच्छा आपके पेरेंट्स के अलवा कोई नहीं सोच सकता.”</div><br><div>\n</div><div>\n</div><div>103. “हमें यह सोच बदलनी होगी कि अगर यह मेरा जो बच्चा है, उसका इन टॉप कॉलेज में एडमिशन हुआ तो इसका मतलब अच्छा है, उसकी लाइफ बन गई और अगर नहीं होता तो उसकी लाइफ बिगड़ गई.”</div><br><div> \n</div><div>\n</div><div>104. “स्टूडेंट के सुसाइड का कारण है की उन्हें यह समझा दिया गया है कि अगर टॉप कॉलेज नहीं मिली तो इसके अलावा सक्सेस होने का और कोई रास्ता है ही नहीं.”</div><br><div> \n</div><div>\n</div><div>105. “कई लोग यह सोच कर के सुसाइड कर लेते है कि इस दुनिया में अच्छी कॉलेज में एडमिशन वाला स्टूडेंट ही सक्सेस हो सकता है, यह बकवास सोच है क्योंकि में आपको ऐसे उदहारण इंडिया में दिखा सकता हु जो बड़ी कॉलेज से नहीं पढ़े और आज बहुत सक्सेसफुल है, यहाँ तक कि इन बड़ी कॉलेज से जो निकले है वो इनके लिए काम करते है.”</div><br><div>\n</div><div>\n</div><div>106. “अगर आपको लगता है कि आपका दिमाग पढाई में सही से नहीं कर सकता, आपकी रूचि नहीं है, आपकी रूचि बिज़नस में है तो बिज़नस ही करे और अगर आपको लगता है कि पढने में आपको मज़ा आता है केवल दिखने के लिए नहीं बल्कि आपकी रूचि है तो आपके लिए पढाई करने के अलवा और कोई बेटर आप्शन हो ही नहीं सकता”</div><br><div>\n</div><div>\n</div><div>107. “जिसमे रूचि है वो करो, जब आपको पता है कि इस रेस में आप जरुर हारेंगे तो उस रेस में भाग ही क्यों ले.”</div><br><div>\n</div><div>\n</div><div>108. “आज की date में इंडिया में इतनी opportunities है जिसकी कोई हद नहीं, बस यह सोच चाहिए कि जहा सारे लोग का ध्यान है वहा आपका नहीं होना चाहिए”</div><br><div>\n</div><div>\n</div><div>109. “आप वो कम कर रहे हो जिसमे आपकी weakness है और आपके competitors की strength है, तो आप हारेंगे ही हारेंगे, तो अच्छा होगा अपने strength के according ही काम करो”</div><br><div>\n</div><div>\n</div><div>110. “जरा इन्टरनेट पर लोगो के बारे में पढो, ऐसे-ऐसे लोग मिल जायेंगे जिनको स्कूल में घुसने तक का माना कर दिया था पर आज वही लोग हिस्ट्री बदल गये, और आप ऐसे स्टूडेंट हो कि केवल अच्छी कॉलेज न मिलने से दुखी हो रहे हो.”</div><br><div>\n</div><div>\n</div><div>111. “पूरी दुनिया को लग रहा था आप हार मान जाओगे, पूरी दुनिया को लग रहा था आप फ़ैल हो जाओगे, पूरी दुनिया को लग रहा था आप किसी काम के नहीं हो और फिर भी आप कुछ ऐसा कर जाओ कि पूरी की पूरी दुनिया के लिए, सिर्फ अपनी फॅमिली के लिए नहीं, अपने फ्रेंड्स के लिए नहीं, इस पूरी दुनिया के लिए एक inspiration बन जाओ, उसको सक्सेस बोलते है.”&nbsp;</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3x",
+          "_cid": "qynrqcWUYI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Website Generator Description",
+        "title": "Steve Jobes",
+        "order": 14
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>स्टीव जॉब्स</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-37",
+          "_cid": "qynfCvt0Yi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-38",
+          "_cid": "qynfCHKwl5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>स्टीवन पॉल स्टीव जॉब्स की जीवनी<br></b><br>\n<div>24 फरवरी 1955 को केलिफोर्निया में जन्मे स्टीव जॉब्स का जीवन जन्म से हि संघर्ष पूर्ण था, उनकी माँ अविवाहित कॉलेज छात्रा थी। </div><br><div>और इसी कारण वे उन्हें रखना नहीं चाहती थी, और स्टीव जॉब्स को किसी अच्छे परिवार में गोद देने का फैसला कर दिया। लेकिन जो गोद लेने वाले थे उन्होंने ये कहकर मना कर दिया की वे लड़की को गोद लेना चाहते हैं। </div><br><div>फिर स्टीव जॉब्स को केलिफोर्निया में रहने वाले पॉल और कालरा जॉब्स ने गोद ले लिया। पॉल और कालरा दोनों ही ज्यादा पढ़े लिखे नहीं थे और मध्यम वर्ग से ताल्लुक रखते थे। </div><br><div>जब स्टीव जॉब्स 5 साल के हुए, तब उनका परिवार केलिफोर्निया के पास हि स्थित माउंटेन व्यू चला गया। </div><br><div>पॉल मैकेनिक थे, और स्टीव को इलेक्ट्रॉनिक की चीजो के बारे में और कालरा एकाउंटेंट थी इसलिए वे स्टीव की पढाई में मदद किया करती थी। </div><br><div>स्टीव ने मोंटा लोमा स्कूल में दाखिला लिया और वही पर अपनी प्राथमिक शिक्षा पूरी की।</div><br><div>\n</div><div>\n</div><div>इसके बाद वे उच्च शिक्षा कूपटिर्नो जूनियर हाई स्कूल से पूरी की। और सन 1972 में अपनी कॉलेज की पढाई के लिए ओरेगन के रीड कॉल में दाखिला लिया जो की वहां की सबसे महंगी कॉलेज थी। </div><br><div>स्टीव पढने में बहुत ही ज्यादा अच्छे थे लेकिन, उनके माता-पिता पूरी फीस नहीं भर पाते थे, इसलिए स्टीव ने फीस भरने के लिए बोतल के कोक को बेचकर पैसे जुटाते, और पैसे की कमी के कारण मंदिरों में जाकर वहा मिलने वाले मुफ्त खाना खाया करते थे। </div><br><div>और अपने होस्टल का किराया बचाने के लिए अपने दोस्तों के कमरों में जमीन पर हि सो जाया करते थे।</div><br><div>\n</div><div>इतनी बचत के बावजूद फीस के पैसे पुरे नहीं जुटा पाते और अपने माता-पिता को कढ़ी मेहनत करता देख उन्होंने कॉलेज छोड़कर उनकी मदद करने की सोची। लेकिन उनके माता-पिता उनसे सहमत नहीं थे। </div><br><div>इसलिए अपने माता-पिता के कहने पर कॉलेज में नहीं जाने के स्थान पर क्रेटीव क्लासेज (creative classes) जाना स्वीकार किया। जल्दी ही उसमे स्टीव को रूचि बढ़ने लगी। </div><br><div>क्लासेस जाने के साथ-साथ वे अटारी नाम की कंपनी में technician का काम करने लगे। स्टीव आध्यात्मिक जीवन में बहुत विश्वास करते थे, इसलिए स्टीव अपने धर्म गुरु से मिलने भारत आए। </div><br><div>और काफी समय भारत में गुजारा। भारत में रहने के दौरान उन्होंने पूरी तरह बौद्ध धर्म को अपना लिया और बौद्ध भिक्षु के जैसे कपडे पहनना शुरू किया। और पूरी तरह आध्यातिमिक हो गये। </div><div>और भारत से वापिस कैलिफ़ोर्निया चले गए।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी की शुरुआत -</b></div><br><div>\n</div><div>सन 1976 में मात्र 20 वर्ष की उम्र में उन्होंने एप्पल Apple कंपनी की शुरुआत कि। स्टीव ने अपने स्कूल के सहपाठी मित्र वोजनियाक के साथ मिल कर अपने पिता के गैरेज में ऑपरेटिंग सिस्टम मेकिनटोश तैयार किया। </div><br><div>और इसे बेचने के लिए एप्पल कंप्यूटर का निर्माण करना चाहते थे। लेकिन पैसो की कमी के कारण समस्या आ रही थी। </div><br><div>लेकिन उनकी ये समस्या उनके एक मित्र माइक मर्कुल्ला ने दूर कर दि साथ ही वे कंपनी में साझेदार भी बन गये। और स्टीव ने एप्पल कंप्यूटर बनाने की शुरुआत की।</div><br><div> साथ हि उन्होंने अपने साथ काम करने के लिए Pepsi, Coca Cola कंपनी के मुख्य अधिकारी जॉन स्कली को भी शामिल कर लिया। </div><br><div>स्टीव और उनके मित्रो की कढ़ी मेहनत के कारण कुछ ही सालो में एप्पल कंपनी गैराज से बढ़कर 2 अरब डॉलर और 4000 कर्मचारियो वाली कंपनी बन चुकी थी।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी से इस्तीफा -</b></div><br><div>\n</div><div>लेकिन उनकी ये उपलब्धि ज्यादा देर तक नहीं रही, उनके साझेदारो द्वारा उनको ना पसंद किये जाने और आपस में कहासुनी के कारण एप्पल कंपनी की लोकप्रियता कम होने लगी। </div><br><div>धीरे-धीरे कंपनी पूरी तरह कर्ज में डूब गयी। और बोर्ड ऑफ़ डायरेक्टर की मीटिंग में सारे दोष स्टीव का ठहराकर सन 1985 में उन्हें एप्पल कंपनी से बाहर कर दिया। ये उनके जीवन का सबसे दुखद पल था। </div><br><div>क्योकि जिस कंपनी को उन्होंने कढ़ी मेहनत और लग्न से बनाया था उसी से उन्हें निकाल दिया गया था। स्टीव के जाते ही कंपनी पूरी तरह कर्ज में डूब गयी। </div><br><div>एप्पल से इस्तीफा देने के 5 साल बाद उन्होंने Next-ink नाम की और Pixer नाम की दो कंपनियों की शुरुआत की।\n</div><div>\n</div><div>Next-ink में उपयोग की जाने वाली तकनीक उत्तम थी। और उनका उदेश्य बेहतरीन सॉफ्टवेर बनाना था। और Pixer कंपनी में animation का काम होता था।</div><br><div> एक साल तक काम करने के बाद पैसो की समस्या आने लगी और Rosh perot के साथ साझेदारी कर ली। और पेरोट ने अपने पैसो का निवेश किया। सन 1990 में Next-ink ने पहला कंप्यूटर बाज़ार में उतारा लेकिन बहुत ही ज्यादा महंगा होने के कारण बाजार में नहीं चल सका। </div><br><div>फिर Next-ink ने Inter personal computer बनाया जो बहुत ही ज्यादा लोक प्रिय हुआ। और Pixer ने एनिमेटेड फिल्म Toy story बनायीं जो अब तक की सबसे बेहतरीन फिल्म हैं।</div><br><div>\n</div><div>\n</div><div><b>एप्पल कंपनी में वापसी -</b></div><br><div>\n</div><div>सन 1996 में एप्पल ने स्टीव की Pixer को ख़रीदा इस तरह उनके एप्पल में वापसी हुई। साथ ही वे एप्पल के chief executive officer बन गये। सन 1997 में उनकी मेहनत के कारण कंपनी का मुनाफा बढ़ गया और वे एप्पल के सी.इ.ओ. बन गये। </div><br><div>सन 1998 में उन्होंने आईमैक I-mac को बाज़ार में लॉन्च किया, जो काफी लोकप्रिय हुआ। और एप्पल ने बहुत ही बड़ी सफलता हासिल कर ली। </div><br><div>उसके बाद I-pad, I-phone, I-tune भी लॉन्च किये। सन 2011 में सी.इ.ओ. पद से इस्तीफा दे दिया और बोर्ड के अध्यक्ष बन गये। उस वक्त उनकी प्रॉपर्टी $7.0 बिलियन हो गयी थी। और apple दुनिया की दूसरी सबसे बड़ी कंपनी बन गयी थी।</div><br><div>\n</div><div>\n</div><div><b>निधन -</b></div><br><div>\n</div><div>स्टीव को सन 2003 से pain creative नाम की कैंसर की बिमारी हो गयी थी। लेकिन फिर भी वे रोज कंपनी में जाते ताकि लोगो को बेहतरीन से बेहतरीन टेक्नोलॉजी प्रदान कर सके और कैंसर की बिमारी के चलते 5 Oct. 2011 को Paalo Aalto केलिफोर्निया में उनका निधन हो गया।</div><br><br><div><b>स्टीव जॉब्स के जीवन से हमे ये सिख मिलती हे की जीवन में चाहे कितनी भी समस्या आये हमे उससे हार नहीं माननी चाहिए और लगातार आगे बढ़ते रहना हे&nbsp;</b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-39",
+          "_cid": "qynfDzLPtD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "Success Story&nbsp;",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page6.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">बिल गेट्स<br></p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page4.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">स्टीव जॉब्स</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-3e",
+          "_cid": "qyniSpxd48",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page8.html\"><img src=\"@PROJECT_PATH@/assets/images/tata-1366x683.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">रतन नवल टाटा</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page7.html\"><img src=\"@PROJECT_PATH@/assets/images/thomas-alva-edison1-500x277.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">थॉमस एल्वा एडिसन</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-3n",
+          "_cid": "qynlxS3gfr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page31.html\"><img src=\"@PROJECT_PATH@/assets/images/sandeep-maheshwari-seminars-e1436094811200-999x563.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">संदीप माहेश्वरी</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page9.html\"><img src=\"@PROJECT_PATH@/assets/images/dhirubhai-ambani-5-being-marathi-755x290.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">धीरजलाल हीरालाल अंबानी</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-3o",
+          "_cid": "qynmdVGzYn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "Bill Gates",
+        "order": 13
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>बिल गेट्स&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3a",
+          "_cid": "qynhofNWA9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-3b",
+          "_cid": "qynhoxA67q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>बिल गेट्स की कहानी\n</b><br><br><div>बिल गेट्स को किसी परिचय कि आवश्यकता नहीं है, वह पूरी दुनिया में अपने कार्यों से जाने जाते हैं। </div><br><div>हम सभी यह भली भांति जानते हैं कि दुनिया की सर्वश्रेष्ठ Software Company “Microsoft” की नींव भी बिल गेट्स के द्वारा ही रखी गयी है।</div><br><div>\n</div><div>\n</div><div><b>बिल गेट्स का परिवार -</b></div><br><div><b>\n</b></div><div>बिल गेट्स का वास्तविक तथा पूर्ण नाम विलियम हेनरी गेट्स है। इनका जन्म 28 अक्टूबर, 1955 को वाशिंगटन के सिएटल में हुआ। </div><br><div>इनके परिवार में इनके अतिरिक्त चार और सदस्य थे – इनके पिता विलियम एच गेट्स जो कि एक मशहूर वकील थे, इनकी माता मैरी मैक्‍सवेल गेट्स जो प्रथम इंटरस्टेट बैंक सिस्टम और यूनाइटेड वे के निदेशक मंडल कि सदस्य थी तथा इनकी दो बहनें जिनका नाम क्रिस्टी और लिब्बी हैं। </div><br><div>बिल गेट्स ने अपने बचपन का भी भरपूर आनंद लिया तथा पढ़ाई के साथ वह खेल कूद में भी सक्रिय रूप से भाग लेते रहे।</div><br><div>\n</div><div>\n</div><div><b>बिल गेट्स का बचपन -</b></div><br><div>\n</div><div>उनके माता – पिता उनके लिए क़ानून में करियर बनाने का स्वप्न लेकर बैठे थे परन्तु उन्हें बचपन से ही कंप्यूटर विज्ञान तथा उसकी प्रोग्रामिंग भाषाओं में रूचि थी। </div><br><div>उनकी प्रारंभिक शिक्षा लेकसाइड स्कूल में हुई। जब वह आठवीं कक्षा के छात्र थे तब उनके विद्यालय ने ऐएसआर – 33 दूरटंकण टर्मिनल तथा जनरल इलेक्ट्रिक (जी।ई।) कंप्यूटर पर एक कंप्यूटर प्रोग्राम खरीदा जिसमें गेट्स ने रूचि दिखाई। </div><br><div>तत्पश्चात मात्र तेरह वर्ष की आयु में उन्होंने अपना पहला कंप्यूटर प्रोग्राम लिखा जिसका नाम “टिक-टैक-टो” (tic-tac-toe) तथा इसका प्रयोग कंप्यूटर से खेल खेलने हेतु किया जाता था। बिल गेट्स इस मशीन से बहुत अधिक प्रभावित थे तथा जानने को उत्सुक थे कि यह सॉफ्टवेयर कोड्स किस प्रकार कार्य करते हैं।</div><br><div>\n</div><div>\n</div><div><b>कंप्यूटर प्रोग्रामिंग के प्रति बिल गेट्स की लगन -</b></div><br><div>\n</div><div>इसके पश्चात गेट्स डीईसी (DEC), पीडीपी (PDP), मिनी कंप्यूटर नामक सिस्टमों में दिलचस्पी दिखाते रहे, परन्तु उन्हें कंप्यूटर सेंटर कॉरपोरेशन द्वारा ऑपरेटिंग सिस्टम में हो रही खामियों के लिए 1 महीने तक प्रतिबंधित कर दिया गया। </div><br><div>इसी समय के दौरान उन्होंने अपने मित्रों के साथ मिलकर सीसीसी के सॉफ्टवेयर में हो रही कमियों को दूर कर लोगों को प्रभावित किया तथा उसके पश्चात वह सीसीसी के कार्यालय में निरंतर जाकर विभिन्न प्रोग्रामों के लिए सोर्स कोड का अध्ययन करते रहे और यह सिलसिला 1970 तक चलता रहा। </div><br><div>इसके पश्चात इन्फोर्मेशन साइंसेस आइएनसी&nbsp;<span style=\"font-size: 1rem;\">लेकसाइड के चार छात्रों को जिनमें बिल गेट्स भी शामिल थे, कंप्यूटर समय एवं रॉयल्टी उपलब्ध कराकर कोबोल (COBOL), पर एक पेरोल प्रोग्राम लिखने के लिए किराए पर रख लिया।</span></div><div><br></div><div><span style=\"font-size: calc(1.175rem + (0.325 * ((100vw - 20rem) / 28)));\"><br></span></div><div>\n</div><div>इसके पश्चात उन्हें रोकना नामुमकिन था। मात्र 17 वर्ष कि उम्र में उन्होंने अपने मित्र एलन के साथ मिलकर ट्राफ़- ओ- डाटा नामक एक उपक्रम बनाया जो इंटेल 8008 प्रोसेसर (Intel 8008 Processor) पर आधारित यातायात काउनटर (Traffic Counter) बनाने के लिए प्रयोग में लाया गया। </div><br><div>1973 में वह लेकसाइड स्कूल से पास हुए तथा उसके पश्चात बहु- प्रचलित हारवर्ड कॉलेज में उनका दाखिला हुआ। परन्तु उन्होंने 1975 में ही बिना स्नातक किए वहाँ से विदा ले ली जिसका कारण था उस समय उनके जीवन में दिशा का अभाव। </div><br><div>उसके पश्चात उन्होंने Intel 8080 चिप बनाया तथा यह उस समय का व्यक्तिगत कंप्यूटर के अन्दर चलने वाला सबसे वहनयोग्य चिप था, जिसके पश्चात बिल गेट्स को यह एहसास हुआ कि समय द्वारा दिया गया यह सबसे उत्तम अवसर है जब उन्हें अपनी स्वयं कि कंपनी का आरम्भ करना चाहिए।</div><br><div>\n</div><div>\n</div><div><b>माइक्रोसॉफ्ट कंपनी का उत्थान -</b></div><br><div>\n</div><div>MITS (Micro Instrumentation and Telemetry Systems) जिन्होंने एक माइक्रो कंप्यूटर का निर्माण किया था, उन्होंने गेट्स को एक प्रदर्शनी में उपस्थित होने कि सहमती दी तथा गेट्स ने उनके लिए अलटेयर एमुलेटर (Emulator) निर्मित किया जो Mini Computer और बाद में इंटरप्रेटर में सक्रिय रूप से कार्य करने लगा। </div><br><div>इसके बाद बिल गेट्स व् उनके साथी को MITS के अल्बुकर्क स्थित कार्यालय में काम करने कि अनुमति दी गयी। उन्होंने अपनी जोड़ी का नाम Micro-Soft रखा तथा अपने पहले कार्यालय कि स्थापना अल्बुकर्क में ही की। 26 नवम्बर, 1976 को उन्होंने Microsoft का नाम एक व्यापारिक कंपनी के तौर पर पंजीकृत किया। </div><br><div>Microsoft Basic कंप्यूटर के चाहने वालों में सबसे अधिक लोकप्रिय हो गया था। 1976 में ही Microsoft MITS से पूर्णत: स्वतंत्र हो गया तथा Gates और Allen ने मिलकर कंप्यूटर में प्रोग्रामिंग भाषा Software का कार्य जारी रखा। इनसे बाद Microsoft ने अल्बुकर्क में अपना कार्यालय बंद कर बेलेवुए, वाशिंगटन में अपना नया कार्यालय खोला। </div><br><div>Microsoft ने उन्नति की ओर बढ़ते हुए प्रारंभिक वर्षों में बहुत मेहनत व् लगन से कार्य किया। गेट्स भी व्यावसायिक विवरण पर भी ध्यान देते थे, कोड लिखने का कार्य भी करते थे तथा अन्य कर्मचारियों द्वारा लिखे गए व् जारी किये गए कोड कि प्रत्येक पंक्ति कि समीक्षा भी वह स्वयं ही करते थे। </div><br><div>इसके बाद जानी मानी कंपनी IBM ने Microsoft के साथ काम करने में रूचि दिखाई, उन्होंने Microsoft से अपने पर्सनल कंप्यूटर के लिए बेसिक इंटरप्रेटर बनाने का अनुरोध किया। </div><br><div>कई कठिनाइयों से निकलने के बाद गेट्स ने Seattle कंप्यूटर प्रोडक्ट्स के साथ एक समझौता किया जिसके बाद एकीकृत लाइसेंसिंग एजेंट और बाद में 86-DOS के वह पूर्ण आधिकारिक बन गए और बाद में उन्होंने इसे आईबीएम को $80,000 के शुल्क पर PC-DOS के नाम से उपलब्ध कराया। </div><br><div>इसके पश्चात Microsoft का उद्योग जगत में बहुत नाम हुआ। 1981 में Microsoft को पुनर्गठित कर बिल गेट्स को इसका चेयरमैन व् निदेशक मंडल का अध्यक्ष बनाया गया। </div><br><div>जिसके बाद Microsoft ने अपना Microsoft Windows का पहला संस्करण पेश किया। 1975 से लेकर 2006 तक उन्होंने Microsoft के पद पर बहुत ही अदभुत कार्य किया, उन्होंने इस दौरान Microsoft कंपनी के हित में कई महत्वपूर्ण निर्णय लिए।</div><br><div>\n</div><div>\n</div><div><b>बिल गेट्स का विवाह व् आगे का जीवन -</b></div><br><div>\n</div><div>1994 में बिल गेट्स का विवाह फ्रांस में रहने वाली Melinda से हुआ तथा 1996 में इन्होंने जेनिफर कैथेराइन गेट्स को जन्म दिया। इसके बाद मेलिंडा तथा बिल गेट्स के दो और बच्चे हुए जिनके नाम रोरी जॉन गेट्स तथा फोएबे अदेले गेट्स हैं। वर्तमान में बिल गेट्स अपने परिवार के साथ वाशिंगटन स्थित मेडिना में उपस्थित अपने सुन्दर घर में रहते हैं, जिसकी कीमत 1250 लाख डॉलर है।</div><br><div>\n</div><div>\n</div><div><b>बिल एंड मेलिंडा गेट्स फाउंडेशन का उदय -</b></div><br><div>\n</div><div>वर्ष 2000 में उन्होंने अपनी पत्नी के साथ मिलकर बिल एंड मेलिंडा गेट्स फाउंडेशनकी नींव रखी जो कि पारदर्शिता से संचालित होने वाला विश्व का सबसे बड़ा Charitable फाउंडेशन था। </div><br><div>उनका यह फाउंडेशन ऐसी समस्याओं के लिए कोष दान में देता था जो सरकार द्वारा नज़रअंदाज़ कर दी जाती थीं जैसे कि कृषि, कम प्रतिनिधित्व वाले अल्पसंख्यक समुदायों के लिये कॉलेज छात्रवृत्तियां, एड्स जैसी बीमारियों के निवारण हेतु, इत्यादि।</div><br><div>\n</div><div>\n</div><div><b>परोपकारी कार्य -</b></div><br><div>\n</div><div>सन 2000 में इस फाउंडेशन ने Cambridge University को 210 मिलियन डॉलर गेट्स कैम्ब्रिज छात्रवृत्तियों हेतु दान किये। वर्ष 2000 तक बिल गेट्स ने 29 बिलियन डॉलर केवल परोपकारी कार्यों हेतु दान में दे दिए। </div><br><div>लोगों की उनसे बढती हुई उम्मीदों को देखते हुए वर्ष 2006 में उन्होंने यह घोषणा की कि वह अब Microsoft में अंशकालिक रूप से कार्य करेंगे और बिल एंड मेलिंडा गेट्स फाउंडेशन में पूर्णकालिक रूप से कार्य करेंगे। </div><br><div>वर्ष 2008 में गेट्स ने Microsoft के दैनिक परिचालन प्रबंधन कार्य से पूर्णतया विदा ले ली परन्तु अध्यक्ष और सलाहकार के रूप में वह Microsoft में विद्यमान रहे।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3c",
+          "_cid": "qynhoKpPY4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Thomas",
+        "order": 12
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>थॉमस एल्वा एडिसन</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3f",
+          "_cid": "qynjhas094",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/thomas-alva-edison1-500x277.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-3g",
+          "_cid": "qynjhlLrPn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>थॉमस एल्वा एडिसन की जीवनी</b><br><br>\n<div>थॉमस एल्वा एडिसन महान एक अमरीकी आविष्कारक एवं व्यवसायी थे। संपूर्ण विश्व मे अपनी महानतम उपलब्धियो के लिए जाने वाले इस महान वैज्ञानिक (scientist) के नाम पर 1093 आविष्कारो के पेटेंट दर्ज हैं। </div><br><div>विद्युत-बल्ब का अविष्कार करने के कारण इन्हे विश्वभर मे प्रकाश का फरिश्ता कहा जाता हैं। थॉमस एल्वा एडिसन का जन्म 11 फरवरी 1847 में अमेरिका के ओहियो शहर के मिलान गाँव में हुआ था। इनके पिता का नाम सेमुएल एडिसन और माँ का नाम नैन्सी एलियट था। </div><br><div>एडिसन अपने माता-पिता की सात संतानों में से सबसे छोटे थे। इनके पिता ने हर प्रकार के व्यवसाय करने का प्रयास किया लेकिन उन्हे किसी मे भी सफलता ना मिली। </div><br><div>जिस समय एडिसन की उम्र सात वर्ष की थी, तब उनका परिवार पोर्ट ह्यूरोंन, मिशिगेज चला गया, जहा पर उनके पिता एक बढाई के रूप में फोर्ट ग्रेरियेट में नियुक्त किये गये थे।</div><br><div>\n</div><div>\n</div><div>एडीसन बचपन मे बहुत कमजोर थे और उनका व्यक्तित्व बहुत जटिल था। लेकिन इनका मस्तिष्क सदा पश्नो से भरा रहता था। वह किसी भी चीज़ को तबतक नही मानते थे जब तक उसका स्वंय परीक्षण न कर ले। </div><br><div>इस प्रकार के दृष्टिकोण के कारण ही इन्हे स्कूल से निकाल दिया गया। इनके अध्यापक ने कहा था की इस लड़के का दिमाग़ बिल्कुल खाली हैं। स्कूल से निकले जाने के बाद इन्हे इनकी माँ ने घर पर ही शिक्षा दी थी, जो की खुद अध्यापिका थी। </div><br><div>एडिसन ने अपनी ज्यादातर शिक्षा आर.जी. पार्कर स्कूल से और दी कूपर यूनियन स्कूल ऑफ़ साइंस एंड आर्ट से ग्रहण किया। एडिसन को बचपन से ही सुनने में तकलीफ होती थी। </div><br><div>ये सब तब से चल रहा था जब से बचपन में उन्हें एक तेज़ बुखार आया था और उस से उबरते समय उनके दाहिने कान में चोट आ गयी थी। तभी से उन्हें सुनने में थोड़ी-बहुत परेशानी होती थी।</div><br><div>\n</div><div>\n</div><div>उनके करियर के मध्य, उन्होंने अपनी बीमारी के बारे में बताया की जब वे ट्रेन में सफ़र कर रहे थे तभी एक केमिकल में आग लग गयी, जिस वजह से वे ट्रेन के बाहर फेके गये और उनके कान में चोट आ गयी। </div><br><div>कुछ साल बाद ही, उन्होंने इस कहानी को तोड़ते हुए एक नहीं कहानी बनाई और कहने लगे की जब चलती ट्रेन में कंडक्टर उनकी मदद कर रहा था, तभी अचानक उनके कान में चोट लगी थी। </div><br><div>सन 1862 की बात हैं जब इन्होने अपनी जान पर खेलकर स्टेशन मास्टर के बच्चे को एक रेल दुर्घटना मे मरने से बचाया। </div><br><div>एडीसन के इस कारनामे से स्टेशन मास्टर बहुत प्रसन्न हुआ। उसके पास धन के रूप मे तो कुछ देने को था नही, लेकिन उसने एडीसन को टेलिग्राफ सिखाने का वचन दिया। </div><br><div>एडीसन ने इस व्यक्ति से टेलिग्राफ सीखी और सन 1868 मे उन्होने अपना टेलिग्राफ पर पहला पेटेंट कराया। उसी वर्ष उन्होने वोट रेकॉर्ड करने की मशीन का अविष्कार किया।</div><br><div>\n</div><div>\n</div><div>इसके अगले वर्ष वे न्यूयॉर्क चले गये। वहाँ पर भी उन्होने कुछ समय ग़रीबी मे गुज़रा, लेकिन कुछ दिन बाद उन्हे स्टॉक एक्सचेंज के टेलिग्राफ ऑफीस मे नौकरी मिल गयी। </div><br><div>उन्होने अपना टेलिग्राफ उपकरण एक्सचेंज के प्रेसीडेंट को इस आशा मे भेंट किया की उन्हे इसके लिए 2,000 डॉलर मिल जाएँगे, लेकिन एक्सचेंज का प्रेसीडेंट उनके इस टेलिग्राफ उपकरण से इतना प्रभावित हुआ की उसने एडीसन को इसके 40 हज़ार डॉलर दिए, यही से उनके सौभाग्य का आरंभ हुआ। </div><br><div>सन 1876 मे न्यूजर्सी के मैनलो पार्क मे इन्होने अपनी प्रयोगशाला स्थापित की। वहाँ इन्होने इतने अनुसंधान किए की इन्हे मैनलो पार्क का जादूगर कहा जाने लगा। </div><br><div>सन् 1877 मे एडीसन ने ग्रामोफ़ोन का अविष्कार किया। इसी प्रयोगशाला मे सन् 1879 मे एडीसन ने विद्युत बल्ब का अविष्कार किया। जब ये विद्युत बल्ब पर कार्य कर रहे थे तभी इन्होने तापायनिक उत्सर्जन (Thermionic Emission) के सिद्धांत का अविष्कार किया और बाद मे इसी सिद्धांत पर एलेक्ट्रॉनिक बल्ब बनाए गए।</div><br><div>\n</div><div>\n</div><div>एडिसन ने विद्युत प्रकाश के अलावा सिनेमा, टेलीफोन, रिकॉर्ड और सीडी का सृजन किया और योगदान दिया था। </div><br><div>उनके समस्त अविष्कार आज किसी न किसी रूप में उपयोग में है। एडीसन के शोधो के आधार पर ही बाद मे रेमिँगटन टाइप रायटर विकसित किया गया। </div><br><div>इन्होने एक विद्युत से चलने वाला पेन भी खोजा, जो बाद मे मिमोग्रफ के रूप मे विकसित हुआ। सन् 1889 मे उन्होने चलचित्र कैमरा भी विकसित किया।</div><br><div>\n</div><div>\n</div><div>एडिसन एक महान अविष्कारक थे, उनके समय में उन्होंने पुरे US के 1093 पेटेंट्स अपने कब्जे में कर रखे थे, और इसके अलावा यूनाइटेड किंगडम, फ्रांस और जर्मनी में भी उनके कई सारे पेटेंट्स है। </div><br><div>उनके इन सभी पेटेंट्स का उनके आविष्कारों पर बहुत प्रभाव पड़ा। वे एक वैज्ञानिक ही नही बल्कि एक सफल उद्यमी भी थे। </div><br><div>वे हर दिन अपने काम करने के बाद बचे समय को प्रयोग और परिक्षण में लगते थे। उन्होंने अपनी कल्पना शक्ति और स्मरण शक्ति का उपयोग अपने व्यवसाय को आगे बढ़ाने में लगाया। </div><br><div>उनके इसी टैलेंट की बदौलत उन्होंने 14 कंपनियों की स्थापना की जिनमे जनरल इलेक्ट्रिक भी शामिल है, जो आज भी दुनिया की सबसे बड़ी व्यापर करने वाली कंपनी के नाम से जानी जाती है। </div><br><div>प्रथम विश्वयुद्ध में एडिसन ने जलसेना सलाहकार बोर्ड का अध्यक्ष बनकर 40 युद्धोपयोगी आविष्कार किए। पनामा पैसिफ़िक प्रदर्शनी ने 21 अक्टूबर 1915 ई। को एडिसन दिवस का आयोजन करके विश्वकल्याण के लिए सबसे अधिक अविष्कारों के इस उपजाता को संमानित किया। 1927 ई। में एडिसन नैशनल ऐकैडमी ऑव साइंसेज़ के सदस्य निर्वाचित हुए।</div><br><div>\n</div><div>\n</div><div>21 अक्टूबर 1929 को राष्ट्रपति दूसरे ने अपने विशिष्ट अतिथि के रूप में एडिसन का अभिवादन किया। सन् 1912 मे इन्हे अपने पुराने सहयोगी टेल्सा के साथ नोबेल पुरूस्कार मिलने को था </div><br><div>लेकिन टेल्सा एडीसन के साथ नोबेल पुरूस्कार लेने से इनकार कर दिए, इस कारण दोनो ही वैज्ञानिक नोबेल पुरूस्कार से वंचित रह गए। </div><br><div>वे जीवन की अंतिम सांसो तक खोज कार्य मे लगे रहे। मृत्यु को भी उन्होंने गुरुतर प्रयोगों के लिए दूसरी प्रयोगशाला में पदार्पण समझा। </div><br><div>“मैंने अपना जीवनकार्य पूर्ण किया। अब मैं दूसरे प्रयोग के लिए तैयार हूँ”, इस भावना के साथ विश्व की इस महान उपकारक विभूति ने 18 अक्टूबर 1931 को संसार से विदा ली।</div><br><b>थॉमस एल्वा एडिसन के जीवन से हमे ये सिख मिलती हे की कोई भी हमे ये कहे की तूम यह नहीं कर सकता तो इससे आपको कोई फर्क नहीं पड़ना चाहिए आपको अपना काम पूरी मेहनत और लगन के साथ करते रहना चाहिए और हमे कभी भी अपनी असफलता  से डरना नहीं हे बल्कि हमे सीखना हे .</b><br><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3h",
+          "_cid": "qynjhz7PJM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Ratan Tata",
+        "order": 11
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>रतन टाटा</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3m",
+          "_cid": "qynlptxbdE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/tata-1366x683.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-3k",
+          "_cid": "qynlhTO0eE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>रतन टाटा की जीवनी</b><br><br>\n<div>रतन टाटा भारत के प्रमुख उद्योगपतियों में से एक हैं। रतन टाटा हजारों लाखों लोगों के लिए आदर्श है इन्होंने अपने जीवन में कड़े संघर्ष मेहनत की बदौलत यह मुकाम हासिल किया है। </div><br><div>रतन टाटा ने 1991 में टाटा ग्रुप के अध्यक्ष बने थे और 28 दिसंबर 2012 में रतन टाटा ने टाटा ग्रुप की अध्यक्षता से इस्तीफा दे दिया था। हालांकि रतन टाटा अभी भी टाटा ग्रुप के ट्रस्ट के अध्यक्ष बने हैं। </div><br><div>रतन टाटा, टाटा ग्रुप के अलावा टाटा स्टील, टाटा मोटर्स, टाटा पावर, टाटा कंसल्टेंसी सर्विसेज, टाटा टी, टाटा केमिकल्स, इंडियन होटल्स और टाटा टेलीसर्विसेज के अध्यक्ष भी रहे हैं। रतन टाटा ने अपनी अगुवाई में टाटा ग्रुप को नई बुलंदियों पर पहुंचाने का काम किया है।</div><br><div>\n</div><div>\n</div><div><b>रतन टाटा का शुरुआती जीवन –</b></div><br><div>\n</div><div>रतन टाटा का जन्म 28 दिसंबर 1935 में सूरत शहर में हुआ था। 1940 के दशक में जब रतन टाटा के माता-पिता (सोनू और नवल) एक दूसरे से अलग हुए उस समय रतन टाटा 10 साल के और उनका छोटा भाई जिमी सिर्फ 7 साल का था। </div><br><div>इसके बाद इन दोनों भाइयों का पालन पोषण इनकी दादी नवजबाई टाटा ने किया था। मुंबई के कैंपियन स्कूल से रतन टाटा ने अपनी प्रारंभिक शिक्षा पूरी की उसके बाद कैथेड्रल एंड जॉन कॉनन से इन्होंने अपनी माध्यमिक शिक्षा पूरी की फिर इन्होंने स्ट्रक्चरल इंजीनियरिंग के साथ कॉर्नेल विश्वविद्यालय से 1962 में स्नातक की डिग्री ली।</div><br><div> इन सबके बाद रतन टाटा ने हार्वर्ड बिजनेस स्कूल से 1975 में एडवांस मैनेजमेंट प्रोग्राम भी पूरा किया।</div><br><div>\n</div><div>\n</div><div><b>रतन टाटा का कैरियर –</b></div><br><div>\n</div><div>भारत वापस आने से पहले रतन टाटा लॉस एंजिल्स, कैलिफोर्निया में जोन्स और एमोंस में थोड़े समय काम किया। रतन टाटा ने अपने करियर की शुरुआत टाटा ग्रुप से की थी, टाटा ग्रुप से रतन टाटा 1961 में जुड़े थे। </div><br><div>रतन टाटा, टाटा ग्रुप की कई कंपनियों में अपना सहयोग दे चुके थे उसके बाद 1971 में इन्हें राष्ट्रीय रेडियो और इलेक्ट्रॉनिक्स कंपनी (नेल्को) में प्रभारी निदेशक का कार्य भार सौंपा गया। </div><br><div>इसके बाद 1981 में रतन टाटा, टाटा इंडस्ट्रीज के अध्यक्ष बने। 1991 में जेआरडी टाटा ने अपने अध्यक्ष पद से इस्तीफा देने का फैसला लिया और रतन टाटा को अपना उत्तराधिकारी घोषित किया। </div><br><div>रतन टाटा ने अपनी प्रतिभा के दम पर टाटा ग्रुप को नई बुलंदियों पर पहुंच दिया। रतन टाटा की अध्यक्षता में टाटा मोटर्स ने अपनी पहली भारतीय कार टाटा इंडिका लॉन्च की जो काफी सफल भी रही।</div><br><div>\n</div><div>\n</div><div>इसके बाद टाटा टी ने टेटली, टाटा मोटर्स ने ‘जैगुआर लैंड रोवर’ और टाटा स्टील ने ‘कोरस’ को टेक ओवर कर भारतीय बाजार में तहलका मचा दिया। </div><br><div>दुनिया की सबसे सस्ती कार बनाने का आईडिया भी रतन टाटा का ही था। हालाँकि बाद में इन्होंने 28 दिसंबर 2012 को टाटा समूह के सभी कार्यकारी जिम्मेदारियों से सेवानिवृत्त हो गए थे और उनकी जगह 44 वर्षीय साइरस मिस्त्री को दी गई। </div><br><div>टाटा समूह से अपने कार्यों से निवृत होने वाले रतन टाटा ने हाल ही में ईकॉमर्स कंपनी स्नैपडील, अर्बन लैडर और चाइनीज़ मोबाइल कंपनी जिओमी में भी निवेश किया है। </div><br><div>अभी रतन टाटा प्रधानमंत्री व्यापार और उद्योग परिषद और राष्ट्रीय विनिर्माण प्रतिस्पर्धात्मकता परिषद के अध्यक्ष के तौर पर नियुक्त हैं।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3l",
+          "_cid": "qynli6EqAu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "meta_descr": "Web Page Builder Description",
+        "title": "Dhirubhai Ambani",
+        "order": 10
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>धीरजलाल हीरालाल अंबानी</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3t",
+          "_cid": "qynn77cv8A",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/dhirubhai-ambani-5-being-marathi-755x290.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-3u",
+          "_cid": "qynn7oAzow",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>एक आदमी जो हाईस्कूल की शिक्षा भी पूरी नहीं कर पाया। वह इतने गरीब परिवार से था कि खर्चा चलाने के लिए उसे अपनी किशोरावस्था से ही नाश्ते की रेहड़ी लगाने से लेकर पेट्रोल पंप पर तेल भरने तक का काम करना पड़ा। <br><br>ऐसे लड़के ने जब एक वृद्ध के तौर पर दुनिया को अलविदा कहा तो उसकी सम्पति का मूल्य 62 हजार करोड़ रूपये से भी ज्यादा था। <br><br>अगर आप अब भी इस शख्सशियत को नहीं पहचान पाएं तो हम बात कर रहे हैं, धीरूभाई अंबानी की। <br><br>एक ऐसा सफल चेहरा जिसने हरेक गरीब को उम्मीद दी कि सफल होने के लिए पैसा नहीं नियत चाहिए। <br><br>सफलता उन्हीं को मिलती है जो उसके लिए जोखिम उठाते हैं। <br><br>धीरूभाई ने बार — बार साबित किया कि जोखिम लेना व्यवसाय का नहीं आगे बढ़ने का मंत्र है।<br><br>\n<div>\n</div><div><b>शुरूआती जीवन –</b></div><br><div>\n</div><div>28 दिसम्बर, 1932 को गुजरात के जूनागढ़ के छोटे से गांव चोरवाड़ में धीरजलाल हीरालाल अंबानी का जन्म हुआ। पिता गोर्धनभाई अंबानी एक शिक्षक थे। माता जमनाबेन एक सामान्य गृहिणी थी। </div><br><div>धीरूभाई के चार भाई—बहन और थे। इतने बड़े परिवार का लालन—पालन करना अध्यापक गोर्धनभाई के लिए सरल काम न था। </div><br><div>एक समय ऐसा आया कि आर्थिक परेशानियों केी वजह से धीरू भाई को पढ़ाई बीच में ही छोड़नी पड़ी और उनकी स्कूली शिक्षा भी अधूरी रह गई। पिता की मदद करने के लिए धीरूभाई ने छोटे—मोटे काम करने शुरू कर दिए।</div><br><div>\n</div><div>\n</div><div><b>व्यवसायिक सफर की शुरूआत –</b></div><br><div>\n</div><div>यह उदाहरण कि हरेक सफलता के पीछे ढेरों असफलताएं छुपी हुई होती है, धीरूभाई अंबानी पर एकदम सटीक खरी उतरती हैं। </div><br><div>पढ़ाई छोड़ने के बाद पहले पहल धीरूभाई ने फल और नाश्ता बेचने का काम शुरू किया, लेकिन कुछ खास फायदा नहीं हुआ। </div><br><div>उन्होंने दिमाग लगाया और गांव के नजदीक स्थित धार्मिक पर्यटन स्थल गिरनार में पकोड़े बेचने का काम शुरू कर दिया। यह काम पूरी तरह आने वाले पर्यटकों पर निर्भर था, जो साल के कुछ समय तो अच्छा चलता था बाकि समय इसमें कोई खास लाभ नहीं था। </div><br><div>धीरूभाई ने इस काम को भी कुछ समय बाद बंद कर दिया। बिजनेस में मिली पहली दो असफलताओं के बाद उनके पिता ने उन्हें नौकरी करने की सलाह दी।</div><br><div>\n</div><div>\n</div><div><b>नौकरी के दौरान भी बिजनेस –</b></div><br><div>\n</div><div>धीरूभाई के बड़े भाई रमणीक भाई उन दिनों यमन में नौकरी किया करते थे। उनकी मदद से धीरूभाई को भी यमन जाने का मौका मिला। वहां उन्होंने शेल कंपनी के पेट्रोल पंप पर नौकरी की शुरूआत की और महज दो साल में ही अपनी योग्यता की वजह से प्रबंधक के पद तक पहुंच गए। </div><br><div>इस नौकरी के दौरान भी उनका मन इसमें कम और व्यवसाय करने के मौको की तरफ ज्यादा रहा। उन्होंने उस हरेक संभावना पर इस समय में विचार किया कि किस तरह वे सफल बिजनेस मैन बन सकते हैं। </div><br><div>दो छोटी घटनाएं बिजनेस के प्रति उनके जूनून को बयां करती हैं। यह दोनों घटनाएं उस समय की है जब वे शेल कंपनी में अपनी सेवाएं दे रहे थे। जहां वे काम करते थे, वहां काम करने वाला कर्मियों को चाय महज 25 पैसे में मिलती थी, लेकिन धीरूभाई पास ही एक बड़े होटल में चाय पीने जाते थे, जहां चाय के लिए 1 रूपया चुकाना पड़ता था।</div><br><div>\n</div><div>\n</div><div>उनसे जब इसका कारण पूछा गया तो उन्होंने बताया कि उसे बड़े होटल में बड़े—बड़े व्यापारी आते हैं और बिजनेस के बारे में बाते करते हैं। उन्हें ही सुनने जाता हूं ताकि व्यापार की बारीकियों को समझ सकूं। धीरूभाई ने अपने ही तरीके से बिजनेस मैनेजमेंट की शिक्षा ली। </div><br><div>जिन्होंने आगे चलकर व्हाटर्न और हावर्ड से पारम्पिरक तरीके से डिग्री लेने वाले को नौकरी पर रखा। इसी तरह दूसरी घटना उनकी पारखी नजर और अवसर भुनाने की क्षमता की ओर इशारा करती है। हुआ यूं कि उन दिनों में यमन मे चांदी के सिक्कों का प्रचलन था। </div><br><div>धीरूभाई को एहसास हुआ कि इन सिक्कों की चांदी का मूल्य सिक्कों के मूल्य से ज्यादा है और उन्होंने लंदन की एक कंपनी को इन सिक्कों को गलाकर आपूर्ति करनी शुरू कर दी। </div><br><div>यमन की सरकार को जब तक इस बात का पता चलता वे मोटा मुनाफा कमा चुके थे। ये दोनों घटनाएं इशारा कर रही थी कि धीरूभाई अंबानी के पास एक सफल बिजनेसमैन बनने के सारे गुण हैं।</div><br><div>\n</div><div>\n</div><div><b>चुनौतियां और सफलता –</b></div><br><div>\n</div><div>यमन में धीरूभाई का समय बीत रहा था कि वहां आजादी के लिए लड़ाई शुरू हो गई और ढेरों भारतीयों को यमन छोड़ना पड़ा। इस परेशानी के आलम में धीरूभाई को भी यमन छोड़ना पड़ा। </div><br><div>ईश्वर ने एक सफल बिजनेसमैन बनाने के लिए परिस्थितियां गढ़नी शुरू कर दी। इस नौकरी के चले जाने के बाद उन्होंने नौकरी की जगह बिजनेस करने का निर्णय लिया, लेकिन व्यवसाय शुरू करने के लिए पैसों की जरूरत थी। </div><br><div>धीरूभाई के पास निवेश के लिए बड़ी रकम नहीं थी इसलिए उन्होंने अपने मामा त्रयम्बकलाल दामाणी के साथ मसालों और शक्कर के व्यापार की शुरूआत की। </div><br><div>यहीं पर रिलायंस कमर्शियल कॉरर्पोरेशन की नींव पड़ी। इसके बाद रिलायंस ने सूत के कारोबार में प्रवेश किया। यहां भी सफलता ने धीरूभाई के कदम चूमे और जल्दी ही वे बॉम्बे सूत व्यपारी संघ के कर्ता—धर्ता बन गए। </div><br><div>यह बिजनेस जोखिमों से भरा हुआ था और उनके मामा को जोखिम पसंद नहीं था इसलिए जल्दी ही दोनों के रास्ते अलग हो गए। इससे रिलायंस पर कोई खास फर्क नहीं पड़ा और 1966 में रिलायंस टैक्सटाइल्स अस्तित्व में आया। </div><br><div>इसी साल रिलायंस ने अहमदाबाद के नरोदा में टेक्सटाइल मिल की स्थापना की। विमल की ब्रांडिंग इस तरह की गई कि जल्दी ही यह घर—घर में पहचाना जाने लगा और विमल का कपड़ा बड़ा भारतीय नाम बन गया। विमल दरअसल उनके बड़े भाई रमणीक लाल के बेटे का नाम था।</div><br><div>\n</div><div>\n</div><div>इन्हीं सब संघर्षों के बीच उनका विवाह कोकिलाबेन से हुआ जिनसे उन्हें दो बेटे मुकेश और अनिल तथा दो बेटियां दीप्ती और नीना हुईं। </div><br><div>उन्होंने इसके बाद कभी पीछे मुड़कर नहीं देखा और रिलायंस कपड़े के साथ ही पेट्रोलियम और दूरसंचार जैसी कंपनियों के साथ भारत की सबसे बड़ी कंपनी बन गई। </div><br><div>इन सबके बीच धीरूभाई अंबानी पर सरकार की नीतियों को प्रभावित करने और नीतियों की कमियों से लाभ कमाने के आरोप भी लगते रहे। </div><br><div>उनके और नुस्ली वाडिया के बीच होने वाले बिजनेस घमासान पर भी बहुत कुछ लिखा गया। उनके जीवन से प्रेरित एक फिल्म गुरू बनाई गई जिसमें अभिषेक बच्चन ने उनकी भूमिका का निर्वाह किया। </div><br><div>लगातार बढ़ते बिजनेस के बीच उनका स्वास्थ्य खराब हुआ और 6 जुलाई 2002 को उनकी मृत्यु हो गई। मृत्यु के बाद उनके काम को बड़े बेटे मुकेश अंबानी ने संभाला।</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-3v",
+          "_cid": "qynn7T2c17",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "meta_descr": "Web Page Generator Description",
+        "title": "Bill Gates Video",
+        "order": 8
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>बिल गेट्स</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-41",
+          "_cid": "qynv22agYf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=P3HYNyT9UFY&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "qynv5MTn7Q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video2-42"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में बिल गेट्स की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page6.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-43",
+          "_cid": "qynv7G5zCh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Ratan Tata Video",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>रतन टाटा</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-44",
+          "_cid": "qynvWr0KFF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=gFr-dJ9vo_0&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "video2-45",
+          "_cid": "qynvXmVc1u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में रतन टाटा  की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page8.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-46",
+          "_cid": "qynvXxM3iw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page12.html": {
+      "settings": {
+        "meta_descr": "Site Maker Description",
+        "title": "Dhirubhai ambani Video",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>धीरूभाई अम्बानी</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-47",
+          "_cid": "qynwbTHyX9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=xdb4-VUyaUM&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "video2-48",
+          "_cid": "qynwcc9UOM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में धीरूभाई अम्बानी   की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page9.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-49",
+          "_cid": "qynwcsXvsv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page13.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Steve Jobes Video",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>स्टीव जॉब्स</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-4a",
+          "_cid": "qynwrKHGAz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=tV9a6EHH3S8&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "video2-4b",
+          "_cid": "qynwsaCtLS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में स्टीव जॉब्स  की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page4.html\">यहाँ पर क्लिक करे</a>&nbsp;</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-4c",
+          "_cid": "qynwsp5JQX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page14.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "Thomas Video",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>थॉमस एल्वा एडिसन</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-4e",
+          "_cid": "qynAAmklcM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=JyT6LBXPSLM&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "video2-4f",
+          "_cid": "qynAADKDua",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में थॉमस एल्वा एडिसन की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page7.html\">यहाँ पर क्लिक करे</a>&nbsp;</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-4g",
+          "_cid": "qynAARRZ5A",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page15.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Sandeep Maheshwari Videos",
         "order": 3
       },
       "components": [
@@ -129,43 +1538,77 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-30",
-          "_cid": "qyiWo1Nqsq",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>संदीप माहेश्वरी</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-4h",
+          "_cid": "qynACGdPFO",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "meta_descr": "Web Creator Description",
-        "title": "Quotes",
-        "order": 2
-      },
-      "components": [
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=eXUE36Ku9m8&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "video2-4i",
+          "_cid": "qynACRA5lO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
             },
-            ".mbr-text": {
-              "color": "#232323",
-              "text-align": "center"
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
             },
-            ".mbr-text P": {
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
               "text-align": "left"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-35",
-          "_cid": "qynexWtKZ1",
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में संदीप माहेश्वरी की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page31.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-4j",
+          "_cid": "qynAD2t1ET",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -177,29 +1620,169 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Videos",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
             },
-            ".mbr-text": {
-              "color": "#232323",
-              "text-align": "center"
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
             },
-            ".mbr-text P": {
+            "P": {
               "text-align": "left"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><br></p><p><br></p><p><br></p><p>This App Under Maintenance</p><p><br></p><p>यह  ऍप  अभी रिपेयर हो रहा हे कृपया 24 घंटे के बाद वापस आये आपको हम बेहतरीन सक्सेस स्टोरीज देंगे&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-34",
-          "_cid": "qyndZCZl4R",
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page15.html\"><img src=\"@PROJECT_PATH@/assets/images/sandeep-maheshwari-seminars-e1436094811200-999x563.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">संदीप महेश्वरी</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page14.html\"><img src=\"@PROJECT_PATH@/assets/images/thomas-alva-edison1-500x277.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">थॉमस एल्वा एडिसन</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-4d",
+          "_cid": "qynApR5r8p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page10.html\"><img src=\"@PROJECT_PATH@/assets/images/20162f022f012fd62fbillgatesms.c1d8e-1190x674.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">बिल गेट्स</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page13.html\"><img src=\"@PROJECT_PATH@/assets/images/steve-700x366.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">स्टीव जॉब्स</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-40",
+          "_cid": "qynuEApEhL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page11.html\"><img src=\"@PROJECT_PATH@/assets/images/tata-1366x683.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">रतन नवल टाटा</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page12.html\"><img src=\"@PROJECT_PATH@/assets/images/dhirubhai-ambani-5-being-marathi-755x290.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">धीरजलाल हीरालाल अंबानी</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-3z",
+          "_cid": "qynuxWMSjR",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
