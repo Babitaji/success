@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Success Stories",
-    "currentPage": "index.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 183,
+    "uniqCompNum": 199,
     "versionPublish": "4.2.2",
     "favicon": "",
     "noImageResize": "",
@@ -109,7 +109,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Sandeep Maheshwari",
-        "order": 19
+        "order": 23
       },
       "components": [
         {
@@ -223,7 +223,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Quotes",
-        "order": 13
+        "order": 17
       },
       "components": [
         {
@@ -269,7 +269,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Steve Jobes",
-        "order": 18
+        "order": 22
       },
       "components": [
         {
@@ -385,6 +385,61 @@
         "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page20.html\"><img src=\"@PROJECT_PATH@/assets/images/henry-ford-quote-11-picture-quote-1200x675.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">हेनरी फोर्ड&nbsp;</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page21.html\"><img src=\"@PROJECT_PATH@/assets/images/einstein-quotes-1920x1200.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">अल्बर्ट आइन्स्टाइन</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-54",
+          "_cid": "qyFEaxZlaK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -611,7 +666,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Bill Gates",
-        "order": 17
+        "order": 21
       },
       "components": [
         {
@@ -724,7 +779,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Thomas",
-        "order": 16
+        "order": 20
       },
       "components": [
         {
@@ -837,7 +892,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Ratan Tata",
-        "order": 15
+        "order": 19
       },
       "components": [
         {
@@ -950,7 +1005,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Dhirubhai Ambani",
-        "order": 14
+        "order": 18
       },
       "components": [
         {
@@ -1063,7 +1118,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Bill Gates Video",
-        "order": 12
+        "order": 16
       },
       "components": [
         {
@@ -1165,7 +1220,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Ratan Tata Video",
-        "order": 10
+        "order": 14
       },
       "components": [
         {
@@ -1267,7 +1322,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Dhirubhai ambani Video",
-        "order": 9
+        "order": 13
       },
       "components": [
         {
@@ -1369,7 +1424,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Steve Jobes Video",
-        "order": 11
+        "order": 15
       },
       "components": [
         {
@@ -1471,7 +1526,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Thomas Video",
-        "order": 8
+        "order": 12
       },
       "components": [
         {
@@ -1573,7 +1628,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Sandeep Maheshwari Videos",
-        "order": 7
+        "order": 11
       },
       "components": [
         {
@@ -1725,7 +1780,62 @@
             }
           },
           "_name": "content13",
-          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page16.html\"><img src=\"@PROJECT_PATH@/assets/images/gool-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">सुंदर पिचाई</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page17.html\"><img src=\"@PROJECT_PATH@/assets/images/4512-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">जैक मा</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page22.html\"><img src=\"@PROJECT_PATH@/assets/images/ford-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">हेनरी फोर्ड</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page23.html\"><img src=\"@PROJECT_PATH@/assets/images/einstin-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">अल्बर्ट आइन्स्टाइन</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-53",
+          "_cid": "qyFA175LtE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              ".img-item": {
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "img": {
+                  "width": "100%"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important"
+                }
+              }
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <a href=\"page16.html\"><img src=\"@PROJECT_PATH@/assets/images/gool-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">सुंदर पिचाई</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <a href=\"page17.html\"><img src=\"@PROJECT_PATH@/assets/images/4512-1280x720.jpg\" alt title></a>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">जैक मा</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
           "_anchor": "content13-4p",
           "_cid": "qyudGCmOKt",
           "_protectedParams": [],
@@ -1904,7 +2014,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Sundar pichai video",
-        "order": 6
+        "order": 10
       },
       "components": [
         {
@@ -2006,7 +2116,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Jack ma Video",
-        "order": 5
+        "order": 9
       },
       "components": [
         {
@@ -2108,7 +2218,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Jack Ma",
-        "order": 4
+        "order": 8
       },
       "components": [
         {
@@ -2221,7 +2331,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Sundar Pichai",
-        "order": 3
+        "order": 7
       },
       "components": [
         {
@@ -2323,6 +2433,436 @@
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>सुंदर पिचाई का प्रारंभिक जीवन और बचपन</b><br><br>\n<div>सुंदर पिचाई का पूरा नाम पिचाई सुंदरराजन (Pichai Sundararajan) है </div><br><div>जिनका जन्म 12जुलाई,1972 को मदुरै, तमिलनाडु (Madurai, Tamil Nadu) में हुआ।</div><br><div>\n</div><div>\n</div><div>उनका जन्म निम्न मध्यम वर्ग के एक परिवार में हुआ था। उनके पिता एक इलेक्ट्रिकल इंजिनियर थे इसलिए वे चेन्नई शहर में अशोक नगर में रहते थे। उनके पिता से वे हमेशा प्रेरित होते थे और इसी लिए उन्हें भी टेक्नोलॉजी से जुड़ने की प्रेरणा मिली।\n</div><div>\n</div><div>\n</div><div>&nbsp;\n</div><div>उनकी माँ का नाम लक्ष्मी था। वो एक स्टेनोग्राफर थी। उन्होंने अपना स्टेनोग्राफर का काम सुंदर पिचाई के छोटे भाई के जन्म के बाद छोड़ दिया।</div><br><div>\n</div><div>\n</div><div>जब सुंदर पिचाई 12 साल के थे तो उनके पिताजी घर में एक लैंड लाइन फोन घर लेकर आये। </div><br><div>उनके जीवन में यह पहला टेक्नोलॉजी से जुड़ा चीज था जो सुंदर जो पिचाई के घर में आया था। </div><br><div>सुंदर पिचाई में बहुत ही स्पेशल क्वालिटी/असाधारण ज्ञान था। वो आसानी से अपने टेलीफोन में डायल किये गए सभी नुबरों को याद रख लिया करते थे। </div><br><div>सिर्फ फ़ोन नंबर ही नहीं उन्हें हर प्रकार के नंबर आसानी से याद रह जाते थे। पढाई के साथ-साथ वे खेल में भी अच्छे थे। वो अपने स्कूल क्रिकेट टीम के कप्तान भी थे।</div><br><div>\n</div><div>\n</div><div><b>सुंदर पिचाई की शिक्षा</b></div><br><div>\n</div><div>सुंदर पिचाई नें अशोक नगर के जवाहर विद्यालय में अपनी 10वीं कि पढाई पूरी की और चेन्नई के वाना वाणी स्कूल में अपनी 12 वीं की परीक्षा पूरी की। उसके बाद उन्होंने Metallurgical Engineering में IIT खरगपूर में ग्रेजुएशन पूरी की।</div><br><div>\n</div><div>\n</div><div>उसके बाद उन्होंने Stanford University में भौतिक विज्ञान में, MS (Masters in Science) की डिग्री पूरी कर ली और आखिर में वे MBA की पढाई के लिए Wharton School, University of Pennsylvania चले गए।</div><br><div>\n</div><div>\n</div><div>सुंदर पिचाई का गूगल से जुड़ने से पहले का करियर</div><div><br></div><div>Sundar Pichai Biography Hindi\n</div><div>\n</div><div>गूगल से जुड़ने से पहले सुंदर पिचाई म्क किन्से एंड कंपनी(McKinsey &amp; Company) में संचालन परामर्श के रूप में काम करते थे।\n</div><div>&nbsp;उन्होंने एप्लाइड मैटेरियल्स में इंजीनियरिंग और उत्पाद प्रबंधन के रूप में भी अपने प्रतिभा का योगदान दिया।</div><br><div>\n</div><div><b>सुंदर पिचाई का गूगल से जुड़ने के बाद का जीवन</b></div><br><div>\n</div><div>सुंदर पिचाई 2004 में Google से जुड़े। शुरू-शुरू में उन्होंने एक छोटे से टीम के साथ Google Search Tool Bar के ऊपर काम किया। इस Toolbar की मदद से आज के दिन में भी लोग Internet Explorer, Firefox में Google Search कर पा रहे हैं।</div><br><div>\n</div><div>उन्होंने Google के उत्पाद जैसे Google Gear और Google Pack पर भी काम किया। </div><br><div>Google Toolbar के सफल होने के बाद सुंदर पिचाई के मन में एक नया आईडिया आया वो था खुद का इन्टरनेट ब्राउज़र बनाने का। </div><br><div>उस समय के Google के CEO एरिक सचमिद्त(Eric Schmidt) नें खुद के इन्टरनेट ब्राउज़र बनाने की बात को बहुत ही महंगा प्रोजेक्ट करार दिया और मना किया।</div><div><br></div><div><b>सुंदर पिचाई और गूगल क्रोम</b></div><br><div>\n</div><div>लेकिन उनक मना करने के बाद भी पिचाई ने इस बात को ठान लिया और गूगल के सह-निर्माताओं लार्री पेज और सेर्गे ब्रिन को इस बात के लिए राज़ी कर लिया। </div><br><div>वर्ष 2008 में Google ने सुंदर पिचाई की मदद से खुद का वेब ब्राउज़र लांच किये जिसका नाम दिया गया Chrome। Google Chrome बहुत ही अच्छी तरीके से सफल हुआ क्योंकि इससे Google Search लोग Diectly इस्तेमाल कर सकते हैं। </div><br><div>आज के दिन में गूगल क्रोम दुनिया का सबसे ज्यादा इस्तेमाल किये जाने वाला वेब ब्राउज़र हैं।\n</div><div>उसी वर्ष 2008 में सुंदर पिचाई का वाईस प्रेसिडेंट ऑफ़ प्रोडक्ट डेवलपमेंट के रूप में प्रमोशन किया गया। </div><br><div>इस पोजीशन पर आते ही सुंदर पिचाई और भी मेहनत करने लगे और 2012 में वो Chrome और Apps के सीनियर वाईस प्रेसिडेंट बन गए।</div><br><div>\n</div><div>एंड्राइड को बनाने वाले, एंडी रुबिन ने 2013 में किसी दुसरे प्रोजेक्ट के कारण Andoid के प्रोजेक्ट को छोड़ दिया। </div><br><div>इसके बाद लार्री पेज नें पिचाई को एंड्राइड का इन-चार्ज बना दिया। बाद अक्टूबर 2014 में उन्हें प्रोडक्ट चीफ बना दिया गया।</div><br><div>\n</div><div>10 अगस्त 2015 को सुंदर पिचाई को गूगल के CEO के रूप में घोषित किया गया।</div><br><div>\n</div><div><b>भारत के प्रधानमंत्री नरेंद्र मोदी के साथ सुंदर पिचाई</b></div><br><div>\n</div><div>फरवरी 2016 में उन्हें Google कि एक कंपनी Alphabet Inc. के 273,328 शेयर्स डे कर सम्मान दिया गया।</div><br><div>\n</div><div>वे आज भी समय-समय पर Skype के ज़रिये IIT खरगपुर के Students से बातचीत करते हैं।</div><br><div>\n</div><div><b>सुंदर पिचाई का निजी जीवन</b></div><div><br></div><div>सुंदर पिचाई और उनकी पत्नी अंजलि पिचाई\n</div><div>सुंदर पिचाई ने अपने लम्बे समय की गर्लफ्रेंड, अंजलि पिचाई से शादी की है। </div><br><br><div>वो दोनों IIT खरगपूर में साथ में पढाई करते थे। उनके दो सुंदर बच्चे भी हैं एक लड़का और एक लड़की।</div><br><div>\n</div><div>उन्होंने Brooklyn, New York में $6.8 मिलियन देकर अपने लिए घर खरीदा।</div><br><div>\n</div><div>वो अब अमेरिका के नागरिक हैं इसीलिए वे अपने परिवार के साथ न्यू यॉर्क में ही रहते हैं।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_anchor": "content9-4y",
           "_cid": "qyufi2NPXK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page20.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "हेनरी फोर्ड ",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>हेनरी फोर्ड</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-58",
+          "_cid": "qyFExjD5HV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/henry-ford-quote-11-picture-quote-1200x675.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-5b",
+          "_cid": "qyFEy67deE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>हेनरी फोर्ड की जीवनी</b><br><br>\n<div>हेनरी फोर्ड एक अमेरिकन उद्योगपति, फोर्ड मोटर कंपनी के संस्थापक और मास (Mass) उत्पादन असेंबली लाइन के स्पोंसर भी थे। फोर्ड ने पहली ऑटोमोबाइल कंपनी विकसित की और निर्मिती भी की जिसे अमेरिका के मध्यम वर्गीय लोग भी आसानी से ले सकते थे। </div><br><div>उनके द्वारा निर्मित ऑटोमोबाइल कंपनी को उन्ही के उपनाम पर रखा गया था और जल्द ही इस कंपनी ने पूरी दुनिया में अपनी पहचान बना ली और साधारण ऑटोमोबाइल कंपनी ने जल्द ही बहुमूल्य कार बनाना शुरू किया और 20 वी शताब्दी में अपनी एक प्रभावशाली छाप छोड़ी। </div><br><div>इसके बाद उन्होंने मॉडल टी नामक गाड़ी निकाली जिसने यातायात और अमेरिकी उद्योग में क्रांति ला दी। फोर्ड कंपनी के मालक होने के साथ ही दुनिया के सबसे धनि और समृद्ध लोगो में से एक थे।</div><br><div>\n</div><div>\n</div><div>उन्हें “फोर्डीजम” की संज्ञा भी दी गयी थी। फोर्ड अंतर्राष्ट्रीय स्तर पर अपनी व्यापकता को बढ़ाना चाहती थी इसीलिए उन्होंने अपनी गाडियों की कीमतों में कमी कर बहुत से ग्राहकों को आकर्षित भी किया था। </div><br><div>इसके बाद फोर्ड की फ्रेंचाईसी भी उत्तरी अमेरिका के बहुत से भागो में खोली गयी। उन्होंने अपनी अधिकांश संपत्ति भी फोर्ड फाउंडेशन के नाम पर कर दी थी और ऐसी व्यवस्था भी करा दी थी की वह स्थायी रूप से उनके ही परिवार के नियंत्रण में बनी रहे।</div><br><div>\n</div><div>\n</div><div><b>प्रारंभिक जीवन –</b></div><br><div>\n</div><div>\n</div><div>हेनरी फोर्ड का जन्म 30 जुलाई 1863 को मिशिगन के ग्रीनफ़ील्ड फार्म में हुआ था। असल में उनका परिवार इंग्लैंड के सॉमरसेट से था। </div><br><div>फोर्ड के 15 साल की आयु में ही उनके माता-पिता की मृत्यु हो गयी थी। हेनरी फोर्ड के भाई-बहनों में मार्गरेट फोर्ड (1867-1938), जेन फोर्ड (1868-1945), विलियम फोर्ड (1871-1917) और रोबर्ट फोर्ड (1873-1934) शामिल है। </div><br><div>किशोरावस्था में उनके पिताजी ने उन्हें एक जेब घडी दी थी। 15 साल की आयु में फोर्ड पूरी तरह गिर चुके थे लेकिन दोस्त और पड़ोसियों की सहायता से वे फिर उठकर खड़े हुए और घडी ठीक करने वाले के रूप में उन्होंने अपनी पहचान बनायी। परिस्थिति को देखकर उनके पिता उन्हें पारिवारिक फार्म देना चाहते थे लेकिन फोर्ड को फार्म पर काम करना पसंद नही था। </div><br><div>बाद में उन्होंने लिखा की, “मुझे कभी भी फार्म से प्यार ही नही था – बल्कि फार्म में काम करने वाली मेरी माँ से मुझे प्यार था।” 1879 में जेम्स एफ। फ्लावर &amp; ब्रदर्स और बाद में 1882 में ड्राई डॉक कंपनी के साथ काम करने के लिये उन्होंने घर छोड़ दिया था। बाद में उन्होंने वेस्टिंगहाउस में भी स्टीम इंजन पर काम किया। इस समय में फोर्ड ने गोल्डस्मिथ, ब्रायंट &amp; स्ट्रेटन बिज़नस कॉलेज में बुककीपिंग का भी अभ्यास किया था।</div><br><div>\n</div><div>\n</div><div><b>विवाह और परिवार –</b></div><br><div>\n</div><div>\n</div><div>फोर्ड ने क्लारा जेन ब्रायंट (1866-1950) से 11 अप्रैल 1888 को हुई थी और उनकी पत्नी की सहायता से ही वे एक सॉमिल भी चलाते थे। उनका एक बेटा भी है : एड्सेल फोर्ड (1893-1943)।</div><br><div>\n</div><div><b>करियर –</b></div><br><div>\n</div><div>\n</div><div>1891 में फोर्ड एडिसन ज्ञानवर्धन कंपनी के इंजिनियर बने। 1893 में मुख्य इंजिनियर के रूप में उनका प्रमोशन होने के बाद उनके पास पर्याप्त समय और पैसे दोनों थे। और तभी उन्होंने गैसोलीन इंजन पर खोज करना भी शुरू किया। </div><br><div>उनकी यह खोज 1896 में पूरी हुई और उन्होंने एक गाड़ी का भी निर्माण किया जिसका नाम फोर्ड क्वैडसाइकिल रखा गया था। उन्होंने 4 जून को इसका सफल प्रशिक्षण भी किया था। बहुत सी टेस्ट ड्राइव के बाद फोर्ड ने अपनी क्वैडसाइकिल में बहुत से सुधार भी किये।</div><br><div>\n</div><div>\n</div><div>1896 फोर्ड ने एडिसन के एग्जीक्यूटिव की मीटिंग भी अटेंड की, वहाँ उनका परिचय थॉमस एडिसन से हुआ था। </div><br><div>वहाँ उन्होंने फोर्ड ऑटोमोबाइल के प्रोजेक्ट को सभी के सामने रखा। एडिसन ने उनके इस प्रोजेक्ट को सराहना भी की और फोर्ड के आकार और गाड़ी बनाने का काम भी 1898 में पूरा हुआ।</div><br><div> डेट्रॉइट लंबर बैरन विलियम एच. मर्फी की पूँजी के समर्थन से चलने वाले फोर्ड ने एडिसन कंपनी से इस्तीफा भी दे दिया था और 5 अगस्त 1899 को नयी डेट्रॉइट ऑटोमोबाइल कंपनी की स्थापना भी की थी। </div><br><div>उस समय पहले कम गुणवत्ता वाली गाडियों के निर्माण में भी बहुत लागत लगती थी इसी वजह से उनकी कीमत भी ज्यादा होती थी। इसी वजह से इस कंपनी को सफलता नही मिल सकी और जनवरी 1901 में कंपनी खत्म हो गयी थी। </div><br><div>बाद में सी. हेरोल्ड विल्स की सहायता से फोर्ड को फिर से डिजाईन किया गया, इसे पुनर्निर्मित किया गया और सफलतापूर्वक अक्टूबर 1901 में 26 हॉर्सपावर के साथ चलाया गया था। </div><br><div>इसी सफलता के साथ मर्फी और दुसरे सहकर्मियों ने डेट्रॉइट ऑटोमोबाइल कंपनी को बदलकर हेनरी फोर्ड कंपनी की स्थापना 30 नवम्बर 1901 को को की थी, जिसकी फोर्ड मुख्य इंजिनियर थे।</div><br><div>\n</div><div>\n</div><div>1902 में फोर्ड के कंपनी छोड़कर चले जाने के बाद मर्फी ने फिर से कंपनी का नाम बदलकर किडिलैक ऑटोमोबाइल कंपनी रखा। 1902 में ही 8+ हॉर्सपावर के साथ फोर्ड ने साइकिलिस्ट कूपर के साथ मिलकर रेस “999” में जीत भी हासिल की। इसके बाद फोर्ड को एलेग्जेंडर व्हाय। मलकोम्सों का समर्थन मिला जो डेट्रॉइट के ही कोल्-डीलर थे। उन्होंने पार्टनरशिप में फोर्ड &amp; मलकोम्सों लिमिटेड की स्थापना भी की जो ऑटोमोबाइल का उत्पादन करती थी। </div><br><div>इसके बाद फोर्ड बहुमूल्य गाडियों के निर्माण और उन्हें डिजाईन करने में लग गये।</div><br><div>\n</div><div>\n</div><div><b>रोचक बाते –</b></div><br><div><b>\n</b></div><div>• अल्दौस हक्सले के ब्रेव न्यू वर्ल्ड (1932) में फोर्डीस्ट का आयोजन किया। और तभी फोर्ड ने अपने पहले मॉडल टी का भी अनावरण किया।</div><br><div>\n</div><div>• ओप्टन सिंक्लैर ने 1937 में फोर्ड की काल्पनिक कहानी का वर्णन अपने नॉवेल दी फ्लिवर किंग में किया था।</div><br><div>\n</div><div>• बहुत से इतिहासिक नॉवेल में फोर्ड का उपयोग किसी व्यक्तिगत चरित्र को दर्शाने के लिये भी किया गया था, जिसने मुख्य रूप से इ।एल। </div><br><div>डोक्टोरो का रागटाइम (1975) और रिचर्ड पॉवर का नॉवेल थ्री फार्मर ऑन दी वे ऑफ़ डांस (1985) शामिल है।</div><br><div>\n</div><div>• 1986 में रोबर्ट लकी की बायोग्राफी में फोर्ड, उनके परिवार और उनकी कंपनी तीनो का ही वर्णन था और उसका शीर्षक था, “फोर्ड : दी मैन एंड दी मशीन” इस किताब को 1987 में अपनाया गया था।</div><br><div>\n</div><div>• 2005 में इतिहासिक उपन्यास दी प्लाट अगेंस्ट अमेरिका में फिलिप रोथ ने फोर्ड को एक बहुदिमागी व्यक्तित्व भी बताया था।</div><br><div>\n</div><div>• ब्रिटिश लेखक डगलस गालब्रेथ ने फोर्ड के शांति जहाज का उपयोग उपन्यास किंग हेनरी (2007) के मौत की जगह के रूप में किया था।</div><br><div>\n</div><div>• 2008 में ही फोर्ड ने दुनिया में अपनी पहचान बनवा ली थी और दुनिया की सबसे कीमती और बहुमूल्य गाड़िया बनाने वाली कंपनियों में भी शामिल हो गयी।</div><br><div>\n</div><div>• 1946 में वे ऑटोमेटिव हॉल ऑफ़ फेम भी रह चुके है।</div><br><div>\n</div><div>• समस्वर संगीतकार फेर्ड़े ग्रोफ़ ने हेनरी फोर्ड के सम्मान में एक टोन कविता की रचना भी की थी।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-5c",
+          "_cid": "qyFEAuNCHN",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page21.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "अल्बर्ट आइन्स्टाइन",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>अल्बर्ट आइन्स्टाइन</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-55",
+          "_cid": "qyFEqfPtZD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/einstein-quotes-1920x1200.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-56",
+          "_cid": "qyFEqwne9H",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>अल्बर्ट आइन्स्टाइन की जीवनी<br></b><br>\n<div>आधुनिक भौतिक विज्ञान के जन्मदाता अल्बर्ट आइन्स्टाइन ने भौतिक विश्व को उसके यतार्थ स्वरूपों में ही समझने का प्रयास किया था। इस सम्बन्ध में उन्होंने कहा था कि “शब्दों का भाषा को जिस रूप में लिखा या बोला जाता है मेरी विचार पद्दति में उनकी उस रूप में कोई भूमिका नही है। पारम्परिक शब्दों अथवा अन्य चिन्हों के लिए दुसरे चरण में मात्र तब परिश्रम करना चाहिए जब सम्बंधिकरण का खेल फिर से दोहराया जा सके ”।</div><br><div>\n</div><div>\n</div><div><b>अल्बर्ट आइन्स्टाइन का प्रारम्भिक जीवन -</b></div><br><div>\n</div><div>अल्बर्ट आइन्स्टाइन का जन्म 14 मार्च 1879 को जर्मनी के उल्क नामक छोटे से कस्बे में हुआ था। उनके पिता का नाम हर्मन आइन्स्टाइन और माता का नाम पौलिन था। पौलीन को अपने पुत्र से बहुत प्यार था और कभी वो उसको अपने से दूर नही करती थी। </div><br><div>एल्बर्ट तीन वर्ष का हुआ तो उसकी माता के लिए एक समस्या खडी हो गयी कि वो बोलता नही था। सामान्यत: तीन वर्ष के बालक तुतलाकर बोलना सीख जाते है। फिर भी माँ ने उम्मीद नही छोडी और उसे पियानो बजाना सिखाया। बचपन में एल्बर्ट शांत स्वाभाव का और शर्मीला बच्चा था और उसका कोई मित्र नही था। </div><br><div>वह अपने पडोस में रहने वाले बच्चो के साथ भी खेलना पसंद नही करता था। एल्बर्ट के माता -पिता म्यूनिख रहने लगे थे। बच्चे म्यूनिख की सडको पर सेना की परेड को देखकर उनकी नकल उतारा करते थे जबकि [Albert Einstein] अल्बर्ट सिपाहियों को देखते ही रोने लगता था।</div><br><div>\n</div><div>\n</div><div>उस समय दुसरे सभी बच्चे बड़ा होकर सिपाही बनने की बात करते थे लेकिन उसकी सिपाही बनने में कोइ रूचि नही थी। </div><br><div>अब एल्बर्ट पांच वर्ष का हो गया था और उसके जन्मदिन पर उसके माता-पिता ने मैग्नेटिक कम्पस उपहार में दिया जिसे देखकर वो बहुत प्रसन्न हुआ था। </div><br><div>जब उस मैग्नेटिक कम्पस की सुई हमेशा उत्तर दिशा की तरफ रहती तो उसके दिमाग में प्रश्न आते थे कि ऐसा कैसे और क्यों होता है। अल्बर्ट बचपन से ही पढने लिखने में होशियार था लेकिन शिक्षको के साथ उसका तालमेल नही बैठता था क्योंकि वो रटंत विद्या सीखाते थे। </div><br><div>अल्बर्ट इसाई नही यहूदी था जिसके कारण स्कूल में इसाई लडके उसे परेशान करते थे इसी वजह से उसके दिमाग में अकेलेपन की भावना आ गयी थी। उसका बचपन में एक ही मित्र बना था जिसका नाम मैक्स टेमले था जिससे वो अपने मन की बाते करता था और तर्कसंगत प्रश्न करता रहता था। एक दिन अल्बर्ट ने मैक्स से पूछा कि “ये ब्रह्मांड कैसे काम करता है ” इसका उत्तर मैक्स के पास नेहे था। इस तरह बचपन से उसका भैतिकी में बहुत रूचि रही थी। </div><br><div>एल्बर्ट के चाचा जैकब एक इंजिनियर थ जिन्होंने अल्बर्ट के मन में गणित के प्रति रूचि दिखाई थी।उन्होंने उसे सिखाया था कि जब भी बीजगणित में कुछ अज्ञात वस्तु को ढूँढना चाहते है तो उसे बीजगणित में X मान लेते है और तब तक ढूंढते रहते है जब तक कि पता नही लगा लेते है।</div><br><div>\n</div><div>\n</div><div>एल्बर्ट जब 15 वर्ष का हुआ तो उसके पिता के कारोबार में समस्याए आ गयी जिसके कारण उन्हें कारोबार बंद करना पड़ा। अब उसके माता पिता उसको जिम्नेजियम स्कूल में दाखिला दिलाकर नौकरी की तलाश में दुसरे शहर चले गये। </div><br><div>अब माता पिता के जाने के बाद अल्बर्ट उदास रहने लगा और उसका पढाई में ध्यान नही लगा इसलिए वो भी अपने परिवार के पास इटली चला गया। इटली में उसने बहुत सुखद समय बिताया उसके बाद सोलह वर्ष की उम्र में अल्बर्ट को स्विज़रर्लैंड के एक स्कूल में पढने के लिए रखा गया। यहा पर उसने भौतिकी में गहरी रूचि दिखाना शुरू कर दिया और उसे योग्य अध्यापक भी मिले।यही पर उन्होंने सापेक्षता का सिद्धांत का पता लगाया था। एल्बर्ट ने ज्यूरिख से स्नातक की डिग्री प्राप्त की थी।</div><br><div>\n</div><div>\n</div><div><b>अल्बर्ट आइन्स्टाइन अध्यापक के रूप में -</b></div><br><div>\n</div><div>स्नातक की डिग्री लेने के बाद उन्होंने विद्यार्थियों को पढ़ाने के बारे में विचार किया लेकिन अल्बर्ट के अधिक ज्ञान की वजह से प्रारम्भ में उन्हें नौकरी नही मिली। सन 1902 में अल्बर्ट आइन्स्टाइन को स्विज़रलैंड के बर्न शहर में एक अस्थाई नौकरी मिल गयी। अब उन्हें अपने शोध लेखो को लिखने और प्रकाशित कराने का बहुत समय मिला। </div><br><div>उन्होंने डॉक्टरेट की डिग्री प्राप्त करने के लिए मेहनत करना शुरू कर दिया और अंत में उन्हें डाक्टरेट की उपाधि मिल ही गयी।</div><br><div>\n</div><div>\n</div><div><b>अल्बर्ट आइन्स्टाइन वैज्ञानिक के रूप में -</b></div><br><div>\n</div><div>ज्यूरिख विश्वविद्यालय में उनको प्रोफेसर की नियुक्ति मिली और लोगो ने उन्हें महान वैज्ञानिक मानना शुरू कर दिया। सं 1905 में 26 वर्ष की आयु में उन्होंने सापेशिकता का सिद्धांत प्रतिपादित किया जिसने उन्हें विश्वविख्यात कर दिया। </div><br><div>इस विषय पर उन्होंने केवल चार लेख लिखे थे जिन्होंने भौतिकी का चेहरा बदल दिया। इस सिद्धांत का प्रसिद्ध समीकरण E=mc2 है जिसके कारण ही परमाणु बम बन सका। इसी के कारण इलेक्ट्रिक ऑय की बुनियाद रखी गयी। </div><br><div>इसी के कारण ध्वनि चलचित्र और टीवी पर शोध हो सके। आइन्स्टाइन को अपनी इसी खोज के लिए विश्व प्रसिद्ध नोबल पुरुस्कार मिला था। सारा संसार आइन्स्टाइन की प्रशंशा करने लगा और जगह जगह पर समारोह आयोजित किये जाने लगे। इतना सब कुछ होने के बाद भी वो हमेशा नम्रता से रहते थे। </div><br><div>आइन्स्टाइन विश्व शान्ति और समानता में विश्वास रखते थे इसी कारण उन्हें गांधीजी की तरह महान पुरुष कहा जाता था। आइन्स्टाइन को अपने जीवन में सबसे ज्यादा दुःख तब हुआ जब उनके वैज्ञानिक अविष्कारों के कारण बाद में परमाणु बम का आविष्कार हुआ था जिससे हिरोशिमा और नागासाकी जैसे नगर ध्वस्त हो गये थे।</div><br><div>\n</div><div>\n</div><div><b>आइन्स्टाइन का परिवार -</b></div><br><div>\n</div><div>1903 में अल्बर्ट आइन्स्टाइन का विवाह मिलवा मैरिक हे हुआ था। उनके यहा दो पुत्रो एल्बर्ट और एडूआई ने जन्म लिया था। आइन्स्टाइन के विवाह से पहले भी के पुत्री थी जिसे आइन्स्टाइन ने गोद लिया था लेकिन उसकी बचपन में ही मौत हो गयी थी। 14 फरवरी 1919 ने उनका मैरिक से तलाक हो गया और इसी वर्ष में उन्होंने दुसरी शादी कर ली थी। </div><br><div>उनकी दुसरी पत्नी का नाम एलसा था लेकिन वो भी 1936 में चल बसी। वैसे भी उनकी पारिवारिक जीवन में रूचि कम थी और अपना ज्यादातर समय अपनी वैज्ञानिक खोजो में लगाते थे।</div><br><div>\n</div><div>\n</div><div><b>आइन्स्टाइन की मृत्यु -</b></div><br><div>\n</div><div>18 अप्रैल 1955 में महान वैज्ञानिक अल्बर्ट आइन्स्टाइन की अमेरिका के न्यू जर्सी शहर में मृत्यु हो गयी। वह अपने जीवन एक अंत तक कार्य करते रहे उअर मानवता की भलाई में उन्होंने अपना जीवन समर्पित कर दिया था। </div><br><div>इतना सब होने के बाद भी वो किसी के घनिष्ट मित्र नही बन सके क्योंकि उनका लक्ष्य हमेशा सृष्टि को जानने का रहा था।आइन्स्टाइन की प्रतिभा से प्रभवित होने के कारण मृत्यु के बाद उनके दिमाग का अध्यययन किया गया लेकिन कुछ विशेष तथ्य हाथ नही आये।</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-57",
+          "_cid": "qyFEqIKEjy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page22.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Ford Video",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>हेनरी फोर्ड&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-5g",
+          "_cid": "qyFO4P6Tgk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=_5y_hZNxh7w&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "qyFO7uGKbq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video2-5h"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में हेनरी फोर्ड &nbsp;की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page20.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-5i",
+          "_cid": "qyFO8r9Ivj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page23.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "Einstein Video",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>अल्बर्ट आइन्स्टाइन</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-5d",
+          "_cid": "qyFO06TSS4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=-7lB62LE3NA&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "qyFO1pyymX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video2-5e"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>यह वीडियो में अल्बर्ट आइन्स्टाइन की जीवन की सफलता की कहानी है अगर आपको कहानी पढ़नी हे तो आप <a href=\"page21.html\">यहाँ पर क्लिक करे&nbsp;</a></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-5f",
+          "_cid": "qyFO31nXKh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
