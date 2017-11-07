@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Success Stories",
-    "currentPage": "page5.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 250,
+    "uniqCompNum": 251,
     "versionPublish": "4.2.2",
     "favicon": "",
     "noImageResize": "",
@@ -91,7 +91,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Sandeep Maheshwari",
-        "order": 22
+        "order": 24
       },
       "components": [
         {
@@ -194,7 +194,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Steve Jobes",
-        "order": 21
+        "order": 23
       },
       "components": [
         {
@@ -296,7 +296,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Success Story&nbsp;",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -855,7 +855,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Bill Gates",
-        "order": 20
+        "order": 22
       },
       "components": [
         {
@@ -957,7 +957,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Thomas",
-        "order": 19
+        "order": 21
       },
       "components": [
         {
@@ -1059,7 +1059,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Ratan Tata",
-        "order": 18
+        "order": 20
       },
       "components": [
         {
@@ -1161,7 +1161,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Dhirubhai Ambani",
-        "order": 17
+        "order": 19
       },
       "components": [
         {
@@ -1263,7 +1263,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Jack Ma",
-        "order": 16
+        "order": 18
       },
       "components": [
         {
@@ -1365,7 +1365,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Sundar Pichai",
-        "order": 15
+        "order": 17
       },
       "components": [
         {
@@ -1467,7 +1467,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "हेनरी फोर्ड ",
-        "order": 13
+        "order": 15
       },
       "components": [
         {
@@ -1569,7 +1569,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "अल्बर्ट आइन्स्टाइन",
-        "order": 14
+        "order": 16
       },
       "components": [
         {
@@ -1671,7 +1671,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Ramanujan",
-        "order": 12
+        "order": 14
       },
       "components": [
         {
@@ -1773,7 +1773,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "apj kalam",
-        "order": 11
+        "order": 13
       },
       "components": [
         {
@@ -1875,7 +1875,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "sachin tendulakar",
-        "order": 10
+        "order": 12
       },
       "components": [
         {
@@ -1977,7 +1977,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "valt diseny",
-        "order": 9
+        "order": 11
       },
       "components": [
         {
@@ -2079,7 +2079,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "mejor dyan",
-        "order": 8
+        "order": 10
       },
       "components": [
         {
@@ -2181,7 +2181,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Arahm Linkoln",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -2283,7 +2283,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Leri Page",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -2385,7 +2385,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Brayan Acton",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -2487,7 +2487,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Rajni Kant",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -2589,7 +2589,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Mark Zukerburg",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -2691,7 +2691,23 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Live",
+        "order": 2
+      },
+      "components": []
+    },
+    "page27.html": {
+      "settings": {
+        "meta_descr": "Web Site Creator Description",
+        "title": "Video",
         "order": 1
+      },
+      "components": []
+    },
+    "page28.html": {
+      "settings": {
+        "meta_descr": "Website Creator Description",
+        "title": "Quotes",
+        "order": 3
       },
       "components": []
     }
